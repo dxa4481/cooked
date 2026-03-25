@@ -1,0 +1,119 @@
+1. **D3 Security** | Booth: S-3121 | Exhibitor
+   Cats: Security Orchestration, Automation, and Response (SOAR), Incident Response Platforms, Security Incident Response, SIEM / SOAR, Security Operations
+   Desc: Morpheus is D3 Security's AI-powered, autonomous SOC that eliminates alert fatigue. Investigating 100% of alerts, it triages 95% in under two minutes. No playbooks, no missed threats—just seamless integration with any stack, 24/7 response.
+
+2. **Darktrace** | Booth: S-2227 | Bronze
+   Cats: Cloud Security, Cloud Data Security, OT, Physical and IoT Security
+   Desc: Darktrace, a global leader in AI for cybersecurity, provides the essential cybersecurity platform to protect nearly 10,000 organizations from unknown threats using AI that learns from each business in real-time. To learn more, visit www.darktrace.com.
+
+3. **Databahn** | Booth: N-4500 | Exhibitor
+   Cats: Monitoring and Observability, Security Architecture and Engineering
+   Desc: Databahn powers the future of AI-driven security with automated, intelligent pipelines that cut SIEM costs, simplify data operations, and deliver clean, governed data ready for analytics and automation.
+
+4. **Databricks** | Booth: S-3434 | Exhibitor
+   Cats: Data Security, Threat Detection and Intelligence
+   Desc: First Time ExhibitorDatabricks is the data and AI company. More than 20,000 organizations worldwide rely on the Databricks Data Intelligence Platform to take control of their data and put it to work with AI. To learn more, follow Databricks on LinkedIn, X and Facebook.
+
+5. **Datadog** | Booth: S-1643 | Bronze
+   Cats: Cloud Security, Cloud Security Posture Management (CSPM), Cloud Infrastructure Entitlement Management (CIEM), User and Entity Behavior Analytics (UEBA), Threat Intelligence Feeds
+   Desc: Datadog is an observability and security platform that provides visibility across cloud infrastructure, apps, and logs. It delivers threat detection, compliance, and risk insights to help teams secure and optimize hybrid and cloud environments.
+
+6. **DataKrypto** | Booth: ESE-34 | Early Stage Expo
+   Cats: Security for AI
+   Desc: DataKrypto enables safe AI adoption with continuous, fully homomorphic encryption (FHE) solutions for AI data and models, protecting encrypted model weights from theft, tampering, and poisoning, and ensuring training data, prompts, and outputs are never exposed in plaintext.
+
+7. **DATAPATROL** | Booth: N-4314 | Exhibitor
+   Cats: Data Security
+   Desc: First Time ExhibitorDataPatrol protects organizations from internal data leaks by adding visible watermarks on screens, ensuring sensitive information stays secure. Its solutions are designed to prevent unauthorized disclosures and manage internal threats effectively.
+
+8. **DataStealth** | Booth: S-1927 | Exhibitor
+   Cats: Data Security, Data Loss Prevention (DLP), Data Encryption / Tokenization, Data Classification, Data Masking / Obfuscation
+   Desc: DataStealth discovers, classifies, and protects sensitive information across on-prem, cloud, and legacy systems, using agentless, network-layer tokenization, encryption, and masking to mitigate data security and compliance risks without disruption.
+
+9. **DataSunrise Data  and AI Security** | Booth: N-5785 | Exhibitor
+   Cats: Data Security, Data Loss Prevention (DLP), Data Encryption / Tokenization, Data Classification, Data Masking / Obfuscation
+   Desc: DataSunrise Security delivers unified security across cloud & on-prem environments. Our platform protects sensitive data, drives compliance: DAM, auditing, database firewall, DSPM, LLM and AI security, dynamic & static masking, PII/PHI data discovery
+
+10. **Dawnguard** | Booth: S-0954 | International Pavilion - Netherlands
+   Cats: Cloud Security, Cloud Security Posture Management (CSPM), CASB, Cloud Workload Protection Platform (CWPP), Cloud Infrastructure
+   Desc: Dawnguard’s mission is to redefine cybersecurity with a platform that enables true shift-left security, from day zero to day 10,000.
+
+11. **DeepKeep** | Booth: N-5172 | Exhibitor
+   Cats: Security for AI
+   Desc: DeepKeep delivers end-to-end AI security and trustworthiness across the full AI lifecycle. Cybersecurity teams globally leverage its AI Firewall, Automated AI Red Teaming and Model Scanning to secure AI agents, employee AI use, and homegrown AI apps.
+
+12. **DeleteMe** | Booth: N-4215 | Exhibitor
+   Cats: Human Risk and Awareness, Privacy
+   Desc: The leader in proactive privacy protection, DeleteMe helps organizations reduce human-targeted risk by removing employees’ personal data from data brokers and the internet - at scale.
+
+13. **Delinea** | Booth: N-4235 | Silver
+   Cats: Identity and Access Management (IAM), Security for AI
+   Desc: Delinea is a pioneer in securing human and machine identities through intelligent, centralized authorization, seamlessly governing their interactions across modern enterprises.
+
+14. **Descope, Inc.** | Booth: S-0764 | Exhibitor
+   Cats: Identity and Access Management (IAM), Single Sign-On (SSO), Multi-Factor Authentication (MFA), Consumer Identity, IDaas
+   Desc: First Time ExhibitorDescope is a no-code platform that helps organizations add secure authentication, MFA, and access control to their customer / partner apps, AI agents, and MCP servers. Used by 1000+ organizations like GoFundMe, GoodRx, Databricks, and Navan.
+
+15. **Detectify** | Booth: N-4514 | Exhibitor
+   Cats: Application Security, API Security, Dynamic Application Security Testing (DAST), Attack Surface Management
+   Desc: Detectify redefines AppSec by automating continuous, real-world testing fueled by a global community of ethical hackers. It exposes critical vulnerabilities across the entire attack surface, revealing how attackers will exploit your apps and APIs.
+
+16. **Deutsche Telekom** | Booth: N-5177 | Exhibitor
+   Cats: Security Operations, Systems Integrator/Consulting Firm
+   Desc: Present in more than 50 countries, Deutsche Telekom is the digitalization partner for business customers worldwide. The range of services extends from connectivity solutions to cyber security, cloud services and digitalization strategies.
+
+17. **Devel Group** | Booth: N-6561 | Exhibitor
+   Cats: Fraud Prevention / Transaction Security
+   Desc: First Time ExhibitorSmartID Suite delivers an AI-driven digital identity platform combining biometric authentication,real-time fraud prevention, and adaptive risk intelligence.Powered by agentic AI,it autonomously detects and mitigates identity threats across industries
+
+18. **digiDations** | Booth: S-1945 | International Pavilion - Singapore
+   Cats: Threat Intelligence Platforms, Threat Intelligence Feeds, Threat Hunting, Threat Intelligence Platform, Adversary Mapping
+   Desc: digiDations is a cybersecurity innovator developing AI-powered Adversarial Exposure Validation solution to anticipate and prevent breaches. Its solutions continuously validate defenses against real-world threats to enabling measurable confidence.
+
+19. **DNSFilter** | Booth: S-0860 | Exhibitor
+   Cats: Endpoint Security, Device Control / USB Protection, Endpoint Protection Platform (EPP)
+   Desc: DNSFilter protects every click. We leverage AI-driven content filtering and threat protection to block threats 10 days earlier than competitors and secure users everywhere they work.
+
+20. **Doppel** | Booth: N-6289 | Exhibitor
+   Cats: Threat Intelligence Platforms, Threat Intelligence Feeds, Threat Hunting, Threat Intelligence Platform, Human Risk and Awareness
+   Desc: The AI-native social engineering defense platform. Outpacing what's next in social engineering.
+
+21. **DoveRunner** | Booth: S-3110 | Exhibitor
+   Cats: Application Security, User and Entity Behavior Analytics (UEBA), Threat Intelligence Feeds, Threat Hunting, Threat Intelligence Services & Feed
+   Desc: DoveRunner is a global leader in mobile app protection and content security, helping businesses across banking, fintech, gaming, sports, media, entertainment, and EdTech safeguard premium assets from piracy, hacking, and unauthorized access.
+
+22. **Dragos** | Booth: N-4234 | Exhibitor
+   Cats: Threat Intelligence Platforms, Threat Intelligence Feeds, Threat Hunting, Threat Intelligence Platform, Threat Hunting Tools
+   Desc: Dragos provides the most effective OT cybersecurity technology for industrial and critical infrastructure to deliver on our global mission: to safeguard civilization.
+
+23. **Drata** | Booth: S-0934 | Exhibitor
+   Cats: Governance, Risk, and Compliance (GRC)
+   Desc: Drata is a trust management platform that uses AI-powered automation to modernize governance, risk, and compliance.
+
+24. **Dropzone AI** | Booth: S-0455 | Exhibitor
+   Cats: Security Operations
+   Desc: The 1st autonomous AI SOC analyst that investigates every security alert 24/7. AI SOC agent replicates elite techniques, completing investigations in minutes instead of hours. Achieve 10X alert handling capacity and 90% faster investigation times.
+
+25. **DuploCloud** | Booth: N-6485 | Exhibitor
+   Cats: Cloud Security, Container and Kubernetes Security, Monitoring and Observability
+   Desc: DuploCloud delivers an AI DevOps Engineer that understands your infrastructure, executes with built-in security, and automates compliance so teams can scale faster without adding headcount.
+
+26. **Dynamo Ai** | Booth: S-1961 | Exhibitor
+   Cats: Security for AI, Security Testing and Red Teaming
+   Desc: First Time ExhibitorTrusted by Fortune 500 FSIs and leading governments, Dynamo AI delivers automated red-teaming, custom real-time guardrails, and observability, so organizations can deploy GenAI and Agents with greater assurance, accuracy, audibility, and lower cost.
+
+27. **DYNANIC** | Booth: ESE-68 | Early Stage Expo
+   Cats: Network / Infrastructure Security
+   Desc: DYNANIC delivers FPGA-based SmartNICs for ultra-high-performance cybersecurity. Our solution offloads packet processing, DPI, and encrypted traffic analytics to hardware, enabling real-time threat detection and visibility at 100–400+ Gbps while reducing CPU load and latency.
+
+28. **EasyDMARC** | Booth: N-4318 | Exhibitor
+   Desc: EasyDMARC is a one-stop platform for securing your email domain infrastructure and empowering you to manage email authentication effortlessly. It simplifies and automates your DMARC journey, helping you minimize the risk of cyberattacks.
+
+29. **Echo** | Booth: S-2056 | Exhibitor
+   Cats: Application Security, AI Remediation, Application Security Posture Management (ASPM), Container Security, Software Composition Analysis (SCA)
+   Desc: First Time Exhibitorecho provides vulnerability-free container images to make cloud-native infrastructure secure by design. Automatically patched, hardened, and FIPS-validated, echo images integrate seamlessly to ensure security doesn't slow teams down.
+
+30. **Eclypsium** | Booth: S-0226 | Exhibitor
+   Cats: Supply Chain Security
+   Desc: Eclypsium’s hardware supply chain security platform protects critical software, firmware, and hardware in enterprise infrastructure—helping organizations and government agencies mitigate risks and ensure trust across complex technology supply chains.
+

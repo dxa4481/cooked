@@ -1,0 +1,116 @@
+1. **ServiceNow** | Booth: S-3428 | Exhibitor
+   Cats: Security for AI, Security Operations
+   Desc: ServiceNow (NYSE: NOW) is the AI control tower for business reinvention, orchestrating workflows across any cloud, model, and data source. Learn how ServiceNow puts AI to work for people at www.servicenow.com.
+
+2. **SGS** | Booth: N-4320 | Exhibitor
+   Cats: Governance, Risk, and Compliance (GRC)
+   Desc: As the world’s leader in testing, inspection and certification, SGS can help companies of any size, complexity and industry understand their AI risk, digital trust maturity and CRA readiness through our rigourous testing and certification processes.
+
+3. **Siber Systems, Inc.** | Booth: S-2446 | Exhibitor
+   Cats: Identity and Access Management (IAM), Multi-Factor Authentication (MFA), Password Managers, IDaas, Privileged Management
+   Desc: First Time ExhibitorSiber Systems' RoboForm for Business delivers enterprise password management with SSO integration (Okta, Azure/Entra, OneLogin), automated user provisioning, passwordless unlock, data breach monitoring, and zero-knowledge security.
+
+4. **Silverfort** | Booth: S-3323 | Exhibitor
+   Cats: Identity and Access Management (IAM), Identity Governance and Administration (IGA), Multi-Factor Authentication (MFA), Privileged Access Management (PAM), Authentication
+   Desc: The Silverfort Identity Security Platform is the first to deliver end-to-end identity security, protecting every identity in the cloud, on-prem, humans, machines, AI, and everything in between.
+
+5. **Simbian** | Booth: N-6567 | Exhibitor
+   Cats: Security Information and Event Management (SIEM), Security Orchestration, Automation, and Response (SOAR), Security Analytics, Security Incident Response, Security Operations
+   Desc: Simbian is building the industry’s first fully autonomous security operations platform. Our AI SOC, pentesting, and threat hunt agents autonomously uncover and block threats, building on a common reasoning engine and your specific enterprise context.
+
+6. **SIRAR** | Booth: S-0848 | International Pavilion - Saudi Arabia
+   Desc: sirar is a cutting-edge cybersecurity provider that empowers organizations to take control of their cyber capabilities and digital environments. As experts in business security and privacy, we offer a comprehensive range of services and solutions that help organizations to operate safely, securely and efficiently.
+
+7. **SISA** | Booth: N-5150 | Exhibitor
+   Cats: Security Operations, Governance, Risk, and Compliance (GRC)
+   Desc: SISA is a Leader in Cybersecurity Solutions for the Digital Payment Industry. As a Global Payment Forensic Investigator of the PCI Security Standards Council, we leverage forensics insights into preventive, detective and corrective security solutions
+
+8. **SITE** | Booth: S-0848 | International Pavilion - Saudi Arabia
+   Desc: Since 2017, SITE has empowered businesses with secure-by-design solutions designed to drive innovation and growth. We’re wholly owned by the Public Investment Fund (PIF), enabling us to combine our national capabilities with international partnerships to develop tailored cybersecurity, cloud computing, systems integration, and human capital development services that help organizations thrive in to
+
+9. **six24 Cyber Labs** | Booth: ESE-02 | Early Stage Expo
+   Cats: Security Testing and Red Teaming
+   Desc: six24 Cyber Labs, LLC based in Maryland, delivers AI-driven cybersecurity solutions for adversary emulation and exposure validation. Our flagship platform, SIEGE, simulates real-world attacks to uncover exploitable risk and strengthen cyber defenses across government and enterprise environments.
+
+10. **Sky BlackBox** | Booth: ESE-58 | Early Stage Expo
+   Desc: Sky BlackBox is an Intelligent Vendor & Third-Party Risk Management that maximizes security while minimizing effort. With a suite of three integrated apps, it offers 470x more accuracy, 6x lower operational costs, and 9x faster results compared to traditional methods. It turns risk into opportunity.
+
+11. **Skyhawk Security** | Booth: S-0358 | Exhibitor
+   Cats: Cloud Security, Cloud Security Posture Management (CSPM), Cloud Infrastructure Entitlement Management (CIEM), CASB, Governance and Compliance
+   Desc: Realize preemptive cloud security. Skyhawk’s AI-based Purple Team contextualizes security data, including traditional security tools, eliminating alert fatigue, identifying true threats & exposures to prevent cloud breaches and reduce business risk.
+
+12. **Skyrelis** | Booth: ESE-49 | Early Stage Expo
+   Cats: Security for AI
+   Desc: Skyrelis is the runtime policy layer for agentic AI, helping enterprises safely scale autonomous agents in production. Security and compliance policies adapt in real time across users, geographies, regulations, and industries—without modifying agent code or slowing development.
+
+13. **Smallstep** | Booth: S-2045 | Exhibitor
+   Cats: Identity and Access Management (IAM), Identity Governance and Administration (IGA), Multi-Factor Authentication (MFA), Authentication, IDaas
+   Desc: Smallstep enables true Zero Trust security without adding user friction. Streamline authentication workflows, mitigate phishing, automate short-lived credentials, and prevent sensitive access from personal devices with the Device Identity Platform™.
+
+14. **SMARTFENSE** | Booth: S-0642 | International Pavilion - Spain
+   Cats: Human Risk and Awareness
+   Desc: SMARTFENSE is a cybersecurity awareness SaaS platform that reduces human risk and strengthens digital resilience through simulations, adaptive training, and compliance with international standards.
+
+15. **SmartSuite** | Booth: S-1867 | Exhibitor
+   Cats: Governance, Risk, and Compliance (GRC)
+   Desc: First Time ExhibitorSmartSuite is a modern no-code GRC platform—built by the founders of ArcherIRM—uniting risk, compliance, audit, third-party risk, and business continuity into one connected system that streamlines workflows and strengthens enterprise resilience.
+
+16. **SmishAlert** | Booth: ESE-47 | Early Stage Expo
+   Cats: Human Risk and Awareness
+   Desc: SmishAlert brings mobile phishing awareness and defense to modern security teams. The platform analyzes smishing, QR, and social engineering messages in real time, alerting users to potential threats and reinforcing secure behavior within existing operations workflows.
+
+17. **Socket** | Booth: S-2434 | Exhibitor
+   Cats: Application Security, API Security, AI Remediation, Application Security Posture Management (ASPM), Code Obfuscation
+   Desc: First Time ExhibitorSocket protects open source software supply chains by detecting and blocking malware, vulnerabilities, and supply chain attacks in real time. It empowers developers to use open source safely and ship faster with confidence.
+
+18. **SOCRadar** | Booth: N-4228 | Exhibitor
+   Cats: Attack Surface Management, Threat Detection and Intelligence
+   Desc: SOCRadar's Extended Threat Intelligence (XTI) platform helps organizations proactively defend against cyber threats. We provide actionable insights from the dark web, attack surface, and beyond, empowering businesses to stay ahead.
+
+19. **SOFFID IAM** | Booth: S-0642 | International Pavilion - Spain
+   Cats: Identity and Access Management (IAM), Identity Governance and Administration (IGA), Single Sign-On (SSO), Multi-Factor Authentication (MFA), Privileged Access Management (PAM)
+   Desc: Soffid IAM is a European Identity & Access Management platform, recognized by Gartner and certified ENS High and Common Criteria. Trusted by public and private organizations, Soffid delivers scalable IAM that simplifies security and governance.
+
+20. **SOFTwarfare** | Booth: S-3138 | Exhibitor
+   Cats: Identity and Access Management (IAM), Multi-Factor Authentication (MFA), IDaas, Biometric Authentication
+   Desc: SOFTwarfare® provides Zero Trust Identity®, a passwordless MFA platform designed to secure human and machine identities. We deliver continuous, risk-based authentication to protect enterprise and OT environments from sophisticated cyber attacks.
+
+21. **SolidCore.ai** | Booth: ESE-38 | Early Stage Expo
+   Cats: Security for AI
+   Desc: SolidCore provides the visibility and control necessary to deploy LLM applications responsibly. By capturing every inference prompt and response, SolidCore creates an immutable system of record, enabling real-time risk detection and continuous compliance monitoring without slowing down development.
+
+22. **Sonar** | Booth: S-1727 | Exhibitor
+   Desc: Sonar is the trust and verification layer for AI code—the industry standard for automated code review. Integrating code security and code quality into one platform, Sonar delivers deterministic, repeatable, and actionable code verification at scale.
+
+23. **Sonatype** | Booth: N-4227 | Bronze
+   Cats: Application Security, AI Remediation, Container Security, Software Composition Analysis (SCA), Supply Chain Security
+   Desc: Sonatype is the leader in AI-driven DevSecOps. As the maintainer of Maven Central and creator of Nexus Repository, we pioneer how the world manages and secures open source software, helping enterprises fully harness the power of OSS and AI.
+
+24. **Sophos** | Booth: N-6477 | Exhibitor
+   Cats: Incident Response Platforms, Endpoint Detection & Response, Endpoint Protection, SIEM / SOAR, Endpoint Security
+   Desc: Sophos defends your organization from cyberattacks with an adaptive, AI-driven platform and decades of security expertise, protecting the future of your business.
+
+25. **SpecterOps** | Booth: N-6277 | Bronze
+   Cats: Attack Surface Management, Security Testing and Red Teaming
+   Desc: Attackers don’t go through your tools – they go around them, leveraging gaps in your program and exploiting identities to reach your critical assets. Our mission is to demystify tradecraft and stop adversaries in their tracks.
+
+26. **SPECTRA** | Booth: ESE-33 | Early Stage Expo
+   Cats: Attack Surface Management, Governance, Risk, and Compliance (GRC)
+   Desc: Security validation for MSP channel. 4-tier progressive model validates MDR, backup, email security, firewall, DR vs. breach scenarios. Vendors integrate products to tiers. Insurers adopt risk-based pricing. Building trust layer for $200B+ MSP market
+
+27. **Spektion** | Booth: ESE-07 | Early Stage Expo
+   Cats: Attack Surface Management
+   Desc: Spektion delivers the missing ingredient in exposure management: continuous visibility into the runtime behavior of everything in your environment, going beyond the limits of CVEs to make exposure management truly proactive, comprehensive, and uniquely powerful.
+
+28. **Splunk at Triangle Terrace** | Booth: Triangle Terrace at Yerba Buena Gardens | Sponsored Experience
+   Cats: Triangle Terrace at Yerba Buena Gardens, Outside Moscone
+   Desc: The Terrace will serve as a gathering place for attendees, for networking and relationship-building along with the opportunity to step away from the conference and recharge in the Terrace.  The Terrace is open during conference hours throughout the week.
+
+29. **Splunk, a Cisco Company** | Booth: MRN-600, N-6144, S-3500 | Platinum Plus
+   Cats: Fraud Prevention / Transaction Security, Threat Intelligence Platforms, User and Entity Behavior Analytics (UEBA), Threat Intelligence Feeds, Security Information and Event Management (SIEM)
+   Desc: Splunk, the cybersecurity and observability leader, helps build a safer and more resilient digital world. Organizations trust Splunk to prevent security, infrastructure and application incidents from becoming major issues, remediate threats and disruptions faster, and adapt quickly to new opportunities.
+
+30. **Sprinto Inc** | Booth: S-2437 | Exhibitor
+   Cats: Governance, Risk, and Compliance (GRC)
+   Desc: First-Time ExhibitorSprinto is the first AI-native GRC platform that turns compliance and risk into a competitive advantage. Trusted by 3000+ customers across 75 countries, it helps organizations stay audit-ready, manage real time risks and scale with 300+ integrations.
+

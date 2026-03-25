@@ -1,0 +1,117 @@
+1. **Veeam Software** | Booth: MRS-116, S-0427 | Gold
+   Cats: Data Security, Data Encryption / Tokenization, Data Classification, Data Privacy, DLP
+   Desc: Veeam is the Data and AI Trust Company, ensuring data and AI are understood, secure, and resilient to enable safe AI at scale. As a leader in data resilience and security, Veeam protects 550,000+ customers worldwide, including 82% of the Fortune 500.
+
+2. **Vega Security** | Booth: S-0660 | Exhibitor
+   Cats: Threat Intelligence Platforms, Security Information and Event Management (SIEM), Security Analytics, Threat Intelligence Platform, Security Operations
+   Desc: First Time ExhibitorVega unchains detection from storage. Tap every data source where it lives to hunt, investigate and stop threats fast. Go live in days, cut storage bills, run battle-ready detections, and prove impact without migrating or ripping out what works.
+
+3. **Vehere Technologies Pvt. Ltd.** | Booth: N-6473 | Exhibitor
+   Cats: Threat Intelligence Feeds, Threat Hunting, Anomaly Detection, Threat Hunting Tools, Indicators of Compromise (IOC) Management
+   Desc: Vehere, a global leader in Cyber Network Intelligence uses its deep COMINT/SIGINT expertise to secure defense/intelligence agencies, governments, critical infrastructure, and Fortune 500 companies against real-time cyberattacks with unmatched speed.
+
+4. **Venice Security** | Booth: S-2448 | Exhibitor
+   Cats: Identity and Access Management (IAM), Multi-Factor Authentication (MFA), Privileged Access Management (PAM), IDaas, Identity Governance and Administration
+   Desc: First Time ExhibitorControl access for every identity in any environment with zero standing privilege. Valkyrie replaces static workflows with live, adaptive policies for human and non-human identities- via a unified, agentless, disruption-free platform.
+
+5. **Veracode** | Booth: S-0435 | Exhibitor
+   Cats: Application Security, API Security, AI Remediation, Application Security Posture Management (ASPM), Container Security
+   Desc: Veracode is a global leader in Application Risk Management for the AI era. Powered by trillions of lines of code scans, Veracode is trusted by organizations worldwide to maintain secure software from code creation to cloud deployment.
+
+6. **Verax** | Booth: S-0258 | Exhibitor
+   Cats: Security for AI
+   Desc: First Time ExhibitorVerax Protect helps organizations ensure that the risks of shadow AI, such as the leakage of proprietary and sensitive data, malicious AI-generated responses, and data oversharing are prevented.
+
+7. **Versa Networks** | Booth: S-1435 | Exhibitor
+   Cats: Threat Intelligence Platforms, User and Entity Behavior Analytics (UEBA), Threat Intelligence Feeds, Threat Hunting, Threat Intelligence Platform
+   Desc: Versa Networks, the leader in SASE, combines extensive security, advanced networking, full-featured SD-WAN, genuine multitenancy, and sophisticated analytics via the cloud, on-premises.
+
+8. **Veza from ServiceNow** | Booth: N-6459 | Bronze
+   Cats: Identity and Access Management (IAM), Identity Governance and Administration (IGA), Privileged Access Management (PAM), Authentication, Identity Governance and Administration
+   Desc: Veza is the leader in identity security. We are the Enterprise Agent Identity Control Plane. Our Access Graph maps who and what can access what across your entire enterprise — humans, NHIs, and AI agents — across 325+ integrations. Trusted by Blackstone, Capital One, and Snowflake.
+
+9. **VIAVI Solutions** | Booth: N-5484, MRN-720 | Exhibitor
+   Cats: Monitoring and Observability, Security Operations
+   Desc: First Time ExhibitorVIAVI Solutions delivers NetSecOps visibility through advanced network performance monitoring and packet-level forensics, enabling IT and security teams to accelerate detection, investigation, and resolution with shared, data-driven insight.
+
+10. **Vijil** | Booth: ESE-17 | Early Stage Expo
+   Cats: Security for AI
+   Desc: Vijil tackles the central issue with enterprise AI today: can enterprises trust the agents they deploy? Vijil’s modular platform allows enterprises to define, evaluate, enforce, and improve the security, safety, and reliability of AI agents - cutting time to trust by 4x across the agentic lifecycle.
+
+11. **VirtualMetric BV** | Booth: S-0954 | International Pavilion - Netherlands
+   Cats: Data Security, Security Operations
+   Desc: VirtualMetric delivers an intelligent security data pipeline that reduces SIEM costs by up to 90%, automates enrichment, normalization, and routing, and provides clean, high-fidelity data ready for analysts and AI-driven detection.
+
+12. **Virtue Security** | Booth: S-3106 | Exhibitor
+   Desc: Virtue Security is a boutique pentesting firm specializing in complex technology assessments. Our process is tailored to technology focused enterprises who demand top-tier skillsets.
+
+13. **Vorlon** | Booth: NXT-07 | Next Stage
+   Cats: Security for AI
+   Desc: Vorlon is the Agentic Ecosystem Security Platform. We protect sensitive data in motion across the converged SaaS and AI environment where agents, APIs, integrations, and non-human identities operate at machine speed. Security teams use Vorlon to gain control, prevent breaches, and scale AI safely.
+
+14. **Wallarm** | Booth: S-3125 | Exhibitor
+   Cats: Application Security, API Security
+   Desc: Wallarm is the API security platform that is the fastest, easiest, and most effective way to stop API attacks against APIs and AI powered applications.
+
+15. **Wasabi Technologies** | Booth: S-0462 | Exhibitor
+   Cats: Cloud Security, Cloud Data Security
+   Desc: Wasabi delivers cyber-resilient cloud object storage with immutability, air-gapped options, and rapid recovery—simple, fast, and affordable. S3-compatible with predictable pricing to harden backups and bounce back from ransomware.
+
+16. **WEEDSAND** | Booth: S-1455 | Exhibitor
+   Cats: Human Risk and Awareness, Privacy
+   Desc: As Korea's No. 1 solution provider for insider risk management and data protection, WEEDSAND has earned the trust of over 1,000 customers and positioned themselves as the leading force in the national security industry for 23 years.
+
+17. **Whistic** | Booth: N-4504 | Exhibitor
+   Cats: Governance, Risk, and Compliance (GRC)
+   Desc: Whistic is the agentic vendor risk management platform built for modern security teams. AI agents automate vendor assessments, and the Trust Center Exchange eliminates questionnaires—accelerating TPRM, reducing friction, and scaling trust fast.
+
+18. **WideField Security** | Booth: ESE-40 | Early Stage Expo
+   Cats: Threat Detection and Intelligence
+   Desc: WideField’s patented technology provides comprehensive visibility, rapid risk reduction, and real-time session detection and response across AI agents, NHIs, and human identities. We remove the fear of identity-driven threats, empowering teams to innovate with full visibility and zero hesitation.
+
+19. **WiSECURE** | Booth: S-1561 | International Pavilion - Taiwan
+   Cats: Data Security, Data Encryption / Tokenization, DLP, Post Quantum Cryptography
+   Desc: Founded in 2019, WiSECURE focus exclusively on hardware security and build multiple HSM form factors for deployment across diverse environments — from government and enterprise systems, to edge and IoT devices.
+
+20. **WitnessAI** | Booth: S-3304 | Exhibitor
+   Cats: Security for AI
+   Desc: WitnessAI delivers the only enterprise AI security platform with runtime security, complete network-level visibility of shadow AI tools, intent-based policy controls, and AI threat prevention.
+
+21. **Wiz** | Booth: N-4435, MRN-422 | Gold
+   Cats: Cloud Security, Cloud Security Posture Management (CSPM), CASB, Container and Kubernetes Security
+   Desc: The Wiz Platform secures everything organizations build and run in the cloud, enabling organizations worldwide to rapidly identify and remove critical risks from code, to cloud, to runtime. With Wiz, organizations can democratize security with a unified foundation across the complete development lifecycle that enables them to build apps faster and more securely.
+
+22. **Wiz No AI Zone** | Booth: Howard Street Plaza | Sponsored Experience
+   Cats: Howard Street Plaza, Outside Moscone
+   Desc: Need a breather from all the AI talk? Step into the Wiz No-AI Zone, located steps away from the Moscone entrance. Take a moment to recharge, refuel with a fresh cup of coffee, and challenge a friend to a board game.No algorithms, just great vibes.
+
+23. **wolfSSL** | Booth: N-6449 | Exhibitor
+   Cats: Application Security
+   Desc: wolfSSL secures embedded and connected systems, protecting over 5 billion connections with lightweight (D)TLS 1.3 and cryptography. Our solutions provide secure communications, authentication, secure boot, and firmware protection for enterprise, automotive, aerospace, and military platforms.We offer FIPS 140-3 validated cryptography, WireGuard FIPS, FIPS kernel crypto, CNSA 2.0, and FIPS post-quan
+
+24. **Wolters Kluwer TeamMate** | Booth: S-3217 | Exhibitor
+   Desc: Wolters Kluwer TeamMate delivers a unified GRC management solution that brings governance, risk, and compliance together in a single, connected source of truth.
+
+25. **X-PHY Inc** | Booth: N-5256 | Exhibitor
+   Cats: Endpoint Detection & Response, Endpoint Protection, Endpoint Security, Endpoint Detection and Response (EDR), Extended Detection and Response (XDR)
+   Desc: X-PHY Inc is a pioneer in intelligent, agentic, hardware-based cybersecurity solutions. The X-PHY SSD is AI-embedded and autonomously protects endpoint data without need for updates. Our X-PHY Deepfake Detector is on-device and detects in real-time.
+
+26. **XBOW** | Booth: S-1843 | Exhibitor
+   Cats: Application Security, Security Testing and Red Teaming
+   Desc: First-Time ExhibitorXBOW is the autonomous offensive security company redefining cyber defense for the AI era. Combining AI reasoning with offensive security workflows, the XBOW delivers expert-level security testing at machine speed.
+
+27. **Xeris AI** | Booth: ESE-32 | Early Stage Expo
+   Desc: Xeris secures Agentic AI by providing enterprise visibility and control across AI Agents and MCP workflows. Powered by autonomous Super Agents, Xeris detects and shuts down Shadow AI, enforces policy in real time, and governs AI behavior directly at the Agentic layer.
+
+28. **Xint by Theori** | Booth: S-2436 | Exhibitor
+   Cats: Application Security, Dynamic Application Security Testing (DAST), Security Testing and Red Teaming
+   Desc: First Time ExhibitorTheori is a cybersecurity firm specializing in offensive security research, red teaming, and AI-driven security solutions.
+
+29. **XM Cyber** | Booth: S-1349 | Exhibitor
+   Cats: Cloud Security, Cloud Security Posture Management (CSPM), Cloud Infrastructure Entitlement Management (CIEM), CASB, Governance and Compliance
+   Desc: XM Cyber is a leader in hybrid cloud exposure management. See how attackers leverage and combine misconfigurations, vulnerabilities, identity exposures, and more, across AWS, Azure, GCP and on-prem environments to compromise your critical assets.
+
+30. **Yottasecure, Inc** | Booth:  | Early Stage Expo
+   Cats: Application Security, AI Remediation
+   Desc: Yottasecure cuts through CVE noise with real-time, contextual risk intelligence. Our AI identifies which CVEs are truly exploitable by correlating asset context, threat signals, and business impact—so security teams prioritize remediation and reduce risk faster.
+

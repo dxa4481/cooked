@@ -1,0 +1,118 @@
+1. **imper.ai** | Booth: S-1361 | Exhibitor
+   Cats: Identity and Access Management (IAM), Human Risk and Awareness
+   Desc: First Time Exhibitorimper.ai stops impersonation and social engineering attacks across every communication channel. We protect enterprises from help desk, executive and hiring threats utilizing deepfake and vishing by detecting the security signals in real time.
+
+2. **Incode Technologies** | Booth: S-0355 | Exhibitor
+   Cats: Identity and Access Management (IAM), Biometric Authentication
+   Desc: Incode is a global leader in trust and identity, helping enterprises prevent deepfakes, accelerate onboarding, and verify real people through AI-powered biometrics, liveness detection, and global ID verification at scale.
+
+3. **Indurex** | Booth: S-0954 | International Pavilion - Netherlands
+   Cats: OT, Physical and IoT Security
+   Desc: Indurex is a company founded by experts in OT security, engineering, and critical infrastructure. We provide Engineering Intelligence to maintain safe, reliable, and secure operations in increasingly complex cyber-physical systems (CPS).
+
+4. **Infinidat** | Booth: N-4301 | Exhibitor
+   Cats: Data Security, Data Loss Prevention (DLP), Data Centric Security
+   Desc: Infinidat delivers enterprise-grade primary & secondary storage with InfiniVerse®, offering 100% availability, cyber resilience, hybrid cloud support, and guaranteed performance—backed by award-winning service and trusted by top global organizations.
+
+5. **Infisical** | Booth: S-0465 | Exhibitor
+   Cats: Identity and Access Management (IAM), Privileged Access Management (PAM), Password Managers, Identity Governance and Administration, Privileged Management
+   Desc: First Time ExhibitorInfisical is an all-in-one platform for secrets, certificates, and privileged access management. Used and loved by engineers from Fortune 500 Enterprises, fastest-growing AI startups, and international governments.
+
+6. **Infoblox** | Booth: S-0726 | Exhibitor
+   Cats: Threat Intelligence Platforms, Threat Intelligence Feeds, Threat Hunting, Threat Intelligence Platform, Threat Hunting Tools
+   Desc: Infoblox unites networking, security and cloud to form a platform for operations that’s as resilient as it is agile. Our DDI (DNS, DHCP and IPAM) solutions deliver unmatched performance, providing protection everywhere.
+
+7. **Infosec Institute** | Booth: S-3310 | Exhibitor
+   Cats: Cloud Security, Human Risk and Awareness
+   Desc: Infosec Institute helps IT and security professionals advance their careers with skills development and certifications while empowering all employees with security awareness and phishing training to stay cyber-safe at work and home.
+
+8. **InnerActiv** | Booth: N-6559 | Exhibitor
+   Cats: Data Security, Data Loss Prevention (DLP), Data Centric Security, Human Risk and Awareness
+   Desc: InnerActiv is an insider risk and data protection platform that detects and prevents data misuse and fraud in real time by analyzing user behavior and endpoint activity across screens, apps, devices, and print workflows.
+
+9. **InprOTech** | Booth: S-0642 | International Pavilion - Spain
+   Cats: User and Entity Behavior Analytics (UEBA), Threat Intelligence Feeds, Threat Hunting, Threat Intelligence Services & Feed, Anomaly Detection
+   Desc: InprOTech Guardian delivers 24/7 proactive defense for industrial networks. From asset inventory to real-time incident response, we empower companies to secure their critical assets against evolving cyber threats. Proven OT resilience starts here.
+
+10. **INSSIDE** | Booth: S-0642 | International Pavilion - Spain
+   Cats: Security Testing and Red Teaming, Governance, Risk, and Compliance (GRC)
+   Desc: INSSIDE delivers 360° cybersecurity across Red Team, Blue Team, GRC, Identity Management and Dev Security. We help organizations assess risk, strengthen defenses, and achieve compliance through consulting, managed services, and technology.
+
+11. **Intezer** | Booth: S-0555 | Exhibitor
+   Cats: Incident Response Platforms, SIEM / SOAR, Threat Hunting Tools, Adversary Mapping, Security Operations
+   Desc: Intezer AI SOC delivers 24/7 forensic-grade alert triage across all alerts, escalating <2% for human review. Powered by ForensicAI™, it accelerates incident response with unmatched accuracy, reducing cyber risk. Trusted by NVIDIA, Equifax & more.
+
+12. **Intigriti** | Booth: S-1161 | International Pavilion - Flanders Investment & Trade
+   Cats: Application Security, Attack Surface Management
+   Desc: Cybercriminals don't wait - neither do we. Intigriti harnesses 125,000+ ethical hackers to help the world's leading organisations find and fix vulnerabilities fast. Trusted by Microsoft, Red Bull, Intel, and more.
+
+13. **Introw** | Booth: N-5380 | Exhibitor
+   Cats: Application Security, Security Architecture and Engineering
+   Desc: First Time ExhibitorIntrow is a next-generation PRM platform that helps B2B companies launch partner portals directly on top of HubSpot or Salesforce. It streamlines partner engagement, automates workflows, and goes live fast, without long, complex implementations.
+
+14. **IONIX** | Booth: N-4509 | Exhibitor
+   Cats: Attack Surface Management
+   Desc: IONIX maps your full external attack surface, uncovering shadow IT and third-party risks. It simulates attack paths, detects misconfigurations, and prioritizes fixes—giving you actionable insight into exploitable exposures.
+
+15. **IPinfo** | Booth: S-2345 | Exhibitor
+   Cats: Data Security, Privacy
+   Desc: First Time ExhibitorIPinfo is the internet data company providing accurate, contextual IP data with geolocation, carrier, and privacy details to help businesses enhance security and compliance, and user experience. Trusted by 500K+ users.
+
+16. **IronCircle** | Booth: N-5171 | Exhibitor
+   Desc: IronCircle is the leading AI-powered cybersecurity training platform for individuals, universities, and enterprises. We are a hands-on proving ground that builds resilient teams and closes skills gaps through immersive, AI-driven experiences.
+
+17. **IRONSCALES** | Booth: N-4600 | Exhibitor
+   Cats: Human Risk and Awareness, Email Security
+   Desc: IRONSCALES, the leader in AI-powered email security, protects 17,000+ organizations and 2,500+ MSPs from phishing, BEC, ATO, and zero-day attacks. Combining AI and human insights, we secure inboxes and empower users. Learn more at www.ironscales.com.
+
+18. **Iru, Inc.** | Booth: S-1461 | Exhibitor
+   Cats: Endpoint Detection & Response, Endpoint Security, Endpoint Detection and Response (EDR), Device Control / USB Protection, Endpoint Protection Platform (EPP)
+   Desc: Iru is the AI-powered security & IT platform. It unifies identity & access, endpoint security & management, and compliance automation; collapsing the stack and giving IT & security time and control back.
+
+19. **ISACA** | Booth: S-2167 | Exhibitor
+   Desc: Empower our members throughout their careers by providing comprehensive knowledge, skills, credentials and access to a global community—ensuring they are well-prepared to meet today’s challenges and drive tomorrow’s innovations.
+
+20. **ISC2** | Booth: S-2067 | Exhibitor
+   Cats: Cloud Security, Cloud Data Security, Governance, Risk, and Compliance (GRC)
+   Desc: ISC2 is the world’s leading member organization for cybersecurity professionals, driven by our vision of a safe and secure cyber world. Our more than 265,000 certified members, and associates, are a force for good, safeguarding the way we live.
+
+21. **Island** | Booth: N-5479, MRN-408 | Gold
+   Cats: Application Security, Cloud Security, Data Security, Identity and Access Management (IAM), Endpoint Security
+   Desc: Island created the Enterprise Browser, a simplified workspace delighting CIOs, CISOs, and end users. It embeds core IT, security, and productivity needs into the browser, making application delivery simple, data fundamentally secure, and work smooth and natural. Island is headquartered in Dallas with R&D in Israel and the US.
+
+22. **ISSA International** | Booth: S-2364 | Exhibitor
+   Desc: ISSA is a global association for information security professionals advancing the practice of risk management and resilience. Members engage with trusted peers and recognized leaders to strengthen expertise, credibility, and professional impact.
+
+23. **iT.eam** | Booth: S-0954 | International Pavilion - Netherlands
+   Cats: Security Information and Event Management (SIEM), Security Orchestration, Automation, and Response (SOAR), Incident Response Platforms, Security Analytics, Security Incident Response
+   Desc: iT.eam is a Dutch company with Brazilian roots, offering personalized solutions to protect businesses against digital threats. With flexibility, cutting-edge technology, and excellence, we ensure security and efficiency of our clients' assets.
+
+24. **Italian Trade Agency** | Booth: S-1951 | International Pavilion - Italian Trade Agency
+   Cats: Data Security
+   Desc: ITA - Italian Trade Agency is the Governmental agency that supports the business development of our companies abroad and promotes the attraction of foreign investment in Italy.
+
+25. **Ivanti** | Booth: N-6371 | Silver
+   Cats: Endpoint Security, Attack Surface Management
+   Desc: Over 34,000 customers use Ivanti’s AI-powered solutions to manage, automate, and secure IT. The Neurons platform boosts efficiency, cuts costs, and proactively reduces risks for smarter, unified operations.
+
+26. **iZOOlogic** | Booth: S-2239 | Exhibitor
+   Cats: Threat Intelligence Platforms, Threat Intelligence Feeds, Threat Hunting, Threat Intelligence Platform, Attack Surface Management
+   Desc: First Time ExhibitoriZOOlogic delivers AI-driven external threat intelligence, attack surface management and third-party risk management. Trusted and accredited by Government and Financial Regulators.
+
+27. **Jamf** | Booth: S-1335 | Exhibitor
+   Cats: Application Security, Endpoint Detection & Response, Endpoint Security, Endpoint Detection and Response (EDR), Device Control / USB Protection
+   Desc: Jamf’s purpose is to simplify work by helping organizations manage and secure a Mac and mobile experience that end users love and organizations trust. Jamf provides enterprise secure solutions that are consumer simple and protect personal privacy.
+
+28. **Janus Cyber** | Booth: S-1561 | International Pavilion - Taiwan
+   Cats: Governance, Risk, and Compliance (GRC), Network Security
+   Desc: Secure Critical Infrastructure—Safer with Less Effort
+
+Janus Cyber delivers Auto Segmentation that transforms network behavior into enforceable protection—automatically.
+
+29. **Jazz** | Booth: S-2157, MRS-200 | Exhibitor
+   Cats: Data Security, Data Loss Prevention (DLP), Data Centric Security
+   Desc: Jazz is the AI-powered investigator that finally solves Data Loss Prevention. The solution moves beyond rules and noise to deliver the one thing security teams have been missing: a tool that actually understands your business.
+
+30. **JFrog** | Booth: S-0748 | Silver
+   Desc: The JFrog Software Supply Chain Platform fuels DevOps, DevSecOps, and AI/MLOps, delivering secure, frictionless software delivery from code to production in the AI era.
+

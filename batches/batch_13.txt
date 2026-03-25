@@ -1,0 +1,118 @@
+1. **Oasis Security** | Booth: N-4214 | Exhibitor
+   Cats: Identity and Access Management (IAM), Just-in-Time Access (JIT), Security for AI
+   Desc: Oasis Security is the identity control plane for non-human and agentic access. It discovers identities and agents across cloud, SaaS, and on-prem, remediates risk, and enforces lifecycle controls with short-lived, least-privilege sessions.
+
+2. **Object First** | Booth: S-0361 | Exhibitor
+   Cats: Cloud Security, Cloud Data Security
+   Desc: Object First delivers secure, simple, and powerful backup storage purpose-built for Veeam that is absolutely immutable. With the ultimate ransomware defense, you and your organization become Simply Resilient.
+
+3. **Okta** | Booth: S-1427, MRS-110 | Gold
+   Cats: Identity and Access Management (IAM), Identity Governance and Administration (IGA), Single Sign-On (SSO), Multi-Factor Authentication (MFA), Privileged Access Management (PAM)
+   Desc: Okta, The World’s Identity Company™, provides customer and workforce solutions to protect AI agents, users, and partners. We drive security, efficiency, and innovation, trusted by companies for authentication, authorization, and more. Visit okta.com
+
+4. **Oleria** | Booth: N-5164 | Exhibitor
+   Cats: Identity and Access Management (IAM), Identity Governance and Administration (IGA), Authentication
+   Desc: Oleria delivers autonomous identity security. Our AI-ready Trustfusion Platform unifies every identity and permission—human, non-human, and AI—into one place across SaaS, cloud, on-prem, and custom apps. Built by security operators for operators.
+
+5. **OmniTrust** | Booth: S-0561 | Exhibitor
+   Cats: OT, Physical and IoT Security, Security Architecture and Engineering, Moscone South
+   Desc: First Time ExhibitorOmniTrust is the security infrastructure for systems that can’t afford to fail. Our platform embeds and upholds continuity of trust across connected products, software and data - protecting 2B+ devices and validating 3B+ software updates annually.
+
+6. **ON2IT** | Booth: S-0954 | International Pavilion - Netherlands
+   Cats: Security Information and Event Management (SIEM), Security Orchestration, Automation, and Response (SOAR), Incident Response Platforms, Endpoint Detection & Response, Endpoint Protection
+   Desc: At ON2IT, we ensure your cybersecurity is managed, with services tailored to suit the intricacies of your IT setup. Combining the innovative AUXO™ platform with Zero Trust security, we prioritize security needs and safeguard your networks.
+
+7. **One Identity** | Booth: S-2161 | Exhibitor
+   Cats: Identity and Access Management (IAM), Identity Governance and Administration (IGA), Single Sign-On (SSO), Multi-Factor Authentication (MFA), Privileged Access Management (PAM)
+   Desc: One Identity delivers trusted identity security for enterprises worldwide to protect and simplify access to digital identities.  Prevent breaches and ensure compliance by unifying IGA, PAM and AM for security without compromise.
+
+8. **ONEKEY** | Booth: N-5469 | International Pavilion - Germany
+   Cats: OT, Physical and IoT Security, Supply Chain Security
+   Desc: ONEKEY is the leading European specialist in Product Cybersecurity & Compliance Management and part of the investment portfolio of PricewaterhouseCoopers Germany (PwC). ONEKEY offers an automated Product Cybersecurity & Compliance Platform.
+
+9. **OneSpan Inc** | Booth: N-6578 | Exhibitor
+   Cats: Application Security, Identity and Access Management (IAM), Multi-Factor Authentication (MFA), IDaas, Code Obfuscation
+   Desc: First-Time ExhibitorOneSpan secures digital access and mobile applications. We provide broad OTP and FIDO authentication across cloud, on-prem, mobile, and hardware, alongside advanced protection for modern mobile apps.
+
+10. **OneTrust** | Booth: S-1249 | Bronze
+   Cats: Security for AI, Governance, Risk, and Compliance (GRC)
+   Desc: OneTrust, the AI-Ready Governance Platform™, enables innovation through the responsible use of data and AI. Trusted by over half of the Fortune 500, we help businesses govern and move fast, turning responsible data use into a catalyst for growth.
+
+11. **Onyx Security** | Booth: N-5178 | Exhibitor
+   Cats: Application Security, AI Remediation, Security Testing and Red Teaming
+   Desc: First-Time ExhibitorOnyx is the secure AI control plane built for agents and models. The unified platform enables security teams to oversee how AI agents are used, ensure they are secure and compliant, and measure their effectiveness.
+
+12. **Openlayer** | Booth: S-2163 | Exhibitor
+   Cats: Security for AI
+   Desc: First-Time ExhibitorAI governance and observability platform that helps enterprises evaluate, monitor, and govern AI systems across the full lifecycle. The platform supports structured testing, production observability, security guardrails, and audit-ready reporting.
+
+13. **OpenSSL Corporation** | Booth: N-5161 | Exhibitor
+   Cats: Data Security, Data Encryption / Tokenization, DLP, Post Quantum Cryptography, Secure File Transfer
+   Desc: OpenSSL Corporation is a leading provider of open-source encryption and cybersecurity solutions. It develops the widely used OpenSSL Library, ensuring secure communications, and offers support, consulting, and premium services for enhanced security.
+
+14. **OpenText Cybersecurity** | Booth: MRN-420, N-4535 | Gold
+   Cats: Application Security, Cloud Security, Data Security, Identity and Access Management (IAM), Security for AI
+   Desc: OpenText Cybersecurity protects critical data, identities, and applications with unified solutions built for modern threats, regulatory pressure, and resilient enterprise operations across cloud and hybrid environments.
+
+15. **Operant Networks** | Booth: ESE-06 | Early Stage Expo
+   Desc: At the critical intersection of AI security, compliance, and trust, we enable enterprises to scale their AI initiatives from pilot to production.  We build trust foundations for AI deployment, ensure compliance & data privacy, and reduce complexity while accelerating AI adoption for enterprise.
+
+16. **Opsin, Inc.** | Booth:  | Early Stage Expo
+   Cats: Security for AI
+   Desc: Opsin secures enterprise AI before data exposure occurs. It detects oversharing, misconfigurations, sensitive data leakage, and risky behavior across AI copilots and agents, including Microsoft 365 Copilot, Copilot Studio, and ChatGPT Enterprise, with guided remediation at the source.
+
+17. **OPSWAT** | Booth: S-0854 | Exhibitor
+   Cats: Application Security, API Security, Endpoint Detection & Response, Endpoint Protection, Endpoint Security
+   Desc: OPSWAT, a global leader in IT, OT, and ICS critical infrastructure cybersecurity, protects public and private sector enterprises with an end-to-end cybersecurity platform that secures their complex networks, critical devices, and ensures compliance.
+
+18. **Optery** | Booth: N-4308 | Exhibitor
+   Cats: Attack Surface Management, Privacy
+   Desc: Optery for Business is the award-winning leader in personal data removal, finding and removing far more exposed employee data broker profiles than anyone—and proving it with screenshots—to prevent social engineering, BEC, fraud, and physical threats.
+
+19. **Optimal IdM** | Booth: S-3242 | Exhibitor
+   Cats: Identity and Access Management (IAM), Identity Governance and Administration (IGA), Single Sign-On (SSO), Multi-Factor Authentication (MFA), Privileged Access Management (PAM)
+   Desc: Founded in 2005, celebrating a 20 year anniversary, Optimal IdM is an award-winning provider of innovative and affordable identity access management solutions.
+
+20. **Optiv** | Booth: S-1135 | Exhibitor
+   Cats: Systems Integrator/Consulting Firm
+   Desc: Optiv is the cyber advisory and solutions leader. We manage cyber risk so you can secure your full potential.
+
+21. **Optro** | Booth: S-1749 | Exhibitor
+   Cats: Risk Management and Compliance, GRC
+   Desc: Optro helps enterprises transform risk into opportunity, redefining GRC through an agentic system of action. More than 50% of the Fortune 500 trust Optro to elevate audit, risk, and compliance in addressing a new era of risk.
+
+22. **Orca Cloud Café** | Booth: Howard Sidewalk at 3rd Street | Sponsored Experience
+   Cats: Application Security, Cloud Security, Cloud Security Posture Management (CSPM), Cloud Infrastructure Entitlement Management (CIEM), CASB
+   Desc: Join Orca Security at the corner of Howard and 3rd at the Orca Cloud Café during RSAC 2026 Conference. Whether you’re grabbing a quick coffee between sessions or looking for a place to pause and recharge, we’ve got you covered.We’ll be serving Lady Falcon Coffee—a San Francisco favorite—alongside fresh donuts each morning. Stop back in the afternoon for iced tea and cookies, and take a well-earned
+
+23. **Orca Security** | Booth: S-1035 | Exhibitor
+   Cats: Application Security, Cloud Security, API Security, Cloud Security Posture Management (CSPM), Cloud Infrastructure Entitlement Management (CIEM)
+   Desc: Orca Security is the industry-leading Cloud Security Platform that identifies, prioritizes, and remediates security risks and compliance issues across your cloud estate spanning AWS, Azure, Google Cloud and Kubernetes.
+
+24. **Osto Cybersecurity Inc.** | Booth: ESE-20 | Early Stage Expo
+   Cats: Cloud Security
+   Desc: Osto is an AI-powered, One-Stop Cybersecurity Platform for Startups and SMBs. It delivers active protection across cloud, endpoints, and networks, along with compliance certifications, VAPT, and automated security questionnaires - deployable in minutes through a pocket friendly monthly subscription.
+
+25. **OX Security** | Booth: S-0235 | Exhibitor
+   Cats: Application Security, API Security, AI Remediation, Application Security Posture Management (ASPM), Dynamic Application Security Testing (DAST)
+   Desc: OX Security’s VibeSec embeds autonomous, AI-native security into modern coding workflows, using live context to prevent vulnerabilities before they exist and secure software at the speed of AI.
+
+26. **P0 Security** | Booth: S-2333 | Exhibitor
+   Cats: Identity and Access Management (IAM), Identity Governance and Administration (IGA), Privileged Access Management (PAM), Authentication, Identity Governance and Administration
+   Desc: Replace risky standing production access with Just-in-Time, Just Enough Privilege for humans, workloads and agents. Watch approvals and short-lived creds issued in under 60 seconds. Come by booth S-2333 for a quick demo or a trial. www.p0.dev
+
+27. **Palosade** | Booth: ESE-05 | Early Stage Expo
+   Desc: Palosade DevSecOps Agents empower security teams to match the scale of AI-enabled product innovation. Speed security design review, code review, threat modeling, alert triage, and compliance with our agents. Or build your own agents on our enterprise-grade platform. Accurate. Consistent. Auditable.
+
+28. **Patch My PC** | Booth: S-1166 | Exhibitor
+   Cats: Endpoint Security, Monitoring and Observability
+   Desc: First Time ExhibitorAutomate Third-Party Patch Management in Microsoft ConfigMgr and Intune. Install thousands of apps with a few clicks and let us discover, test, and package updates for you.
+
+29. **Pathlock** | Booth: S-1661 | Exhibitor
+   Cats: Identity and Access Management (IAM), Identity Governance and Administration (IGA), Single Sign-On (SSO), Privileged Access Management (PAM), Authentication
+   Desc: First Time ExhibitorRisk-Aware IGA for Regulated Enterprises - Deliver faster provisioning and safer access decisions through continuous risk simulation and SoD-aware certifications.
+
+30. **Penlink** | Booth: N-6484 | Exhibitor
+   Cats: Threat Intelligence Platforms, Threat Intelligence Platform, Human Risk and Awareness, Threat Detection and Intelligence
+   Desc: First Time ExhibitorPenlink equips corporations with powerful OSINT-driven digital intelligence to uncover threat actors, assess risk, and support internal investigations revealing critical insights from the open, deep and dark web to protect enterprise integrity.
+

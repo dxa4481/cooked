@@ -1,0 +1,118 @@
+1. **Radiant** | Booth: S-0243 | Exhibitor
+   Cats: Incident Response Platforms, SIEM / SOAR, Monitoring and Observability, Security Operations
+   Desc: Radiant is a centralized AI-SOC platform combining Agentic AI triage, integrated response, and log management. Automated investigations reduce false positives by 90% and help analysts respond faster to real threats.
+
+2. **Radware** | Booth: S-1627 | Exhibitor
+   Cats: Application Security, API Security, Web Application Firewalls (WAF), Network Security
+   Desc: Radware® is a global leader of cybersecurity and application delivery solutions for physical, cloud and software-defined data centers. Our solutions empower enterprise and carrier customers worldwide maintaining business continuity & productivity.
+
+3. **Random Power** | Booth: S-1951 | International Pavilion - Italian Trade Agency
+   Cats: Data Security, Post Quantum Cryptography, OT, Physical and IoT Security
+   Desc: Random Power uses quantum tunnelling in silicon to generate true random numbers, delivering foundational security for encryption, authentication and privacy, and helping build cybersecure systems designed for quantum resilience.
+
+4. **Rapid7** | Booth: S-3201 | Exhibitor
+   Cats: Attack Surface Management, Security Operations
+   Desc: Rapid7 is a global leader in AI-powered managed cybersecurity operations. The Rapid7 Command Platform integrates security data, enriching it with AI, threat intelligence, and 25 years of expertise and innovation to reduce risk and disrupt attackers.
+
+5. **RapidFort** | Booth: S-0567 | Exhibitor
+   Cats: Cloud Security, Container and Kubernetes Security, Supply Chain Security
+   Desc: RapidFort is a leader in software supply chain security, offering an end-to-end vulnerability management platform with near-zero-CVE images, runtime profiling, automated CVE remediation, and attack surface management for containerized apps.
+
+6. **Raven** | Booth: ESE-18 | Early Stage Expo
+   Cats: Application Security
+   Desc: You Can’t Stop Runtime Attacks From the Outside. Raven runs inside the application runtime to stop malicious code execution before it ever runs - whether a CVE exists or not.
+
+7. **Ravenna** | Booth: S-0348 | Exhibitor
+   Cats: Identity and Access Management (IAM), Systems Integrator/Consulting Firm
+   Desc: Ravenna helps IT and Operations teams automate workflows, resolve requests, and deliver exceptional employee support — right inside Slack
+
+8. **Raxis** | Booth: S-2444 | Exhibitor
+   Cats: Application Security, API Security, Application Security Posture Management (ASPM), Security Testing and Red Teaming
+   Desc: First Time ExhibitorRaxis is an elite, US-based team of professional penetration testers who are paid to attack and assess cybersecurity systems. The company's ethical hackers have successfully breached some of the most sophisticated corporate networks in the US.
+
+9. **Ray Security** | Booth: ESE-59 | Early Stage Expo
+   Cats: Data Security, Data Loss Prevention (DLP), Data Centric Security
+   Desc: Ray Security delivers the first predictive data security platform that identifies which data will be used, and applies differentiated, automated real time protection to reduce risk exposure to the absolute minimum.
+
+10. **RealDefense** | Booth: N-5185 | Exhibitor
+   Cats: Monitoring and Observability, Privacy
+   Desc: First Time ExhibitorRealDefense LLC, based in Pasadena, CA, protects privacy, secures devices, and boosts system performance for consumers. Its trusted brands—iolo System Mechanic®, SUPERAntiSpyware®, MyCleanPC®, and USTechSupport—are used by millions worldwide.
+
+11. **Realm Labs** | Booth: ESE-15 | Early Stage Expo
+   Desc: Realm Labs is an AI Trust, Transparency, and Security company that enables enterprises to handle AI's surprises in production.
+
+12. **Recorded Future** | Booth: N-6090 | Exhibitor
+   Cats: Fraud Prevention / Transaction Security, Threat Intelligence Platforms, Threat Intelligence Feeds, Threat Hunting, Threat Intelligence Platform
+   Desc: Recorded Future is the largest intelligence company, delivering AI-powered insights across adversaries, infrastructure, and targets to help security teams get ahead of threats.
+
+13. **Red Canary, a Zscaler Company** | Booth: S-3317 | Exhibitor
+   Cats: Threat Intelligence Platforms, User and Entity Behavior Analytics (UEBA), Threat Intelligence Feeds, Incident Response Platforms, SIEM / SOAR
+   Desc: Red Canary is a leader in managed detection and response (MDR). As the cornerstone security operations partner for nearly 1,000 organizations of every size and industry, we focus on finding and stopping threats before they can have a negative impact.
+
+14. **Red Hat** | Booth: N-4209 | Exhibitor
+   Cats: Application Security, Container Security, Supply Chain Security
+   Desc: Red Hat is the world’s leading provider of enterprise open source software solutions, using a community-powered approach to deliver reliable and high-performing Linux, hybrid cloud, container, and Kubernetes technologies.
+
+15. **Redblock Security** | Booth: NXT-03 | Next Stage
+   Cats: Identity and Access Management (IAM), Identity Governance and Administration (IGA), Authentication
+   Desc: Stop managing identity through tickets and spreadsheets. Redblock is an identity execution layer that turns manual work into always-on software. We enforce access changes across disconnected apps, verify successful execution, and bridge the gap between policy and reality.
+
+16. **Redborder** | Booth: S-0642 | International Pavilion - Spain
+   Cats: User and Entity Behavior Analytics (UEBA), Threat Intelligence Services & Feed, Anomaly Detection, Threat Hunting Tools, Indicators of Compromise (IOC) Management
+   Desc: Redborder brings Knowledge (IPAM), Automation (Agentic AI) and Security (NDR & NPM). Turning network intel into instant threat detection, empowering teams worldwide. KAS is the future of Cybersecurity. See us at RSAC 2026!
+
+17. **RedCarbon S.r.l.** | Booth: S-1951 | International Pavilion - Italian Trade Agency
+   Cats: Threat Intelligence Platforms, Threat Intelligence Feeds, Security Information and Event Management (SIEM), Security Orchestration, Automation, and Response (SOAR), Incident Response Platforms
+   Desc: Founded in 2020, RedCarbon is an AI-native platform that automates Security Operations. Its autonomous agents and advanced analytics streamline incident response and compliance for enterprises, MSSPs, and SMBs via 6 AI Analysts
+
+18. **Redflags** | Booth: N-5148 | Exhibitor
+   Cats: Human Risk and Awareness
+   Desc: Redflags pairs, on-device behavioural telemetry with intelligent, preemptive nudges at the point of decision. Turning moments of risk into learning moments and building secure habits without disrupting work.
+
+19. **RedSeal** | Booth: N-6280 | Exhibitor
+   Cats: Attack Surface Management, Network Security
+   Desc: RedSeal uncovers hidden risks, prioritizes exposures, and validates compliance in hybrid environments, helping organizations strengthen resilience and reduce risk. Learn more at www.redseal.net.
+
+20. **ReliaQuest** | Booth: N-6170 | Silver
+   Cats: Data Security, Data Loss Prevention (DLP), Threat Intelligence Platforms, Threat Intelligence Feeds, Security Information and Event Management (SIEM)
+   Desc: ReliaQuest’s Agentic AI SecOps platform, GreyMatter, allows security teams to detect at the source, contain in under 5 minutes, and eliminate Tier 1 & Tier 2 work for faster investigation and response.
+
+21. **Relyance AI** | Booth: S-3137 | Exhibitor
+   Cats: Data Security, Data Classification, Data Privacy, Security for AI
+   Desc: Relyance AI is a unified governance platform that delivers continuous end-to-end visibility across the entire data lifecycle, helping organizations protect, classify, manage, and stay compliant while honoring customer commitments.
+
+22. **Resemble AI** | Booth: ESE-29 | Early Stage Expo
+   Desc: Resemble AI detects deepfakes, embeds imperceptible watermarks, and generates authenticated voice AI, protecting global customers from multimodal, multichannel generative AI threats across 40+ languages in real time. Deployable on-prem or via API.
+
+23. **ReversingLabs** | Booth: N-4328 | Bronze
+   Cats: Application Security, Threat Intelligence Feeds, Threat Hunting, Container Security, Secrets Management
+   Desc: ReversingLabs is the trusted name in file and software security, to verify and deliver safe binaries. With the largest Threat Repository in the industry with over 422 billion searchable files, the Fortune 500 trusts their software supply chain security and malware analysis with ReversingLabs.
+
+24. **Ridge Security Technology Inc.** | Booth: S-3231 | Exhibitor
+   Cats: Attack Surface Management, Security Testing and Red Teaming
+   Desc: Ridge Security is a leader in Adversarial Exposure Validation and is dedicated to developing innovative cybersecurity solutions designed to protect organizations from advanced cyber threats.
+
+25. **Riptides** | Booth: ESE-25 | Early Stage Expo
+   Desc: Riptides secures workload connections by making identity the basis of trust. It closes one of today's biggest security gaps by eliminating static machine credentials. The result is simple, identity-based zero trust for every workload connection.
+
+26. **RSA Security** | Booth: N-6253 | Silver
+   Cats: Identity and Access Management (IAM), Identity Governance and Administration (IGA), Single Sign-On (SSO), Multi-Factor Authentication (MFA), Authentication
+   Desc: Built for complexity. Proven at scale. Designed for organizations that put security first: RSA provides passwordless for everyone, delivers high-assurance capabilities, and provides AI-powered IGA solutions that ensure compliance and reduce risk.
+
+27. **RSAC Security Operations Center Sponsored by Cisco and Splunk, a Cisco company** | Booth:  | Sponsored Experience
+   Cats: Security Information and Event Management (SIEM), Security Orchestration, Automation, and Response (SOAR), Incident Response Platforms, Security Analytics, Security Incident Response
+   Desc: Take a tour of a working SOC. Head to the Moscone South Lower Level for the RSAC™ Conference Security Operations Center sponsored by Cisco and Splunk, a Cisco company. See what’s really taking place on the Moscone Wireless Network in real time.
+See the tour schedule and sign up for one  here.
+
+28. **Rubrik** | Booth: MRS-100, S-0926 | Platinum
+   Cats: Cloud Security, Data Security, Identity and Access Management (IAM), Data Classification, Identity Governance and Administration (IGA)
+   Desc: Rubrik (RBRK), the Security and AI company, delivers cyber resilience for identity and data in order to ensure continuous business operations. Rubrik’s offerings also include Predibase to help further secure and deploy GenAI while delivering accuracy and efficiency for agentic applications. Visit us at www.rubrik.com.
+
+29. **RunReveal** | Booth: S-2337 | Exhibitor
+   Cats: Security Information and Event Management (SIEM), Security Orchestration, Automation, and Response (SOAR), Incident Response Platforms, Security Analytics, Security Incident Response
+   Desc: First Time ExhibitorRunReveal replaces SIEM tool sprawl with a unified AI-powered security platform. RunReveal offers one solution for ingestion, detection, investigation & response. AI agents cut log analysis from hours to seconds while scaling at predictable costs.
+
+30. **Sacumen** | Booth: N-4414 | Exhibitor
+   Cats: Security for AI
+   Desc: With a marketplace of 1050+ prebuilt connectors, AI-driven development, automated testing, and a 940+ partner ecosystem, Sacumen enables cybersecurity vendors to rapidly deliver high-performance, reliable connectors with greater speed and scale.
+

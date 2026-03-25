@@ -1,8 +1,8 @@
 const TIER_COLORS = {
-  cooked: "#ff4444",
-  gpt_wrapper: "#ff8c00",
-  moat_for_now: "#ffd700",
-  actually_hard: "#00cc88",
+  cooked: "#d32f2f",
+  gpt_wrapper: "#e67e22",
+  moat_for_now: "#c49b1a",
+  actually_hard: "#1a7a5a",
 };
 const TIER_LABELS = {
   cooked: "Cooked",
@@ -41,21 +41,9 @@ function renderHero() {
   const statsEl = document.getElementById("hero-stats");
   const stats = [
     { n: m.tier_counts.cooked || 0, l: "Cooked", c: TIER_COLORS.cooked },
-    {
-      n: m.tier_counts.gpt_wrapper || 0,
-      l: "GPT Wrappers",
-      c: TIER_COLORS.gpt_wrapper,
-    },
-    {
-      n: m.tier_counts.moat_for_now || 0,
-      l: "Moat (for now)",
-      c: TIER_COLORS.moat_for_now,
-    },
-    {
-      n: m.tier_counts.actually_hard || 0,
-      l: "Actually Hard",
-      c: TIER_COLORS.actually_hard,
-    },
+    { n: m.tier_counts.gpt_wrapper || 0, l: "GPT Wrappers", c: TIER_COLORS.gpt_wrapper },
+    { n: m.tier_counts.moat_for_now || 0, l: "Moat (for now)", c: TIER_COLORS.moat_for_now },
+    { n: m.tier_counts.actually_hard || 0, l: "Actually Hard", c: TIER_COLORS.actually_hard },
   ];
   statsEl.innerHTML = stats
     .map(
@@ -63,17 +51,14 @@ function renderHero() {
     <div class="hero-stat">
       <div class="number" style="color:${s.c}">${s.n}</div>
       <div class="label">${s.l}</div>
-    </div>
-  `,
+    </div>`,
     )
     .join("");
 }
 
 function renderDonut() {
   const container = document.getElementById("donut-chart");
-  const w = 320,
-    h = 320,
-    radius = Math.min(w, h) / 2 - 10;
+  const w = 300, h = 300, radius = Math.min(w, h) / 2 - 10;
 
   const svg = d3
     .select(container)
@@ -83,55 +68,47 @@ function renderDonut() {
     .append("g")
     .attr("transform", `translate(${w / 2},${h / 2})`);
 
-  const pie = d3
-    .pie()
-    .value((d) => d.count)
-    .sort(null);
-  const arc = d3
-    .arc()
-    .innerRadius(radius * 0.55)
-    .outerRadius(radius);
-  const arcHover = d3
-    .arc()
-    .innerRadius(radius * 0.55)
-    .outerRadius(radius + 8);
+  const pie = d3.pie().value((d) => d.count).sort(null);
+  const arc = d3.arc().innerRadius(radius * 0.58).outerRadius(radius);
+  const arcHover = d3.arc().innerRadius(radius * 0.58).outerRadius(radius + 6);
 
   const tc = DATA.meta.tier_counts;
   const pieData = TIER_ORDER.map((t) => ({ tier: t, count: tc[t] || 0 }));
 
-  const arcs = svg
+  svg
     .selectAll("path")
     .data(pie(pieData))
     .enter()
     .append("path")
     .attr("d", arc)
     .attr("fill", (d) => TIER_COLORS[d.data.tier])
-    .attr("stroke", "#0a0a0a")
-    .attr("stroke-width", 2)
+    .attr("stroke", "#faf9f6")
+    .attr("stroke-width", 2.5)
     .style("cursor", "pointer")
-    .on("mouseenter", function (e, d) {
-      d3.select(this).transition().duration(150).attr("d", arcHover);
+    .on("mouseenter", function () {
+      d3.select(this).transition().duration(120).attr("d", arcHover);
     })
-    .on("mouseleave", function (e, d) {
-      d3.select(this).transition().duration(150).attr("d", arc);
+    .on("mouseleave", function () {
+      d3.select(this).transition().duration(120).attr("d", arc);
     });
 
-  const centerText = svg
+  svg
     .append("text")
     .attr("text-anchor", "middle")
-    .attr("fill", "#e8e8e8")
-    .attr("font-family", "IBM Plex Mono")
+    .attr("fill", "#1a1a1a")
+    .attr("font-family", "Libre Baskerville")
     .attr("font-weight", "700")
-    .attr("font-size", "2.2rem")
+    .attr("font-size", "2rem")
     .attr("dy", "0.1em")
     .text(`${DATA.meta.cooked_pct}%`);
 
   svg
     .append("text")
     .attr("text-anchor", "middle")
-    .attr("fill", "#888")
-    .attr("font-size", "0.8rem")
-    .attr("dy", "2em")
+    .attr("fill", "#999")
+    .attr("font-size", "0.75rem")
+    .attr("font-family", "Source Sans 3")
+    .attr("dy", "2.2em")
     .text("replaceable");
 
   const legend = document.getElementById("donut-legend");
@@ -139,7 +116,7 @@ function renderDonut() {
     .map((d) => {
       const pct = ((d.count / DATA.meta.total) * 100).toFixed(1);
       return `
-      <div class="legend-item" data-tier="${d.tier}">
+      <div class="legend-item">
         <div class="legend-swatch" style="background:${TIER_COLORS[d.tier]}"></div>
         <div>
           <div class="legend-label">${TIER_LABELS[d.tier]}</div>
@@ -169,159 +146,99 @@ function renderFloorMap() {
 
   const allBooths = [];
   exhibitors.forEach((ex) => {
-    parseBooths(ex.booth).forEach((b) => {
-      allBooths.push({ ...b, ex });
-    });
+    parseBooths(ex.booth).forEach((b) => allBooths.push({ ...b, ex }));
   });
 
   function boothToGrid(booth) {
-    const h = booth.hall;
-    const n = booth.num;
+    const h = booth.hall, n = booth.num;
     if (h === "S" || h === "N" || h === "MRS" || h === "MRN") {
       return { col: Math.floor(n / 100), row: n % 100 };
     }
     return { col: 0, row: n };
   }
 
+  const hallConfigs = {
+    S: { label: "Moscone South Expo", bg: "#edecea" },
+    N: { label: "Moscone North Expo", bg: "#eaedea" },
+    MRS: { label: "South Meeting Rooms", bg: "#edeaed" },
+    MRN: { label: "North Meeting Rooms", bg: "#edecdf" },
+    ESE: { label: "Early Stage Expo", bg: "#e7eded" },
+    NXT: { label: "Next Stage", bg: "#edebea" },
+  };
+
   function renderHall(filter) {
     container.innerHTML = "";
-    const halls =
-      filter === "all" ? ["S", "N", "ESE", "NXT"] : [filter];
+    const halls = filter === "all" ? ["S", "N", "ESE", "NXT"] : [filter];
     const tooltip = document.getElementById("tooltip");
-
-    const hallConfigs = {
-      S: { label: "Moscone South Expo", color: "#1a1a2e" },
-      N: { label: "Moscone North Expo", color: "#1a2e1a" },
-      MRS: { label: "Moscone South (Meeting Rooms)", color: "#2e1a2e" },
-      MRN: { label: "Moscone North (Meeting Rooms)", color: "#2e2e1a" },
-      ESE: { label: "Early Stage Expo", color: "#1a2e2e" },
-      NXT: { label: "Next Stage", color: "#2e1a1a" },
-    };
-
-    const cellW = 18,
-      cellH = 14,
-      pad = 40;
-
+    const cellW = 18, cellH = 14, pad = 40;
     const hallSections = [];
     let totalWidth = 0;
 
     halls.forEach((hallKey) => {
       const booths = allBooths.filter((b) => b.hall === hallKey);
       if (booths.length === 0) return;
-
       const grids = booths.map((b) => ({ ...boothToGrid(b), booth: b }));
-
-      const uniqueCols = [...new Set(grids.map((g) => g.col))].sort(
-        (a, b) => a - b,
-      );
-      const uniqueRows = [...new Set(grids.map((g) => g.row))].sort(
-        (a, b) => a - b,
-      );
-
-      const colIdx = {};
+      const uniqueCols = [...new Set(grids.map((g) => g.col))].sort((a, b) => a - b);
+      const uniqueRows = [...new Set(grids.map((g) => g.row))].sort((a, b) => a - b);
+      const colIdx = {}, rowIdx = {};
       uniqueCols.forEach((c, i) => (colIdx[c] = i));
-      const rowIdx = {};
       uniqueRows.forEach((r, i) => (rowIdx[r] = i));
-
-      const numCols = uniqueCols.length;
-      const numRows = uniqueRows.length;
-      const sectionW = numCols * (cellW + 2) + pad * 2;
-      const sectionH = numRows * (cellH + 2) + pad * 2 + 30;
-
-      hallSections.push({
-        key: hallKey,
-        label: hallConfigs[hallKey]?.label || hallKey,
-        bg: hallConfigs[hallKey]?.color || "#1a1a1a",
-        grids,
-        colIdx,
-        rowIdx,
-        uniqueCols,
-        uniqueRows,
-        w: sectionW,
-        h: sectionH,
-      });
-      totalWidth += sectionW + 20;
+      const sectionW = uniqueCols.length * (cellW + 2) + pad * 2;
+      const sectionH = uniqueRows.length * (cellH + 2) + pad * 2 + 30;
+      hallSections.push({ key: hallKey, label: hallConfigs[hallKey]?.label || hallKey, bg: hallConfigs[hallKey]?.bg || "#eee", grids, colIdx, rowIdx, w: sectionW, h: sectionH });
+      totalWidth += sectionW + 16;
     });
 
     if (hallSections.length === 0) return;
-
     const maxH = Math.max(...hallSections.map((s) => s.h));
-    const svgW = totalWidth + 20;
-    const svgH = maxH + 20;
+    const svgW = totalWidth + 16;
+    const svgH = maxH + 16;
 
-    const svg = d3
-      .select(container)
-      .append("svg")
+    const svg = d3.select(container).append("svg")
       .attr("viewBox", `0 0 ${svgW} ${svgH}`)
       .attr("width", "100%")
       .attr("preserveAspectRatio", "xMidYMid meet");
 
-    let xOff = 10;
+    let xOff = 8;
     hallSections.forEach((section) => {
-      const g = svg.append("g").attr("transform", `translate(${xOff}, 10)`);
+      const g = svg.append("g").attr("transform", `translate(${xOff}, 8)`);
 
-      g.append("rect")
-        .attr("width", section.w)
-        .attr("height", section.h)
-        .attr("rx", 8)
-        .attr("fill", section.bg)
-        .attr("stroke", "#333")
-        .attr("stroke-width", 1);
+      g.append("rect").attr("width", section.w).attr("height", section.h)
+        .attr("fill", section.bg).attr("stroke", "#d0cfcb").attr("stroke-width", 0.5);
 
-      g.append("text")
-        .attr("x", section.w / 2)
-        .attr("y", 20)
-        .attr("text-anchor", "middle")
-        .attr("fill", "#666")
-        .attr("font-size", "11px")
-        .attr("font-family", "IBM Plex Mono")
-        .attr("font-weight", "600")
-        .text(section.label);
+      g.append("text").attr("x", section.w / 2).attr("y", 18)
+        .attr("text-anchor", "middle").attr("fill", "#888")
+        .attr("font-size", "10px").attr("font-family", "Source Sans 3")
+        .attr("font-weight", "600").attr("letter-spacing", "0.05em")
+        .text(section.label.toUpperCase());
 
       section.grids.forEach((grid) => {
         const cx = section.colIdx[grid.col] * (cellW + 2) + pad;
         const cy = section.rowIdx[grid.row] * (cellH + 2) + pad + 20;
         const b = grid.booth;
 
-        g.append("rect")
-          .attr("x", cx)
-          .attr("y", cy)
-          .attr("width", cellW)
-          .attr("height", cellH)
-          .attr("rx", 2)
-          .attr("fill", TIER_COLORS[b.ex.tier] || "#333")
-          .attr("opacity", 0.85)
-          .style("cursor", "pointer")
+        g.append("rect").attr("x", cx).attr("y", cy)
+          .attr("width", cellW).attr("height", cellH).attr("rx", 1)
+          .attr("fill", TIER_COLORS[b.ex.tier] || "#ccc")
+          .attr("opacity", 0.9).style("cursor", "pointer")
           .on("mouseenter", function (event) {
-            d3.select(this)
-              .attr("opacity", 1)
-              .attr("stroke", "#fff")
-              .attr("stroke-width", 1.5);
+            d3.select(this).attr("opacity", 1).attr("stroke", "#1a1a1a").attr("stroke-width", 1.5);
             tooltip.innerHTML = `
-              <div class="tt-name" style="color:${TIER_COLORS[b.ex.tier]}">${b.ex.name}</div>
-              <div style="font-size:0.75rem;color:#666;margin-bottom:6px">${b.raw} · ${TIER_LABELS[b.ex.tier]}</div>
+              <div class="tt-name">${b.ex.name}</div>
+              <div style="font-size:0.72rem;color:#999;margin-bottom:4px">${b.raw} · ${TIER_LABELS[b.ex.tier]}</div>
               <div class="tt-roast">${b.ex.roast || ""}</div>`;
             tooltip.classList.add("visible");
           })
           .on("mousemove", function (event) {
-            const x = Math.min(
-              event.clientX + 12,
-              window.innerWidth - 370,
-            );
-            const y = Math.min(
-              event.clientY + 12,
-              window.innerHeight - 200,
-            );
-            tooltip.style.left = x + "px";
-            tooltip.style.top = y + "px";
+            tooltip.style.left = Math.min(event.clientX + 12, window.innerWidth - 360) + "px";
+            tooltip.style.top = Math.min(event.clientY + 12, window.innerHeight - 200) + "px";
           })
           .on("mouseleave", function () {
-            d3.select(this).attr("opacity", 0.85).attr("stroke", "none");
+            d3.select(this).attr("opacity", 0.9).attr("stroke", "none");
             tooltip.classList.remove("visible");
           });
       });
-
-      xOff += section.w + 20;
+      xOff += section.w + 16;
     });
   }
 
@@ -329,9 +246,7 @@ function renderFloorMap() {
 
   document.querySelectorAll(".floor-btn").forEach((btn) => {
     btn.addEventListener("click", function () {
-      document
-        .querySelectorAll(".floor-btn")
-        .forEach((b) => b.classList.remove("active"));
+      document.querySelectorAll(".floor-btn").forEach((b) => b.classList.remove("active"));
       this.classList.add("active");
       renderHall(this.dataset.hall);
     });
@@ -344,143 +259,72 @@ function renderMoneyChart() {
 
   const consolidated = {};
   for (const [sponsor, tiers] of Object.entries(raw)) {
-    const key = sponsor.startsWith("International Pavilion")
-      ? "Int'l Pavilions"
-      : sponsor === "Sponsored Experience"
-        ? "Sponsored Exp."
-        : sponsor;
+    const key = sponsor.startsWith("International Pavilion") ? "Int'l Pavilions"
+      : sponsor === "Sponsored Experience" ? "Sponsored Exp." : sponsor;
     if (!consolidated[key]) consolidated[key] = {};
-    for (const [t, n] of Object.entries(tiers)) {
+    for (const [t, n] of Object.entries(tiers))
       consolidated[key][t] = (consolidated[key][t] || 0) + n;
-    }
   }
-  const sponsorData = consolidated;
 
-  const sponsorOrder = [
-    "Diamond Plus",
-    "Diamond",
-    "Platinum Plus",
-    "Platinum",
-    "Gold",
-    "Silver",
-    "Bronze",
-    "Exhibitor",
-    "Early Stage Expo",
-    "Next Stage",
-    "Int'l Pavilions",
-    "Sponsored Exp.",
-  ];
-
-  const existing = Object.keys(sponsorData);
+  const sponsorOrder = ["Diamond Plus", "Diamond", "Platinum Plus", "Platinum", "Gold", "Silver", "Bronze", "Exhibitor", "Early Stage Expo", "Next Stage", "Int'l Pavilions", "Sponsored Exp."];
+  const existing = Object.keys(consolidated);
   const orderedSponsors = sponsorOrder.filter((s) => existing.includes(s));
-  orderedSponsors.push(
-    ...existing.filter((s) => !sponsorOrder.includes(s)).sort(),
-  );
+  orderedSponsors.push(...existing.filter((s) => !sponsorOrder.includes(s)).sort());
 
-  const margin = { top: 30, right: 30, bottom: 100, left: 50 };
-  const w = 1000;
-  const h = 450;
+  const margin = { top: 24, right: 20, bottom: 90, left: 44 };
+  const w = 960, h = 420;
 
-  const svg = d3
-    .select(container)
-    .append("svg")
-    .attr("viewBox", `0 0 ${w} ${h}`)
-    .attr("width", "100%")
+  const svg = d3.select(container).append("svg")
+    .attr("viewBox", `0 0 ${w} ${h}`).attr("width", "100%")
     .attr("preserveAspectRatio", "xMidYMid meet");
 
-  const chart = svg
-    .append("g")
-    .attr("transform", `translate(${margin.left},${margin.top})`);
-  const cw = w - margin.left - margin.right;
-  const ch = h - margin.top - margin.bottom;
+  const chart = svg.append("g").attr("transform", `translate(${margin.left},${margin.top})`);
+  const cw = w - margin.left - margin.right, ch = h - margin.top - margin.bottom;
 
   const stackData = orderedSponsors.map((sp) => {
-    const tiers = sponsorData[sp] || {};
-    return {
-      sponsor: sp,
-      cooked: tiers.cooked || 0,
-      gpt_wrapper: tiers.gpt_wrapper || 0,
-      moat_for_now: tiers.moat_for_now || 0,
-      actually_hard: tiers.actually_hard || 0,
-    };
+    const t = consolidated[sp] || {};
+    return { sponsor: sp, cooked: t.cooked || 0, gpt_wrapper: t.gpt_wrapper || 0, moat_for_now: t.moat_for_now || 0, actually_hard: t.actually_hard || 0 };
   });
 
-  const stack = d3.stack().keys(TIER_ORDER);
-  const series = stack(stackData);
-
-  const x = d3
-    .scaleBand()
-    .domain(orderedSponsors)
-    .range([0, cw])
-    .padding(0.25);
-
-  const maxY = d3.max(stackData, (d) =>
-    TIER_ORDER.reduce((s, t) => s + d[t], 0),
-  );
+  const series = d3.stack().keys(TIER_ORDER)(stackData);
+  const x = d3.scaleBand().domain(orderedSponsors).range([0, cw]).padding(0.3);
+  const maxY = d3.max(stackData, (d) => TIER_ORDER.reduce((s, t) => s + d[t], 0));
   const y = d3.scaleLinear().domain([0, maxY]).nice().range([ch, 0]);
 
-  chart
-    .append("g")
-    .attr("transform", `translate(0,${ch})`)
-    .call(d3.axisBottom(x))
-    .selectAll("text")
-    .attr("transform", "rotate(-35)")
-    .attr("text-anchor", "end")
-    .attr("fill", "#888")
-    .attr("font-size", "0.75rem");
+  chart.selectAll(".grid-line").data(y.ticks(5)).enter()
+    .append("line").attr("x1", 0).attr("x2", cw)
+    .attr("y1", (d) => y(d)).attr("y2", (d) => y(d))
+    .attr("stroke", "#e0dfdb").attr("stroke-dasharray", "2,3");
 
-  chart
-    .append("g")
-    .call(d3.axisLeft(y).ticks(6))
-    .selectAll("text")
-    .attr("fill", "#888");
+  chart.append("g").attr("transform", `translate(0,${ch})`).call(d3.axisBottom(x).tickSize(0))
+    .selectAll("text").attr("transform", "rotate(-40)").attr("text-anchor", "end")
+    .attr("fill", "#6b6b6b").attr("font-size", "0.72rem");
 
-  chart.selectAll("line").attr("stroke", "#333");
-  chart.selectAll("path.domain").attr("stroke", "#333");
+  chart.append("g").call(d3.axisLeft(y).ticks(5).tickSize(0))
+    .selectAll("text").attr("fill", "#6b6b6b").attr("font-size", "0.72rem");
+
+  chart.selectAll("path.domain").attr("stroke", "#ccc");
 
   const tooltip = document.getElementById("tooltip");
-
   series.forEach((s) => {
-    chart
-      .selectAll(`.bar-${s.key}`)
-      .data(s)
-      .enter()
-      .append("rect")
-      .attr("x", (d) => x(d.data.sponsor))
-      .attr("y", (d) => y(d[1]))
-      .attr("height", (d) => y(d[0]) - y(d[1]))
-      .attr("width", x.bandwidth())
-      .attr("fill", TIER_COLORS[s.key])
-      .attr("opacity", 0.85)
+    chart.selectAll(`.bar-${s.key}`).data(s).enter().append("rect")
+      .attr("x", (d) => x(d.data.sponsor)).attr("y", (d) => y(d[1]))
+      .attr("height", (d) => y(d[0]) - y(d[1])).attr("width", x.bandwidth())
+      .attr("fill", TIER_COLORS[s.key]).attr("opacity", 0.9)
       .on("mouseenter", function (event, d) {
         d3.select(this).attr("opacity", 1);
-        const count = d[1] - d[0];
-        tooltip.innerHTML = `
-          <div class="tt-name">${d.data.sponsor}</div>
-          <div class="tt-roast">${TIER_LABELS[s.key]}: ${count} companies</div>`;
+        tooltip.innerHTML = `<div class="tt-name">${d.data.sponsor}</div><div class="tt-roast">${TIER_LABELS[s.key]}: ${d[1] - d[0]} companies</div>`;
         tooltip.classList.add("visible");
       })
-      .on("mousemove", function (event) {
-        tooltip.style.left = event.clientX + 12 + "px";
-        tooltip.style.top = event.clientY + 12 + "px";
-      })
-      .on("mouseleave", function () {
-        d3.select(this).attr("opacity", 0.85);
-        tooltip.classList.remove("visible");
-      });
+      .on("mousemove", function (event) { tooltip.style.left = event.clientX + 12 + "px"; tooltip.style.top = event.clientY + 12 + "px"; })
+      .on("mouseleave", function () { d3.select(this).attr("opacity", 0.9); tooltip.classList.remove("visible"); });
   });
 
-  chart
-    .selectAll(".bar-total")
-    .data(stackData)
-    .enter()
-    .append("text")
+  chart.selectAll(".bar-total").data(stackData).enter().append("text")
     .attr("x", (d) => x(d.sponsor) + x.bandwidth() / 2)
-    .attr("y", (d) => y(TIER_ORDER.reduce((s, t) => s + d[t], 0)) - 6)
-    .attr("text-anchor", "middle")
-    .attr("fill", "#888")
-    .attr("font-size", "0.7rem")
-    .attr("font-family", "IBM Plex Mono")
+    .attr("y", (d) => y(TIER_ORDER.reduce((s, t) => s + d[t], 0)) - 5)
+    .attr("text-anchor", "middle").attr("fill", "#999")
+    .attr("font-size", "0.68rem").attr("font-family", "IBM Plex Mono")
     .text((d) => TIER_ORDER.reduce((s, t) => s + d[t], 0));
 }
 
@@ -489,155 +333,91 @@ function renderCategoryChart() {
   const catData = DATA.category_tiers;
 
   const categories = Object.keys(catData).sort((a, b) => {
-    const totalA = Object.values(catData[a]).reduce((s, v) => s + v, 0);
-    const totalB = Object.values(catData[b]).reduce((s, v) => s + v, 0);
-    return totalB - totalA;
+    return Object.values(catData[b]).reduce((s, v) => s + v, 0) - Object.values(catData[a]).reduce((s, v) => s + v, 0);
   }).slice(0, 20);
 
-  const margin = { top: 30, right: 60, bottom: 20, left: 280 };
-  const barH = 26;
-  const gap = 4;
+  const margin = { top: 20, right: 56, bottom: 16, left: 270 };
+  const barH = 24, gap = 5;
   const h = margin.top + margin.bottom + categories.length * (barH + gap);
-  const w = 1000;
+  const w = 960;
 
-  const svg = d3
-    .select(container)
-    .append("svg")
-    .attr("viewBox", `0 0 ${w} ${h}`)
-    .attr("width", "100%")
+  const svg = d3.select(container).append("svg")
+    .attr("viewBox", `0 0 ${w} ${h}`).attr("width", "100%")
     .attr("preserveAspectRatio", "xMidYMid meet");
 
-  const chart = svg
-    .append("g")
-    .attr("transform", `translate(${margin.left},${margin.top})`);
+  const chart = svg.append("g").attr("transform", `translate(${margin.left},${margin.top})`);
   const cw = w - margin.left - margin.right;
 
   const stackData = categories.map((cat) => {
-    const tiers = catData[cat] || {};
-    return {
-      category: cat,
-      cooked: tiers.cooked || 0,
-      gpt_wrapper: tiers.gpt_wrapper || 0,
-      moat_for_now: tiers.moat_for_now || 0,
-      actually_hard: tiers.actually_hard || 0,
-    };
+    const t = catData[cat] || {};
+    return { category: cat, cooked: t.cooked || 0, gpt_wrapper: t.gpt_wrapper || 0, moat_for_now: t.moat_for_now || 0, actually_hard: t.actually_hard || 0 };
   });
 
-  const maxX = d3.max(stackData, (d) =>
-    TIER_ORDER.reduce((s, t) => s + d[t], 0),
-  );
+  const maxX = d3.max(stackData, (d) => TIER_ORDER.reduce((s, t) => s + d[t], 0));
   const x = d3.scaleLinear().domain([0, maxX]).nice().range([0, cw]);
-  const y = d3
-    .scaleBand()
-    .domain(categories)
-    .range([0, categories.length * (barH + gap)])
-    .padding(0.12);
+  const y = d3.scaleBand().domain(categories).range([0, categories.length * (barH + gap)]).padding(0.15);
 
-  const stack = d3.stack().keys(TIER_ORDER);
-  const series = stack(stackData);
+  const series = d3.stack().keys(TIER_ORDER)(stackData);
 
-  chart
-    .append("g")
-    .call(d3.axisLeft(y))
-    .selectAll("text")
-    .attr("fill", "#aaa")
-    .attr("font-size", "0.75rem");
-
-  chart.selectAll("line").attr("stroke", "#333");
-  chart.selectAll("path.domain").attr("stroke", "#333");
+  chart.append("g").call(d3.axisLeft(y).tickSize(0))
+    .selectAll("text").attr("fill", "#6b6b6b").attr("font-size", "0.72rem");
+  chart.selectAll("path.domain").attr("stroke", "#ccc");
 
   const tooltip = document.getElementById("tooltip");
-
   series.forEach((s) => {
-    chart
-      .selectAll(`.cat-${s.key}`)
-      .data(s)
-      .enter()
-      .append("rect")
-      .attr("y", (d) => y(d.data.category))
-      .attr("x", (d) => x(d[0]))
-      .attr("width", (d) => x(d[1]) - x(d[0]))
-      .attr("height", y.bandwidth())
-      .attr("fill", TIER_COLORS[s.key])
-      .attr("opacity", 0.85)
-      .attr("rx", 2)
+    chart.selectAll(`.cat-${s.key}`).data(s).enter().append("rect")
+      .attr("y", (d) => y(d.data.category)).attr("x", (d) => x(d[0]))
+      .attr("width", (d) => x(d[1]) - x(d[0])).attr("height", y.bandwidth())
+      .attr("fill", TIER_COLORS[s.key]).attr("opacity", 0.9).attr("rx", 1)
       .on("mouseenter", function (event, d) {
         d3.select(this).attr("opacity", 1);
-        const count = d[1] - d[0];
         const total = TIER_ORDER.reduce((s, t) => s + d.data[t], 0);
-        tooltip.innerHTML = `
-          <div class="tt-name">${d.data.category}</div>
-          <div class="tt-roast">${TIER_LABELS[s.key]}: ${count} of ${total}</div>`;
+        tooltip.innerHTML = `<div class="tt-name">${d.data.category}</div><div class="tt-roast">${TIER_LABELS[s.key]}: ${d[1] - d[0]} of ${total}</div>`;
         tooltip.classList.add("visible");
       })
-      .on("mousemove", function (event) {
-        tooltip.style.left = event.clientX + 12 + "px";
-        tooltip.style.top = event.clientY + 12 + "px";
-      })
-      .on("mouseleave", function () {
-        d3.select(this).attr("opacity", 0.85);
-        tooltip.classList.remove("visible");
-      });
+      .on("mousemove", function (event) { tooltip.style.left = event.clientX + 12 + "px"; tooltip.style.top = event.clientY + 12 + "px"; })
+      .on("mouseleave", function () { d3.select(this).attr("opacity", 0.9); tooltip.classList.remove("visible"); });
   });
 
-  chart
-    .selectAll(".cat-pct")
-    .data(stackData)
-    .enter()
-    .append("text")
+  chart.selectAll(".cat-pct").data(stackData).enter().append("text")
     .attr("y", (d) => y(d.category) + y.bandwidth() / 2 + 4)
-    .attr("x", (d) => {
-      const total = TIER_ORDER.reduce((s, t) => s + d[t], 0);
-      return x(total) + 8;
-    })
+    .attr("x", (d) => x(TIER_ORDER.reduce((s, t) => s + d[t], 0)) + 6)
     .attr("fill", (d) => {
-      const cookedPct =
-        (((d.cooked + d.gpt_wrapper) /
-          TIER_ORDER.reduce((s, t) => s + d[t], 0)) *
-          100) |
-        0;
-      return cookedPct > 60 ? "#ff4444" : "#888";
+      const pct = ((d.cooked + d.gpt_wrapper) / TIER_ORDER.reduce((s, t) => s + d[t], 0)) * 100;
+      return pct > 60 ? "#d32f2f" : "#999";
     })
-    .attr("font-size", "0.7rem")
-    .attr("font-family", "IBM Plex Mono")
+    .attr("font-size", "0.68rem").attr("font-family", "IBM Plex Mono")
     .text((d) => {
       const total = TIER_ORDER.reduce((s, t) => s + d[t], 0);
-      const cookedPct = (((d.cooked + d.gpt_wrapper) / total) * 100) | 0;
-      return `${cookedPct}%`;
+      return `${(((d.cooked + d.gpt_wrapper) / total) * 100) | 0}%`;
     });
 }
 
 function renderGallery() {
   const grid = document.getElementById("gallery-grid");
   const countEl = document.getElementById("gallery-count");
-
   let exhibitors = DATA.exhibitors;
 
-  if (currentTierFilter !== "all") {
+  if (currentTierFilter !== "all")
     exhibitors = exhibitors.filter((e) => e.tier === currentTierFilter);
-  }
   if (currentSearch) {
     const q = currentSearch.toLowerCase();
-    exhibitors = exhibitors.filter(
-      (e) =>
-        e.name.toLowerCase().includes(q) ||
-        (e.roast || "").toLowerCase().includes(q) ||
-        (e.categories || []).some((c) => c.toLowerCase().includes(q)),
+    exhibitors = exhibitors.filter((e) =>
+      e.name.toLowerCase().includes(q) ||
+      (e.roast || "").toLowerCase().includes(q) ||
+      (e.categories || []).some((c) => c.toLowerCase().includes(q)),
     );
   }
 
-  countEl.textContent = `Showing ${exhibitors.length} of ${DATA.meta.total} companies`;
+  countEl.textContent = `${exhibitors.length} of ${DATA.meta.total}`;
 
-  const html = exhibitors
+  grid.innerHTML = exhibitors
     .map((ex) => {
       const badge = TIER_LABELS[ex.tier] || ex.tier;
       const cats = (ex.categories || []).slice(0, 3).join(" · ");
       const cursorBtn = ex.cursor_prompt
-        ? `<button class="cursor-btn" data-prompt="${encodeURIComponent(ex.cursor_prompt)}">
-          ⌨️ Build in Cursor
-        </button>`
+        ? `<button class="cursor-btn" data-name="${esc(ex.name)}" data-prompt="${encodeURIComponent(ex.cursor_prompt)}">Build in Cursor</button>`
         : "";
-
       return `
       <div class="card">
         <div class="card-header">
@@ -652,14 +432,24 @@ function renderGallery() {
     })
     .join("");
 
-  grid.innerHTML = html;
-
   grid.querySelectorAll(".cursor-btn").forEach((btn) => {
     btn.addEventListener("click", function () {
       const prompt = decodeURIComponent(this.dataset.prompt);
+      const name = this.dataset.name;
       navigator.clipboard.writeText(prompt).then(() => showToast());
+      openPromptModal(name, prompt);
     });
   });
+}
+
+function openPromptModal(name, prompt) {
+  document.getElementById("modal-title").textContent = `Replace ${name}`;
+  document.getElementById("modal-prompt").textContent = prompt;
+  document.getElementById("prompt-modal").classList.add("open");
+}
+
+function closePromptModal() {
+  document.getElementById("prompt-modal").classList.remove("open");
 }
 
 function esc(s) {
@@ -683,13 +473,25 @@ function setupListeners() {
 
   document.querySelectorAll(".tier-btn").forEach((btn) => {
     btn.addEventListener("click", function () {
-      document
-        .querySelectorAll(".tier-btn")
-        .forEach((b) => b.classList.remove("active"));
+      document.querySelectorAll(".tier-btn").forEach((b) => b.classList.remove("active"));
       this.classList.add("active");
       currentTierFilter = this.dataset.tier;
       renderGallery();
     });
   });
 
+  document.getElementById("modal-close").addEventListener("click", closePromptModal);
+  document.getElementById("prompt-modal").addEventListener("click", function (e) {
+    if (e.target === this) closePromptModal();
+  });
+  document.getElementById("modal-copy").addEventListener("click", function () {
+    const prompt = document.getElementById("modal-prompt").textContent;
+    navigator.clipboard.writeText(prompt).then(() => {
+      this.textContent = "Copied!";
+      setTimeout(() => (this.textContent = "Copy to clipboard"), 1500);
+    });
+  });
+  document.addEventListener("keydown", function (e) {
+    if (e.key === "Escape") closePromptModal();
+  });
 }

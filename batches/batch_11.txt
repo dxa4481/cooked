@@ -1,0 +1,117 @@
+1. **Lumu Technologies** | Booth: N-4400 | Bronze
+   Cats: Threat Intelligence Platforms, Threat Intelligence Feeds, Threat Hunting, Threat Intelligence Platform, Anomaly Detection
+   Desc: Lumu helps you operate cybersecurity proficiently. Using network traffic as ground truth, we find confirmed threats others miss, in real-time. Automate rapid response via integrations with your security stack. Boost efficiency & visibility.
+
+2. **Lunar, powered by Webz.io** | Booth: N-4409 | Exhibitor
+   Cats: Fraud Prevention / Transaction Security, Threat Intelligence Platforms, Threat Intelligence Feeds, Threat Hunting, Threat Intelligence Platform
+   Desc: Lunar, powered by Webz.io, delivers real-time, actionable intelligence on stolen credentials and session tokens, enabling security teams to detect, validate, and stop account takeover threats faster than ever before.
+
+3. **Lydsec Keypasco** | Booth: S-3140 | Exhibitor
+   Cats: Identity and Access Management (IAM), Multi-Factor Authentication (MFA), IDaas
+   Desc: Keypasco’s solutions protect over 10 million users across 24 countries through 27 partners. Our passwordless, credential-free technology is intuitive, easy to deploy, and fully compliant with international security standards.
+
+4. **ManageEngine** | Booth: S-0626, MRS-118, MRS-120 | Gold
+   Cats: Endpoint Security, Mobile Threat Defense (MTD), Monitoring and Observability
+   Desc: ManageEngine is a leading provider of IT management solutions for organizations across the world. With a powerful, flexible, and AI-powered digital enterprise management platform, we help businesses get their work done from anywhere and everywhere
+
+5. **Matters.AI** | Booth: S-2357 | Exhibitor
+   Cats: Data Security, Data Loss Prevention (DLP), Data Classification, Data Centric Security, Data Privacy
+   Desc: First-Time Exhibitor
+Matters.ai is the world’s first AI Security Engineer—unifying DSPM, real-time DLP, DDR, Insider Risk, and DAM to protect sensitive data across Cloud, SaaS, Endpoints, and GenAI.
+
+6. **MazeBolt** | Booth: S-0767 | Exhibitor
+   Cats: Attack Surface Management, Security Testing and Red Teaming
+   Desc: MazeBolt ensures business continuity for global enterprises by continuously testing DDoS defenses. Our patented technology, RADAR, leverages AI to prioritize and run nondisruptive simulations, allowing organizations to identify DDoS vulnerabilities.
+
+7. **Mend.io** | Booth: S-1443 | Exhibitor
+   Cats: Application Security, API Security, AI Remediation, Application Security Posture Management (ASPM), Container Security
+   Desc: Mend.io offers the first AI native application security platform, purpose-built to secure AI-generated code and embedded AI components. Our unified platform enables companies to manage application risk effectively in modern software development.
+
+8. **Mesh Security** | Booth: N-5262 | Exhibitor
+   Cats: Security Architecture and Engineering, Security Operations
+   Desc: Mesh Security is the world's first Cybersecurity Mesh Architecture (CSMA) platform. Serving as an execution layer above existing security tools, Mesh connects fragmented tools to reveal and eliminate viable attack paths to critical assets.
+
+9. **Meter** | Booth: S-1668 | Exhibitor
+   Cats: Monitoring and Observability, Network Security
+   Desc: First Time ExhibitorMeter provides enterprise networking. With its partners, Meter handles everything needed to bring internet, networking, Wi-Fi & cellular in a space. The unified stack is purpose-built, scalable, & delivered as a service at a predictable monthly rate.
+
+10. **Microsoft Security** | Booth: N-5744, MRN-603 | Diamond Plus
+   Cats: Cloud Security, Cloud Security Posture Management (CSPM), Cloud Infrastructure Entitlement Management (CIEM), Pen Testing / Breach Simulation, Privacy Compliance
+   Desc: Microsoft’s agentic security platform turns more than 100 trillion threat intelligence signals daily into a powerful, fast, scalable, AI-powered defense. With Microsoft, defenders are breaking down silos, protecting their AI investments end-to-end, responding to threats faster, and catching what others miss. Microsoft Security is built for the era of human-led, AI-operated security.
+
+11. **Miggo Security** | Booth: N-6573 | Exhibitor
+   Cats: Application Security, API Security, AI Remediation, Container Security, Web Application Firewalls (WAF)
+   Desc: First Time ExhibitorMiggo delivers real-time application detection and response, empowering enterprises to identify and neutralize application threats. With its AI-augmented platform, Miggo helps organizations secure both traditional and AI-driven applications at scale
+
+12. **Mimecast** | Booth: MRN-424, N-5245 | Gold
+   Cats: Human Risk and Awareness, Threat Detection and Intelligence
+   Desc: Mimecast secures human risk for the collaborative world with a precision-engineered AI-powered human risk platform purpose-built to protect organizations from the spectrum of cyber threats.
+
+13. **MIND** | Booth: S-1835 | Exhibitor
+   Cats: Data Security, Data Loss Prevention (DLP), Data Classification, Data Centric Security, Data Privacy
+   Desc: First Time ExhibitorMIND helps organizations thrive in the AI era with stress-free DLP (data loss prevention). MIND is the first-ever data security platform that puts DLP and insider risk management (IRM) programs on autopilot to protect data at rest and in motion.
+
+14. **Mindflow** | Booth: S-2349 | Exhibitor
+   Cats: Security for AI, Security Operations
+   Desc: First-Time ExhibitorDeploy 100+ agents, in 2 weeks with Mindflow, an Agentic Automation platform for Cyber enterprise teams that brings together a fleet of AI agents, an ultra-intuitive no-code workflow engine, over 4,000 integrations, and enterprise-grade governance.
+
+15. **MindFort AI** | Booth: ESE-30 | Early Stage Expo
+   Cats: Application Security, Application Security Testing
+   Desc: MindFort is an agentic AI platform for offensive security. The platform allows teams to deploy advanced AI agents to perform sophisticated continuous penetration testing at scale, use the integrate red team copilot agent to perform investigations, and prioritize validated vulnerabilities.
+
+16. **Mindgard** | Booth: S-0228 | Exhibitor
+   Cats: Security for AI
+   Desc: Mindgard is the leading provider of AI security solutions. Spun out from decades of AI security research at Lancaster University and headquartered in Boston and London, Mindgard helps enterprises secure their AI models, agents and applications.
+
+17. **Minimus** | Booth: S-1061 | Exhibitor
+   Cats: Application Security, Container Security, Supply Chain Security
+   Desc: Minimus’ secure container images reduce vulnerabilities by over 97% compared to typical container images. Images are continuously rebuilt from source, containing only the necessary bits to run the application, radically reducing the attack surface.
+
+18. **miniOrange** | Booth: N-5160 | Exhibitor
+   Cats: Data Security, Identity and Access Management (IAM), Data Loss Prevention (DLP), Identity Governance and Administration (IGA), Single Sign-On (SSO)
+   Desc: miniOrange delivers unified IAM (SSO & MFA), PAM, DLP, MDM, and CASB solutions. We secure 25K+ global organizations across Cloud, On-Premise, and Hybrid environments with competitive pricing and elite support.
+
+19. **Mirror Security** | Booth: S-0354 | Exhibitor
+   Cats: Data Security, Data Encryption / Tokenization, DLP, Security for AI
+   Desc: Mirror Security, a research-driven AI security company, offers encrypted LLM inference through Fully Homomorphic Encryption (FHE). Enabling AI to process sensitive data without decryption, eliminating the "inference gap."
+
+20. **MokN** | Booth: N-5284 | Exhibitor
+   Cats: Threat Intelligence Platforms, Threat Intelligence Feeds, Incident Response Platforms, SIEM / SOAR, Threat Hunting
+   Desc: First Time ExhibitorMokN phishes back stolen credentials before attackers can use them. Our defensive phishing pages capture compromised logins in real time and turn them into actionable threat intelligence, helping security teams stay ahead of attacks.
+
+21. **Mondoo** | Booth: N-4425 | Bronze
+   Cats: Attack Surface Management, Supply Chain Security
+   Desc: Mondoo’s Agentic Managed Vulnerability Service pairs world-class security experts with a proven AI-native platform to move your organization from detection to actual remediation, ensuring dangerous vulnerabilities are fixed before they’re exploited.
+
+22. **Morado** | Booth: ESE-57 | Early Stage Expo
+   Desc: Morado delivers a Unified Threat Management Platform that turns intelligence into action. We unify intel operations, dark web, brand impersonation, third-party risk, and attack surface intelligence in a single, STIX-based platform.
+
+23. **MTRIX America Inc.** | Booth: N-5277 | Exhibitor
+   Cats: Identity and Access Management (IAM), Single Sign-On (SSO), Multi-Factor Authentication (MFA), Consumer Identity, IDaas
+   Desc: MTRIX America Inc. is a trusted MSSP and provider of MFA and passwordless authentication solutions, helping organizations worldwide strengthen security with leading technologies and expert support.
+
+24. **MTRIX GmbH** | Booth: N-5469 | International Pavilion - Germany
+   Cats: Identity and Access Management (IAM), Single Sign-On (SSO), Multi-Factor Authentication (MFA), Privileged Access Management (PAM), Consumer Identity
+   Desc: Every company must take action to protect the identities of its users. Whether MFA or “passwordless”, user authentication must be secured today. MTRIX specialized in authentication. We support in selecting, implementing, and managing MFA solutions.
+
+25. **MyCISO** | Booth: ESE-28 | Early Stage Expo
+   Desc: MyCISO replaces spreadsheets and fragmented tools with a single platform to manage risk, compliance, supplier risk, IR plans, metrics, and culture. It produces a real-time view of your program, board-ready reports in a single click and data driven risk-prioritized improvement strategies.
+
+26. **N-able** | Booth: S-1449 | Exhibitor
+   Cats: Endpoint Security, Security Operations
+   Desc: At N-able, we protect businesses from evolving threats with a unified cyber resilience platform. Our scalable tech uses AI, top integrations, and flexible tools to transform workflows and deliver critical security outcomes.
+
+27. **Nagomi Security** | Booth: NXT-02 | Next Stage
+   Desc: Nagomi Security gives enterprise security teams the control to eliminate exposure, faster and at scale. As the execution layer of Continuous Threat Exposure Management . Nagomi unifies asset visibility, contextual prioritization, remediation guidance, and performance reporting in a single platform
+
+28. **NAKIVO** | Booth: S-0246 | Exhibitor
+   Cats: Cloud Security, Data Security, Data Loss Prevention (DLP), Data Encryption / Tokenization, Data Centric Security
+   Desc: First Time ExhibitorNAKIVO delivers fast, affordable, and top-rated data protection through backup and disaster recovery for virtual, physical, cloud, and SaaS environments. It helps 16,000+ companies in 183+ countries protect against ransomware and ensure compliance.
+
+29. **Napatech** | Booth: N-4415 | Exhibitor
+   Cats: Monitoring and Observability, Network Security
+   Desc: Napatech is the leading provider of programmable SmartNICs and DPUs solutions that accelerate AI, network, storage, and security workloads for cloud, enterprise, and telecom datacenters worldwide.
+
+30. **NASA SEWP** | Booth: S-0362 | Exhibitor
+   Desc: NASA SEWP (Solutions for Enterprise-Wide Procurement) GWAC (Government-Wide Acquisition Contract) provides the latest in Information Technology, Communication and Audio Visual products & services for all Federal Agencies and approved contractors.
+

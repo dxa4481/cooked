@@ -1,0 +1,122 @@
+1. **Edgewatch** | Booth: S-0642 | International Pavilion - Spain
+   Cats: Threat Intelligence Platforms, Threat Intelligence Feeds, Threat Hunting, Threat Intelligence Platform, Threat Detection and Intelligence
+   Desc: A cybersecurity platform built for the AI era. It scans internet, monitors 400M domains, 2B hosts & delivers data with zero third-party dependency. Enables organizations to strengthen digital defenses and gain predictive insight into attack surface.
+
+2. **Elastic** | Booth: MRE-151E, N-5678 | Gold
+   Cats: Security Information and Event Management (SIEM), Security Orchestration, Automation, and Response (SOAR), Incident Response Platforms, Endpoint Detection & Response, Endpoint Protection
+   Desc: Modernize your SOC with Elastic Security. Try the only open Agentic SOC platform where SIEM, XDR, and automation are included to detect, investigate, and stop threats.
+
+3. **Embed Security** | Booth: ESE-61 | Early Stage Expo
+   Cats: Security Operations and Incident Response, Security Orchestration, Automation, and Response (SOAR), Security Incident Response
+   Desc: Embed Security is the security noise cancellation® leader. Built by security practitioners, our agentic platform uses AI and iSteps™ to autonomously triage and investigate alerts, reducing noise and accelerating response so teams can focus on real threats. Learn more at embedsecurity.com.
+
+4. **Endace** | Booth: S-0255 | Exhibitor
+   Cats: Security Information and Event Management (SIEM), Security Orchestration, Automation, and Response (SOAR), Incident Response Platforms, Security Analytics, Security Incident Response
+   Desc: Endace is a world leader in network visibility. EndaceProbes deliver always-on packet capture for on-prem and hybrid cloud environments, seamlessly integrating with network security and performance tools for fast, accurate investigation and response.
+
+5. **Endor Labs** | Booth: N-5146 | Exhibitor
+   Cats: Application Security, AI Remediation, Application Security Posture Management (ASPM), Container Security, Software Composition Analysis (SCA)
+   Desc: Endor Labs is the AppSec platform built for the AI era. It helps teams find, prioritize, and fix the most critical risks in code—whether written by humans or AI—faster.
+
+6. **Enea** | Booth: N-4309 | Exhibitor
+   Cats: User and Entity Behavior Analytics (UEBA), Threat Intelligence Services & Feed, Anomaly Detection, Threat Hunting Tools, Threat Detection and Intelligence
+   Desc: Enea’s Qosmos DPI technology is #1 for embedded network traffic inspection, application recognition and encrypted traffic visibility. It provides ground-truth data for ML/AI. Our Threat Detection SDK enables differentiated IDS, NDR & XDR solutions.
+
+7. **enQase** | Booth: N-6483 | Exhibitor
+   Cats: Data Security, Data Encryption / Tokenization, DLP, Post Quantum Cryptography
+   Desc: First-Time ExhibitorenQase is the U.S.-based, full-stack quantum-safe security platform unifying proven cryptography, quantum hardware grounded in physics, and a powerful integration layer to deliver comprehensive protection and crypto agility for the quantum era.
+
+8. **Enthec Solutions** | Booth: S-0642 | International Pavilion - Spain
+   Cats: Threat Intelligence Platforms, Threat Intelligence Platform, Threat Hunting Tools, Attack Surface Management, Threat Detection and Intelligence
+   Desc: Enthec Solutions develops cybersecurity software to protect organizations and people. Enthec helps organizations deploy their AI cybersecurity strategy to control leaked data, exposures, security breaches, and C-Levels and VIPs digital assets.
+
+9. **Entro Security** | Booth: N-4515 | Exhibitor
+   Cats: Identity and Access Management (IAM)
+   Desc: Entro is the leading enterprise security platform for AI Agents & NHIs.The platform delivers end-to-end governance, reduces identity sprawl, and secures agentic AI adoption. Trusted by Fortune 500 enterprises and recognized as a Gartner® Cool Vendor™
+
+10. **Entrust Corporation** | Booth: N-5369, MRN-418 | Gold
+   Cats: Data Security, Fraud Prevention / Transaction Security, Identity and Access Management (IAM), Data Encryption / Tokenization, Multi-Factor Authentication (MFA)
+   Desc: Entrust is the global leader in fighting fraud and cyber threats with comprehensive identity-centric 
+security protecting people, devices, and data, throughout their lifecycles.
+
+11. **Ermes Cyber Security Spa** | Booth: S-1951 | International Pavilion - Italian Trade Agency
+   Cats: Data Security, Data Loss Prevention (DLP), Data Masking / Obfuscation, Data Centric Security, Encryption
+   Desc: Ermes is a European AI-driven browser security platform protecting enterprises at the browser level.It provides real-time AI protection,session control and contextual DLP to prevent threats, data leaks and GenAI risks.An extension for chosen browser!
+
+12. **eSentire** | Booth: S-0742 | Exhibitor
+   Cats: Security Information and Event Management (SIEM), Security Orchestration, Automation, and Response (SOAR), Incident Response Platforms, Endpoint Detection & Response, Endpoint Protection
+   Desc: The Global Leader in MDR — Put prevention at the heart of your security program with eSentire’s Next Level MDR. Get enterprise grade technology, 24/7 expertise and decades of security leadership.
+
+13. **ESET** | Booth: N-5253, MRN-414 | Gold
+   Cats: Cloud Security, Cloud Security Posture Management (CSPM), Threat Intelligence Platforms, Threat Intelligence Feeds, CASB
+   Desc: ESET is a leading EU-based B2B cybersecurity vendor delivering prevention-first, AI-native protection. Powered by award-winning research and in-house threat intelligence, ESET helps enterprises reduce risk and operational noise. The ESET PROTECT Platform unifies prevention, detection, threat hunting, and MDR in a scalable, cloud-first XDR built to run efficiently.
+
+14. **Eve Security** | Booth: ESE-36 | Early Stage Expo
+   Cats: Security for AI
+   Desc: Eve Security enables organizations to adopt AI agents securely by providing real-time protection, continuous monitoring, and policy enforcement—preventing misuse, reducing risk, and ensuring safe agent behavior in the organization.
+
+15. **Everpure** | Booth: S-2449 | Exhibitor
+   Cats: Cloud Security, Data Security, Data Loss Prevention (DLP), Data Encryption / Tokenization, Data Centric Security
+   Desc: Everpure delivers the industry’s most advanced data storage platform to store, manage, and protect the world’s data at any scale. From AI to archive, Everpure provides a cloud experience with one, unified storage-as-a-service platform.
+
+16. **Exabeam** | Booth: MRS-304, MRS-302, S-0826 | Gold
+   Cats: Cloud Security, Data Security, Attack Surface Management, Security Architecture and Engineering, Security for AI
+   Desc: Security Operations, Accelerated.
+The speed of AI — the confidence of human control.
+Learn more at www.exabeam.com.
+
+17. **Executive Women's Forum** | Booth: N-5376 | Exhibitor
+   Desc: The Executive Women’s Forum (EWF), a DSG Global company, is a powerful organization dedicated to engaging, developing, and advancing leaders while fostering inclusion in cybersecurity, risk management, privacy, and related technologies.
+
+18. **Exein** | Booth: S-2257 | Exhibitor
+   Cats: Application Security, Endpoint Detection & Response, Endpoint Protection, Endpoint Security, Endpoint Detection and Response (EDR)
+   Desc: First Time ExhibitorExein is a leading embedded IoT cybersecurity company. It focuses on device-level security, embedding protection into device software. Leveraging edge AI for real-time threat detection and response, Exein protects over 1.5 billion devices daily.
+
+19. **Expel, Inc.** | Booth: MRN-410, N-5261 | Gold
+   Cats: Cloud Security, Endpoint Security, Managed Detection and Response (MDR)
+   Desc: Expel is a leading managed detection and response (MDR) provider, trusted by top brands. We combine expert analysts and our AI-driven platform, Expel Workbench™ to monitor, investigate, and respond to threats 24/7 — with 100% transparency.
+
+20. **ExtraHop** | Booth: N-5871, MRN-615 | Platinum
+   Cats: Anomaly Detection, Threat Detection and Intelligence, Network Security
+   Desc: ExtraHop turns the network - the enterprise’s ultimate source of truth - into actionable insight to power security, performance, and resilience. Delivering superior data by design, we ensure superior defense by default.
+
+21. **F5, Inc.** | Booth: N-6365 | Silver
+   Cats: Application Security, Security for AI
+   Desc: F5 specializes in application delivery and security. Our solutions are backed by three decades of expertise to ensure that every app is fast, available, secure, and ready for the AI-era.
+
+22. **Fable Security** | Booth: S-0263 | Exhibitor
+   Cats: Human Risk and Awareness, Threat Detection and Intelligence
+   Desc: First Time ExhibitorFable Security delivers the human risk platform that directly shapes employee behavior.
+
+23. **FAIR Institute** | Booth: S-2268 | Exhibitor
+   Desc: The FAIR Institute is a research-driven, not-for-profit organization, made of risk officers, cybersecurity leaders and business executives dedicated to advancing the discipline of cyber risk management through education, standards, and collaboration.
+
+24. **Falcon Grand Prix** | Booth: Yerba Buena Gardens: SW Corner of Terrace | Sponsored Experience
+   Cats: Yerba Buena Gardens: SW Corner of Terrace, Outside Moscone
+   Desc: RSAC™ Conference attendees, start your engines over in Yerba Buena Gardens. Take the wheel of an adversary car and join CrowdStrike in RC races timed against real-world breakout speeds. Climb the leaderboard, win prizes, and see how you stack up against other RSAC attendees.
+
+25. **Fasoo** | Booth: S-3202 | Exhibitor
+   Cats: Data Security, Data Loss Prevention (DLP), Data Encryption / Tokenization, Data Classification, Data Centric Security
+   Desc: Fasoo delivers enterprise-grade AI and Security products and services that help organizations pivot AI strategies with LLM and governance infrastructure to ensure secure information management, compliance, and productivity.
+
+26. **Fastly** | Booth: S-1049 | Exhibitor
+   Cats: Application Security, API Security, Web Application Firewalls (WAF), Security Operations
+   Desc: Fastly’s programmable edge cloud platform unifies compute, delivery, security, and observability to power fast, secure digital experiences. Built for resilience and real-time control, it helps teams stop threats and scale globally.
+
+27. **FEITIAN** | Booth: S-1149 | Exhibitor
+   Cats: Identity and Access Management (IAM), Multi-Factor Authentication (MFA), IDaas, Biometric Authentication
+   Desc: FEITIAN is a global leader in identity and payment security.
+
+We design and manufacture the hardware and software that power authentication, transaction, and trust, from the enterprise login screen to the point of sale.
+
+28. **Filigran** | Booth: N-5786 | Exhibitor
+   Cats: Threat Intelligence Platforms, Threat Intelligence Feeds, Threat Hunting, Threat Intelligence Platform, Security Testing and Red Teaming
+   Desc: Filigran, a cybertech company founded in 2022, offers open-source cybersecurity solutions covering end-to-end threat intelligence management, attack simulations, and security posture validation for organizations.
+
+29. **FireMon** | Booth: S-1761 | Exhibitor
+   Desc: Trusted by over 1,700 enterprises across nearly 70 countries, FireMon provides industry-leading real-time firewall policy automation, continuous compliance, and proactive risk management for multi-vendor, hybrid and multi-cloud environments.
+
+30. **FireTail** | Booth: ESE-52 | Early Stage Expo
+   Cats: Security for AI
+   Desc: FireTail is the end-to-end AI security platform that provides the visibility, insight, and control necessary for secure AI adoption. Build informed AI governance and transform security from a blocker into an innovation accelerator.
+

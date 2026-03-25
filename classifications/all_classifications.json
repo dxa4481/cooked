@@ -1,0 +1,4545 @@
+[
+  {
+    "name": "Reco \u2014 Attack of AI Sprawl",
+    "tier": "cooked",
+    "roast": "An arcade cabinet for \u2018AI sprawl\u2019 is the perfect metaphor: loud, flashy, and over before the quarter ends.",
+    "confidence": 0.72,
+    "cursor_prompt": "In this repo, enumerate every third-party OAuth client, MCP server, and API key scope; add a single markdown table with owner, blast radius, and kill switch; then open PRs that remove unused scopes before adding any new \u2018AI\u2019 feature."
+  },
+  {
+    "name": "Aurascape",
+    "tier": "gpt_wrapper",
+    "roast": "\u2018Intent-aware\u2019 is what you call policy when your differentiator is an LLM reading Slack and calling it governance.",
+    "confidence": 0.78,
+    "cursor_prompt": null
+  },
+  {
+    "name": "Aurva",
+    "tier": "moat_for_now",
+    "roast": "Agent runtime monitoring is real work, but you\u2019re one Grafana dashboard away from twelve seed-stage clones with the same \u2018anomaly\u2019 slide.",
+    "confidence": 0.61,
+    "cursor_prompt": null
+  },
+  {
+    "name": "AuthLite",
+    "tier": "cooked",
+    "roast": "MFA for Active Directory is essential\u2014and also something a motivated admin scripts between coffee runs.",
+    "confidence": 0.88,
+    "cursor_prompt": "Implement Windows Hello / FIDO2 for privileged AD groups only: document current Group Policy objects, add conditional access-equivalent controls via GPO + certificate mapping, and prove Pass-the-Hash fails in a lab DC with before/after BloodHound exports."
+  },
+  {
+    "name": "Avertro",
+    "tier": "cooked",
+    "roast": "CyberHQ Resilience Command Platform sounds like a PowerBI board that learned to spell \u2018NIST\u2019.",
+    "confidence": 0.84,
+    "cursor_prompt": "Replace the GRC dashboard with code: export one control framework (e.g. ISO 27001 Annex A) into YAML, map each control to Terraform modules + CI gates, and fail builds when evidence artifacts are missing\u2014no BI tool in the loop."
+  },
+  {
+    "name": "AWARE7 GmbH",
+    "tier": "cooked",
+    "roast": "ISO27001-certified phishing slides: necessary, unkillable, and impossible to differentiate on a trade-show floor.",
+    "confidence": 0.7,
+    "cursor_prompt": "Stand up a measurable phishing program: baseline click rate, segment by department, A/B test two email templates, and publish a single CSV of results + remediation actions\u2014no \u2018awareness portal\u2019 vendor required."
+  },
+  {
+    "name": "Axiomtek",
+    "tier": "actually_hard",
+    "roast": "Industrial PCs age like cast iron: boring until the plant stops because someone \u2018secured\u2019 the wrong serial port.",
+    "confidence": 0.76,
+    "cursor_prompt": null
+  },
+  {
+    "name": "AxisNow",
+    "tier": "moat_for_now",
+    "roast": "Multi-CDN edge orchestration is legit\u2014until your pricing slide becomes indistinguishable from Cloudflare\u2019s footnote.",
+    "confidence": 0.58,
+    "cursor_prompt": null
+  },
+  {
+    "name": "Axoflow",
+    "tier": "moat_for_now",
+    "roast": "syslog-ng pedigree buys you meetings; the rest is \u2018we make SIEM cheaper\u2019 in a nicer font.",
+    "confidence": 0.66,
+    "cursor_prompt": null
+  },
+  {
+    "name": "Axonius",
+    "tier": "moat_for_now",
+    "roast": "1,300 connectors is a moat of paperwork: impressive until the next vendor promises 1,301 and a fresher UI.",
+    "confidence": 0.63,
+    "cursor_prompt": null
+  },
+  {
+    "name": "Axur",
+    "tier": "moat_for_now",
+    "roast": "Brand intel is a data-hoarding business; your graph is the product, not the dashboard chrome.",
+    "confidence": 0.6,
+    "cursor_prompt": null
+  },
+  {
+    "name": "Backline",
+    "tier": "cooked",
+    "roast": "Autonomous remediation is \u2018close the ticket\u2019 with a cron job and better liability insurance.",
+    "confidence": 0.81,
+    "cursor_prompt": "Pick the top 10 CVEs from your ASM export, write idempotent patch playbooks (Terraform/Ansible), wire them to a manual approval gate in CI, and log rollback steps\u2014prove mean time to patch drops without a new SaaS SKU."
+  },
+  {
+    "name": "Backslash Security",
+    "tier": "gpt_wrapper",
+    "roast": "They literally branded \u2018vibe coding security\u2019\u2014the booth is a mirror with a linter taped to it.",
+    "confidence": 0.9,
+    "cursor_prompt": null
+  },
+  {
+    "name": "Barndoor AI",
+    "tier": "gpt_wrapper",
+    "roast": "Closing the barn door after the agent exfiltrated the database, but make it a \u2018control plane\u2019.",
+    "confidence": 0.77,
+    "cursor_prompt": null
+  },
+  {
+    "name": "BASE4 Security",
+    "tier": "cooked",
+    "roast": "Consulting with an ASM sticker: you\u2019re buying hours with a logo that says \u2018we also scan\u2019. ",
+    "confidence": 0.68,
+    "cursor_prompt": "Run open-source recon (subfinder, httpx, nuclei) against one approved domain, store results in Git, and produce a one-page risk report with exploitable vs informational\u2014billable narrative optional."
+  },
+  {
+    "name": "Beacon Security",
+    "tier": "cooked",
+    "roast": "Collect, reduce, enrich, route\u2014aka syslog with a LinkedIn Premium account.",
+    "confidence": 0.83,
+    "cursor_prompt": "Replace the pipeline PoC with Vector or Fluent Bit configs: define one schema, drop noisy events at ingest, route security logs to cold storage with retention policies, and benchmark monthly egress cost vs current SIEM."
+  },
+  {
+    "name": "BeyGoo",
+    "tier": "moat_for_now",
+    "roast": "Extended Digital Risk Protection is BrandShield\u2019s cousin who studied abroad and came back with three extra acronyms.",
+    "confidence": 0.55,
+    "cursor_prompt": null
+  },
+  {
+    "name": "BeyondTrust",
+    "tier": "cooked",
+    "roast": "PAM for 20,000 customers is enterprise gravity, not physics\u2014break-glass still breaks the budget.",
+    "confidence": 0.86,
+    "cursor_prompt": "Implement least-privilege sessions for break-glass: time-bound elevation, session recording to immutable storage, automatic revocation, and quarterly access reviews exported as CSV from IdP + PAM logs."
+  },
+  {
+    "name": "BigID",
+    "tier": "cooked",
+    "roast": "Data classification plus \u2018AI governance\u2019 is compliance Mad Libs with a Salesforce renewal attached.",
+    "confidence": 0.8,
+    "cursor_prompt": "Classify PII in one datastore with deterministic rules first (regex + column metadata), publish classification tags to your catalog API, and block queries in the warehouse role layer when tags don\u2019t match\u2014LLM optional, evidence mandatory."
+  },
+  {
+    "name": "Bindplane",
+    "tier": "cooked",
+    "roast": "SIEM migration glue: the tool you buy when your Splunk bill qualifies for its own line item on the earnings call.",
+    "confidence": 0.82,
+    "cursor_prompt": "Prototype SIEM offload: sample 1% of high-volume logs to object storage, replay queries with Athena/Trino, and document query latency + cost per GB\u2014prove the migration math before you pay for routing middleware."
+  },
+  {
+    "name": "bitCorp",
+    "tier": "actually_hard",
+    "roast": "BIOS and post-quantum in one sentence: either firmware sorcery or three slides of future tense.",
+    "confidence": 0.7,
+    "cursor_prompt": null
+  },
+  {
+    "name": "Bitdefender",
+    "tier": "moat_for_now",
+    "roast": "Endpoint AV is a shrinking moat, but it\u2019s still a moat full of angry cats and kernel callbacks.",
+    "confidence": 0.72,
+    "cursor_prompt": null
+  },
+  {
+    "name": "Bitwarden",
+    "tier": "cooked",
+    "roast": "Password managers are critical infrastructure you can also fork on a weekend if you hate sleep.",
+    "confidence": 0.9,
+    "cursor_prompt": "Roll out passkeys for admin accounts only: inventory OIDC/SAML apps, enforce WebAuthn in IdP policy, and measure support tickets weekly\u2014ship a rollback plan before you touch general users."
+  },
+  {
+    "name": "Black Duck",
+    "tier": "cooked",
+    "roast": "True Scale Application Security is enterprise-speak for \u2018we run SCA until your pipeline files for unemployment\u2019.",
+    "confidence": 0.92,
+    "cursor_prompt": "Add SBOM generation (Syft) + policy gate in CI blocking high CVEs in direct deps; fail the build on unapproved licenses; store CycloneDX in an OCI artifact\u2014no \u2018AI-powered\u2019 triage, just semver and CVE IDs."
+  },
+  {
+    "name": "Blast",
+    "tier": "cooked",
+    "roast": "Preemptive Cloud Defense is CSPM with a pep talk and a prettier deny policy.",
+    "confidence": 0.79,
+    "cursor_prompt": "Encode preventive guardrails as Terraform/OpenAPI policy: SCPs, org-level KMS defaults, and automated remediation PRs for public S3/RDS\u2014score compliance with prowler or equivalent weekly reports."
+  },
+  {
+    "name": "BlinkOps",
+    "tier": "cooked",
+    "roast": "Agentic SOAR is playbooks with chat bubbles: the automation was always there; the invoice is new.",
+    "confidence": 0.74,
+    "cursor_prompt": "Replace \u2018AI agents\u2019 with deterministic runbooks: webhook \u2192 Jira ticket \u2192 isolate host via EDR API \u2192 Slack thread with evidence links; measure MTTR for 20 simulated alerts; keep humans on approve for containment."
+  },
+  {
+    "name": "Blumira",
+    "tier": "cooked",
+    "roast": "SIEM-in-a-box for teams that outgrew Excel but not vendor webinars.",
+    "confidence": 0.76,
+    "cursor_prompt": "Stand up detections as code: Sigma rules in Git, CI validation, deploy to your log stack, and tune with false-positive metrics per rule\u2014prove value before expanding log sources."
+  },
+  {
+    "name": "Booz Allen",
+    "tier": "actually_hard",
+    "roast": "The booth carpet is classified; the swag is compliance-budgeted.",
+    "confidence": 0.73,
+    "cursor_prompt": null
+  },
+  {
+    "name": "BrainStorm Inc.",
+    "tier": "cooked",
+    "roast": "Threat defense packs: PowerPoint DLC for companies that measure culture via completion percentages.",
+    "confidence": 0.75,
+    "cursor_prompt": "Replace generic training with role-based scenarios: developers get secret scanning + dependency PR labs; finance gets wire-fraud simulations; track outcomes with phishing simulations tied to each module."
+  },
+  {
+    "name": "BrandShield",
+    "tier": "cooked",
+    "roast": "AI-powered digital risk protection is \u2018grep the internet for your logo\u2019 with a margin.",
+    "confidence": 0.77,
+    "cursor_prompt": "Build a minimal typosquat monitor: daily cert transparency + DNS crawl for your brand strings, alert on new registrations, and auto-file takedowns via registrar abuse APIs where supported."
+  },
+  {
+    "name": "BreachLock",
+    "tier": "cooked",
+    "roast": "Human-led, AI-augmented pentest: still a human clicking, now with a summarizer for the PDF.",
+    "confidence": 0.78,
+    "cursor_prompt": "Run a scoped PTaaS-style assessment internally: OWASP ASVS checklist, store findings in Git issues with repro steps, and gate releases on critical/high remediation with retest evidence."
+  },
+  {
+    "name": "Bright Security",
+    "tier": "cooked",
+    "roast": "STAR platform with SAST/DAST is a constellation of tools your intern could wire with GitHub Actions and spite.",
+    "confidence": 0.91,
+    "cursor_prompt": "Integrate Semgrep + ZAP in CI for one service: block on OWASP Top 10 classes, publish SARIF to GitHub Security tab, and require fix PRs before merge on default branch."
+  },
+  {
+    "name": "Brinqa",
+    "tier": "cooked",
+    "roast": "Exposure management with confidence is vuln prioritization for people who want confidence spelled with a trademark.",
+    "confidence": 0.72,
+    "cursor_prompt": "Unify findings from one scanner into a single risk score: EPSS + asset business criticality in a spreadsheet or DB, review weekly, and auto-create tickets only above threshold\u2014skip the black-box \u2018AI prioritization\u2019."
+  },
+  {
+    "name": "Broadcom",
+    "tier": "moat_for_now",
+    "roast": "Symantec plus Carbon Black: enterprise inertia incarnate, held together by licensing lawyers.",
+    "confidence": 0.7,
+    "cursor_prompt": null
+  },
+  {
+    "name": "BSI Group",
+    "tier": "moat_for_now",
+    "roast": "Standards and certification: a moat made of paperwork that outlasts most startups\u2019 entire cap table.",
+    "confidence": 0.62,
+    "cursor_prompt": null
+  },
+  {
+    "name": "Databricks \u2014 Build Your Own Agent",
+    "tier": "gpt_wrapper",
+    "roast": "Minifig bar agents: drink tickets for the only \u2018ROI\u2019 some teams will see from RAG this quarter.",
+    "confidence": 0.71,
+    "cursor_prompt": null
+  },
+  {
+    "name": "Bureau Veritas",
+    "tier": "cooked",
+    "roast": "Pentest-as-a-service from a company that also certifies your toaster\u2019s feelings.",
+    "confidence": 0.64,
+    "cursor_prompt": null
+  },
+  {
+    "name": "Capital One Software",
+    "tier": "moat_for_now",
+    "roast": "Enterprise B2B from a bank: either real internal battle scars or very expensive PowerPoint lineage.",
+    "confidence": 0.52,
+    "cursor_prompt": null
+  },
+  {
+    "name": "Capital One Coffee Barcade",
+    "tier": "cooked",
+    "roast": "AI trading cards at a claw machine: the only hedge fund most attendees will beat this week.",
+    "confidence": 0.66,
+    "cursor_prompt": "Use the activation budget for something measurable: sponsor an open-source dependency audit for a nonprofit and publish the SBOM\u2014more security impact than another espresso."
+  },
+  {
+    "name": "Casco",
+    "tier": "cooked",
+    "roast": "Autonomous testing for \u2018AI systems\u2019 still bottoms out at HTTP verbs and JSON\u2014just with more keynote adjectives.",
+    "confidence": 0.84,
+    "cursor_prompt": "Add contract tests for APIs (Schemathesis or Dredd), run in CI against staging, and fail on schema drift; layer ZAP baseline scan weekly\u2014prove coverage without \u2018autonomous\u2019 marketing."
+  },
+  {
+    "name": "Cefiros",
+    "tier": "cooked",
+    "roast": "Iberia/LatAm distributor: you\u2019re not buying tech, you\u2019re buying someone else\u2019s shelf space in Spanish.",
+    "confidence": 0.7,
+    "cursor_prompt": null
+  },
+  {
+    "name": "Cegeka",
+    "tier": "cooked",
+    "roast": "Technology partner delivering impact: consulting Mad Libs with a EU accent.",
+    "confidence": 0.65,
+    "cursor_prompt": null
+  },
+  {
+    "name": "Center for Internet Security (CIS)",
+    "tier": "moat_for_now",
+    "roast": "Benchmarks are the moat: boring, copied everywhere, and weirdly hard to dislodge once auditors bless them.",
+    "confidence": 0.74,
+    "cursor_prompt": null
+  },
+  {
+    "name": "Chainguard",
+    "tier": "moat_for_now",
+    "roast": "Hardened OSS supply chains are real engineering; the rest is distro maintenance with better branding.",
+    "confidence": 0.69,
+    "cursor_prompt": null
+  },
+  {
+    "name": "Chainloop",
+    "tier": "cooked",
+    "roast": "Trust infrastructure for AI is compliance plumbing with attestation sprinkles.",
+    "confidence": 0.76,
+    "cursor_prompt": "Implement SLSA-style provenance: GitHub OIDC \u2192 Sigstore sign artifacts \u2192 verify in deploy pipeline; store attestations next to images; fail deploys without signature chain\u2014policy-as-code, not slide-as-code."
+  },
+  {
+    "name": "CHANGING Information Technology",
+    "tier": "cooked",
+    "roast": "Since 1998: long enough to watch every \u2018next-gen\u2019 MFA get rebranded twice.",
+    "confidence": 0.67,
+    "cursor_prompt": "Consolidate MFA policies: FIDO2 for workforce, TOTP fallback with device binding, disable SMS for privileged roles, export monthly auth failure metrics from IdP logs."
+  },
+  {
+    "name": "Check Point Software",
+    "tier": "moat_for_now",
+    "roast": "Infinity Platform protects 100,000 orgs\u2014and your patience during a 45-minute architecture diagram.",
+    "confidence": 0.68,
+    "cursor_prompt": null
+  },
+  {
+    "name": "Checkmarx",
+    "tier": "cooked",
+    "roast": "Agentic AI application security is still grep with investor relations.",
+    "confidence": 0.9,
+    "cursor_prompt": "Run Checkmarx or OSS equivalent (CodeQL/Semgrep) in PRs only on changed lines + dependents; open auto-fix PRs for SCA; block merge on critical\u2014skip closed-loop AI remediation until baseline is green."
+  },
+  {
+    "name": "CHT Security",
+    "tier": "moat_for_now",
+    "roast": "Telecom-backed MSSP: the moat is circuits and sleep-deprived SOCs, not the portal skin.",
+    "confidence": 0.6,
+    "cursor_prompt": null
+  },
+  {
+    "name": "Cisco",
+    "tier": "moat_for_now",
+    "roast": "Revolutionizing infrastructure by selling you more infrastructure until your rack qualifies for municipal taxes.",
+    "confidence": 0.75,
+    "cursor_prompt": null
+  },
+  {
+    "name": "CLEAR \u2014 Sponsored Experience",
+    "tier": "cooked",
+    "roast": "Biometric IAM lounge: skip the line, not the privacy policy.",
+    "confidence": 0.7,
+    "cursor_prompt": null
+  },
+  {
+    "name": "Clearly AI",
+    "tier": "gpt_wrapper",
+    "roast": "AI-powered threat modeling is \u2018read the README and hallucinate STRIDE\u2019 with a SOC 2 sticker.",
+    "confidence": 0.85,
+    "cursor_prompt": null
+  },
+  {
+    "name": "Cline",
+    "tier": "gpt_wrapper",
+    "roast": "Secure open coding agent: the security is mostly \u2018we put enterprise in the sentence twice\u2019.",
+    "confidence": 0.82,
+    "cursor_prompt": null
+  },
+  {
+    "name": "Cloud Security Alliance",
+    "tier": "moat_for_now",
+    "roast": "Nonprofit influence moat: standards that vendors cite while violating them in adjacent bullet points.",
+    "confidence": 0.66,
+    "cursor_prompt": null
+  },
+  {
+    "name": "Cloudflare",
+    "tier": "actually_hard",
+    "roast": "Global anycast isn\u2019t a feature you vibe-code between snack rounds; it\u2019s concrete, fiber, and angry BGP.",
+    "confidence": 0.82,
+    "cursor_prompt": null
+  },
+  {
+    "name": "CloudSEK",
+    "tier": "moat_for_now",
+    "roast": "Predictive cyber intelligence means you scraped the dark web faster than the booth next door.",
+    "confidence": 0.57,
+    "cursor_prompt": null
+  },
+  {
+    "name": "Cobalt",
+    "tier": "cooked",
+    "roast": "Pentest-as-a-service pioneer: groundbreaking in 2014, table stakes once every repo got an API.",
+    "confidence": 0.8,
+    "cursor_prompt": "Run a quarterly internal bug bounty on staging: fixed payout rubric, triage in GitHub, remediate with SLAs; compare findings vs last vendor PT report for overlap rate."
+  },
+  {
+    "name": "Cogent Security",
+    "tier": "cooked",
+    "roast": "Agentic exposure management is Jira automation wearing a neural-network hat.",
+    "confidence": 0.73,
+    "cursor_prompt": "Wire vuln findings to tickets with SLA by severity, auto-assign owners from CODEOWNERS, and block releases on criticals\u2014use one script + API, not an \u2018agent\u2019."
+  },
+  {
+    "name": "Cognyte",
+    "tier": "moat_for_now",
+    "roast": "Gov-flavored intel platforms: the moat is clearance-friendly sales cycles, not your UEBA checkbox.",
+    "confidence": 0.62,
+    "cursor_prompt": null
+  },
+  {
+    "name": "Cohesity",
+    "tier": "moat_for_now",
+    "roast": "Backup plus \u2018AI-powered data security\u2019 is ransomware insurance with marketing that learned the word \u2018semantic\u2019.",
+    "confidence": 0.64,
+    "cursor_prompt": null
+  },
+  {
+    "name": "Pentera",
+    "tier": "cooked",
+    "roast": "Attack emulation in a trench coat: orchestrate Metasploit scripts and call it 'continuous validation.'",
+    "confidence": "high",
+    "cursor_prompt": "Scaffold a Dockerized BAS runner that replays canned exploits against a lab VPC and emails a PDF 'risk score'\u2014ship in a week."
+  },
+  {
+    "name": "Pentest Copilot",
+    "tier": "gpt_wrapper",
+    "roast": "Your pentest is now autocomplete with liability: an agent that confidently hallucinates a path to prod.",
+    "confidence": "high",
+    "cursor_prompt": null
+  },
+  {
+    "name": "Persona",
+    "tier": "cooked",
+    "roast": "High-assurance HR selfie checks\u2014Stripe Identity with a SOC 2 PDF stapled to the contract.",
+    "confidence": "medium",
+    "cursor_prompt": "Wire Persona-style doc + selfie flow with a vendor API, store verdicts in Postgres, Slack alert on mismatch\u2014weekend project."
+  },
+  {
+    "name": "Phantom'sLab",
+    "tier": "actually_hard",
+    "roast": "Netherlands pavilion booth theater: harder to replicate the schwag line than the 'awareness' SKU.",
+    "confidence": "medium",
+    "cursor_prompt": null
+  },
+  {
+    "name": "Picus Security",
+    "tier": "cooked",
+    "roast": "BAS bingo: purple team cosplay with scheduled ransomware cosplay and a renewal invoice.",
+    "confidence": "high",
+    "cursor_prompt": "Cron a purple-team script pack against staging, diff detections to a Notion report\u2014Picus without the license."
+  },
+  {
+    "name": "Pindrop",
+    "tier": "moat_for_now",
+    "roast": "Voiceprint voodoo that actually needs labeled audio and carrier quirks\u2014still one breach away from a model zoo clone.",
+    "confidence": "medium",
+    "cursor_prompt": null
+  },
+  {
+    "name": "PlexTrac",
+    "tier": "cooked",
+    "roast": "Jira for findings: the moat is markdown templates and executive-summary guilt.",
+    "confidence": "high",
+    "cursor_prompt": "Build a pentest tracker: import Nessus CSV, Kanban states, client PDF export\u2014done before your coffee cools."
+  },
+  {
+    "name": "Pluralsight",
+    "tier": "cooked",
+    "roast": "Netflix for PowerPoint certificates\u2014your AppSec program is binge-watched compliance theater.",
+    "confidence": "high",
+    "cursor_prompt": null
+  },
+  {
+    "name": "Polywell Computers",
+    "tier": "actually_hard",
+    "roast": "Metal, fans, and lead times\u2014vibe-coding can't fab a 1U box.",
+    "confidence": "high",
+    "cursor_prompt": null
+  },
+  {
+    "name": "pQCee",
+    "tier": "actually_hard",
+    "roast": "Singapore pavilion PQC startup: booth geography beats algorithm novelty until NIST tests say otherwise.",
+    "confidence": "medium",
+    "cursor_prompt": null
+  },
+  {
+    "name": "PQShield",
+    "tier": "moat_for_now",
+    "roast": "Real crypto engineering exists; most buyers just need libsodium and a compliance checkbox.",
+    "confidence": "medium",
+    "cursor_prompt": null
+  },
+  {
+    "name": "Proactivanet",
+    "tier": "actually_hard",
+    "roast": "Spain pavilion ITSM/GRC soup\u2014survives on procurement inertia and regional integrators.",
+    "confidence": "medium",
+    "cursor_prompt": null
+  },
+  {
+    "name": "ProcessUnity",
+    "tier": "cooked",
+    "roast": "Spreadsheet TPRM with workflow cosplay\u2014vendor risk is still vendor Excel.",
+    "confidence": "high",
+    "cursor_prompt": "Ship a vendor intake portal with questionnaire JSON, scoring, and CSV export\u2014TPRM MVP in days."
+  },
+  {
+    "name": "ProjectDiscovery",
+    "tier": "gpt_wrapper",
+    "roast": "'Neo AI security engineer' is nmap with an OpenAI key and a LinkedIn manifesto.",
+    "confidence": "high",
+    "cursor_prompt": null
+  },
+  {
+    "name": "Prompt Security (SentinelOne)",
+    "tier": "gpt_wrapper",
+    "roast": "Policy-as-code for ChatGPT panic\u2014DLP for prompts with a bigger logo budget.",
+    "confidence": "medium",
+    "cursor_prompt": null
+  },
+  {
+    "name": "Promptfoo",
+    "tier": "gpt_wrapper",
+    "roast": "Unit tests for vibes: your LLM passes until marketing changes the system prompt.",
+    "confidence": "high",
+    "cursor_prompt": null
+  },
+  {
+    "name": "Proofpoint",
+    "tier": "cooked",
+    "roast": "Email security OG\u2014still basically regex, ML, and invoices per mailbox.",
+    "confidence": "high",
+    "cursor_prompt": null
+  },
+  {
+    "name": "Prophet Security",
+    "tier": "gpt_wrapper",
+    "roast": "AI SOC that triages alerts into different shades of 'maybe escalate to a human.'",
+    "confidence": "high",
+    "cursor_prompt": null
+  },
+  {
+    "name": "Protectt.ai",
+    "tier": "gpt_wrapper",
+    "roast": "AI-native mobile RASP\u2014runtime hooks plus 'we used AI' in every slide.",
+    "confidence": "medium",
+    "cursor_prompt": null
+  },
+  {
+    "name": "Protos Labs",
+    "tier": "actually_hard",
+    "roast": "Singapore pavilion 'analyst agents'\u2014booth passport stamp harder than the ML.",
+    "confidence": "low",
+    "cursor_prompt": null
+  },
+  {
+    "name": "Prowler",
+    "tier": "cooked",
+    "roast": "Open CSPM with a GitHub star count as the real product\u2014AWS APIs are the IP.",
+    "confidence": "high",
+    "cursor_prompt": "Fork Prowler checks you need, wrap in CI, post results to Slack\u2014commodity cloud lint."
+  },
+  {
+    "name": "PsyberCog Labs",
+    "tier": "cooked",
+    "roast": "Behavioral nudges meet HR analytics\u2014phishing sim with a psych degree PDF.",
+    "confidence": "medium",
+    "cursor_prompt": "Google Forms + staged phishing + Grafana dashboard of click rates\u2014PATH-lite in a sprint."
+  },
+  {
+    "name": "QCoreSecure",
+    "tier": "actually_hard",
+    "roast": "Silicon photonics QRNG\u2014when randomness is literally fabbed, Cursor can't compile it.",
+    "confidence": "high",
+    "cursor_prompt": null
+  },
+  {
+    "name": "Qevlar AI",
+    "tier": "gpt_wrapper",
+    "roast": "Tier-2/3 'depth' is an LLM writing a timeline that interns still verify.",
+    "confidence": "high",
+    "cursor_prompt": null
+  },
+  {
+    "name": "Quantinuum",
+    "tier": "actually_hard",
+    "roast": "Cryostats and qubits\u2014your threat model is decoherence, not CVEs.",
+    "confidence": "high",
+    "cursor_prompt": null
+  },
+  {
+    "name": "Quantro Security",
+    "tier": "gpt_wrapper",
+    "roast": "Agentic vuln management: Jira tickets with extra adjectives and an OpenAI bill.",
+    "confidence": "high",
+    "cursor_prompt": null
+  },
+  {
+    "name": "QuilrAI",
+    "tier": "gpt_wrapper",
+    "roast": "Autonomous decision engine for human risk\u2014translation: policy chatbot with telemetry FOMO.",
+    "confidence": "medium",
+    "cursor_prompt": null
+  },
+  {
+    "name": "QuintessenceLabs",
+    "tier": "actually_hard",
+    "roast": "QKD and key gen where the rack gear is the moat, not the dashboard.",
+    "confidence": "high",
+    "cursor_prompt": null
+  },
+  {
+    "name": "Quside",
+    "tier": "actually_hard",
+    "roast": "Spain pavilion QRNG flex\u2014entropy sold by booth square footage.",
+    "confidence": "medium",
+    "cursor_prompt": null
+  },
+  {
+    "name": "Rackmount.IT",
+    "tier": "actually_hard",
+    "roast": "Sheet metal moat: your firewall fits because physics, not AI.",
+    "confidence": "high",
+    "cursor_prompt": null
+  },
+  {
+    "name": "Radiant",
+    "tier": "gpt_wrapper",
+    "roast": "'90% FP reduction' until the first novel alert\u2014then it's Copilot for SOC theater.",
+    "confidence": "medium",
+    "cursor_prompt": null
+  },
+  {
+    "name": "Radware",
+    "tier": "moat_for_now",
+    "roast": "WAF/DDoS appliances that still print money at ISP scale\u2014shrinking but not script-kiddie food.",
+    "confidence": "medium",
+    "cursor_prompt": null
+  },
+  {
+    "name": "Random Power",
+    "tier": "actually_hard",
+    "roast": "Italy pavilion quantum tunneling RNG\u2014randomness with a passport and a patent PDF.",
+    "confidence": "medium",
+    "cursor_prompt": null
+  },
+  {
+    "name": "Rapid7",
+    "tier": "cooked",
+    "roast": "AI-powered managed everything: scanners, dashboards, and renewal gravity since dial-up.",
+    "confidence": "high",
+    "cursor_prompt": "Glue Nessus/OpenVAS + Elastic rules + weekly exec email\u2014Rapid7-core without the bill."
+  },
+  {
+    "name": "RapidFort",
+    "tier": "cooked",
+    "roast": "Container diet plan: strip packages, profile runtime, pretend it's alchemy.",
+    "confidence": "medium",
+    "cursor_prompt": "Use distroless/minimal base images + Syft/Grype in CI + Falco profiles\u2014same story, fewer logos."
+  },
+  {
+    "name": "Raven",
+    "tier": "moat_for_now",
+    "roast": "Runtime instrumentation that actually fights engineers who love dynamic loading\u2014annoying to ship right.",
+    "confidence": "low",
+    "cursor_prompt": null
+  },
+  {
+    "name": "Ravenna",
+    "tier": "cooked",
+    "roast": "Slack ITSM with IAM glitter\u2014Workflow Builder plus OAuth and dreams.",
+    "confidence": "high",
+    "cursor_prompt": "Slack slash commands hitting Okta/HRIS webhooks with approval steps\u2014Ravenna-shaped in days."
+  },
+  {
+    "name": "Raxis",
+    "tier": "moat_for_now",
+    "roast": "Humans with shells and NDAs\u2014scalable like a law firm, not like software.",
+    "confidence": "medium",
+    "cursor_prompt": null
+  },
+  {
+    "name": "Ray Security",
+    "tier": "cooked",
+    "roast": "Predictive DLP is 'we ML'd your regex' until the first false positive fire drill.",
+    "confidence": "medium",
+    "cursor_prompt": "Classify sensitive paths with rules + simple model on file metadata, enforce copy blocks\u2014prototype fast."
+  },
+  {
+    "name": "RealDefense",
+    "tier": "cooked",
+    "roast": "Consumer tune-upware cosplaying as privacy\u2014registry cleaners with a VPN upsell.",
+    "confidence": "high",
+    "cursor_prompt": null
+  },
+  {
+    "name": "Realm Labs",
+    "tier": "gpt_wrapper",
+    "roast": "AI surprise handlers\u2014incident response rebranded as 'model babysitting as a service.'",
+    "confidence": "medium",
+    "cursor_prompt": null
+  },
+  {
+    "name": "Recorded Future",
+    "tier": "moat_for_now",
+    "roast": "Intel graph with network effects\u2014still a data hoarding contest, not a genius model.",
+    "confidence": "medium",
+    "cursor_prompt": null
+  },
+  {
+    "name": "Red Canary (Zscaler)",
+    "tier": "cooked",
+    "roast": "MDR with playbooks and vibes: humans in hoodies billed per endpoint.",
+    "confidence": "medium",
+    "cursor_prompt": "SOC-lite: Wazuh alerts to TheHive cases, runbooks in Markdown, on-call rotation\u2014Canary cosplay."
+  },
+  {
+    "name": "Red Hat",
+    "tier": "moat_for_now",
+    "roast": "Enterprise Linux is a support contract with a kernel\u2014moat is ecosystem, not novelty.",
+    "confidence": "high",
+    "cursor_prompt": null
+  },
+  {
+    "name": "Redblock Security",
+    "tier": "cooked",
+    "roast": "Identity execution layer is IGA tickets with better verbs and worse Jira hygiene.",
+    "confidence": "medium",
+    "cursor_prompt": "Automated access reviews from HRIS + IdP groups, Slack approvals, audit log to S3\u2014IGA-lite."
+  },
+  {
+    "name": "Redborder",
+    "tier": "actually_hard",
+    "roast": "Spain pavilion NDR\u2014regional integrator gravity beats your YAML.",
+    "confidence": "medium",
+    "cursor_prompt": null
+  },
+  {
+    "name": "RedCarbon",
+    "tier": "gpt_wrapper",
+    "roast": "Six AI analysts = six system prompts and one very tired SOC manager.",
+    "confidence": "high",
+    "cursor_prompt": null
+  },
+  {
+    "name": "Redflags",
+    "tier": "cooked",
+    "roast": "Behavioral nudges at decision time\u2014browser extension meets HR surveillance cosplay.",
+    "confidence": "medium",
+    "cursor_prompt": "Chrome extension + lightweight policy API + weekly nudge copy in ConfigMap\u2014MVP fast."
+  },
+  {
+    "name": "RedSeal",
+    "tier": "moat_for_now",
+    "roast": "Hybrid network modeling hurts\u2014until everything is zero-trust pretend and the graph lies gently.",
+    "confidence": "low",
+    "cursor_prompt": null
+  },
+  {
+    "name": "ReliaQuest",
+    "tier": "gpt_wrapper",
+    "roast": "GreyMatter agentic SecOps: SOAR with an LLM executive summary and a platinum sponsor banner.",
+    "confidence": "medium",
+    "cursor_prompt": null
+  },
+  {
+    "name": "Relyance AI",
+    "tier": "cooked",
+    "roast": "Unified data governance\u2014Collibra cosplay for security buyers who fear legal.",
+    "confidence": "high",
+    "cursor_prompt": "Scan S3/BigQuery columns, tag PII with regex+NER, policy page in Notion\u2014governance theater delivered."
+  },
+  {
+    "name": "Resemble AI",
+    "tier": "moat_for_now",
+    "roast": "Deepfake arms race audio\u2014models rot monthly but watermark drama sells renewals.",
+    "confidence": "medium",
+    "cursor_prompt": null
+  },
+  {
+    "name": "ReversingLabs",
+    "tier": "cooked",
+    "roast": "SCA/file intel at scale\u2014user said SAST/SCA is cooked, and here we are with searchable hashes.",
+    "confidence": "high",
+    "cursor_prompt": "SBOM with Syft, diff against OSV, upload artifacts to VirusTotal API\u2014good enough file rep MVP."
+  },
+  {
+    "name": "Ridge Security",
+    "tier": "cooked",
+    "roast": "Adversarial exposure validation\u2014Picus with a different font and a red team PDF.",
+    "confidence": "medium",
+    "cursor_prompt": "Scheduled attack scripts + detection mapping spreadsheet + Grafana of pass/fail\u2014BAS in a repo."
+  },
+  {
+    "name": "Riptides",
+    "tier": "moat_for_now",
+    "roast": "Identity for workloads sounds trivial until every legacy binary still wants a static key.",
+    "confidence": "low",
+    "cursor_prompt": null
+  },
+  {
+    "name": "RSA Security",
+    "tier": "cooked",
+    "roast": "Passwordless AI-powered IGA\u2014enterprise IAM with extra keynote syllables.",
+    "confidence": "high",
+    "cursor_prompt": "IdP + SCIM + access review cron + MFA policies\u2014RSA-shaped without the license poetry."
+  },
+  {
+    "name": "RSAC SOC by Cisco/Splunk",
+    "tier": "actually_hard",
+    "roast": "Physical SOC watching Moscone Wi\u2011Fi\u2014real packets, real chairs, zero SaaS margin magic.",
+    "confidence": "medium",
+    "cursor_prompt": null
+  },
+  {
+    "name": "Rubrik",
+    "tier": "moat_for_now",
+    "roast": "Backup + identity resilience\u2014sticky restores beat most AI slides until ransomware tests DR for real.",
+    "confidence": "medium",
+    "cursor_prompt": null
+  },
+  {
+    "name": "RunReveal",
+    "tier": "cooked",
+    "roast": "SIEM sprawl replacement\u2014still logs, still regex, now with 'unified' in the deck.",
+    "confidence": "high",
+    "cursor_prompt": "Ship Vector\u2192ClickHouse\u2192Grafana with canned detections; AI is optional marketing."
+  },
+  {
+    "name": "Sacumen",
+    "tier": "cooked",
+    "roast": "1,050 connectors marketplace\u2014Zapier for security vendors with compliance FOMO.",
+    "confidence": "medium",
+    "cursor_prompt": "OpenAPI-to-normalized events worker, 20 common SaaS webhooks first, expand later\u2014connector MVP."
+  },
+  {
+    "name": "Kaseya",
+    "tier": "cooked",
+    "roast": "MSP glue with a breach highlight reel; your \u2018device count\u2019 is just inventory cosplay.",
+    "confidence": "high",
+    "cursor_prompt": "Scaffold a minimal RMM-style agent + policy runner + webhook alerts in a monorepo; swap vendor APIs for stubs and prove patch/report flows end-to-end."
+  },
+  {
+    "name": "Keeper Security",
+    "tier": "cooked",
+    "roast": "A vault that markets like it invented subtraction; your moat is Chrome autofill with liability insurance.",
+    "confidence": "high",
+    "cursor_prompt": "Build a local-first secrets vault (AES-GCM + Argon2id) with browser extension autofill stubs and org policy JSON; no cloud required for the demo."
+  },
+  {
+    "name": "Key2XS",
+    "tier": "cooked",
+    "roast": "\u2018AI-driven middleware\u2019 is how you spell \u2018we bolt SAML onto doors and pray the PLC agrees\u2019.",
+    "confidence": "medium",
+    "cursor_prompt": "Prototype IAM webhook \u2192 physical access simulator (door/device state model) with audit logs; keep AI as a labeled rules engine, not magic."
+  },
+  {
+    "name": "Keycard Labs",
+    "tier": "gpt_wrapper",
+    "roast": "Agent auth with vibes: OAuth for robots cosplaying as employees.",
+    "confidence": "high",
+    "cursor_prompt": null
+  },
+  {
+    "name": "Keyfactor",
+    "tier": "moat_for_now",
+    "roast": "Certs are real work\u2014until every cloud vendor sells you the same HSM karaoke.",
+    "confidence": "medium",
+    "cursor_prompt": null
+  },
+  {
+    "name": "KEYSIGHT",
+    "tier": "actually_hard",
+    "roast": "You sell physics with invoices; software kids can\u2019t bench-rig their way through your lab.",
+    "confidence": "high",
+    "cursor_prompt": null
+  },
+  {
+    "name": "Keystrike",
+    "tier": "actually_hard",
+    "roast": "Keystroke attestation is \u2018touch grass\u2019 as a security primitive\u2014annoying, but not fakeable in a weekend.",
+    "confidence": "medium",
+    "cursor_prompt": null
+  },
+  {
+    "name": "Kindo",
+    "tier": "gpt_wrapper",
+    "roast": "\u2018Own LLM named Deep Hat\u2019 is a cyberpunk strip club, not a control plane.",
+    "confidence": "high",
+    "cursor_prompt": null
+  },
+  {
+    "name": "Kiteworks",
+    "tier": "cooked",
+    "roast": "Email security with a private-cloud trenchcoat\u2014still SMTP\u2019s hostage negotiation service.",
+    "confidence": "high",
+    "cursor_prompt": "Implement secure file exchange MVP: upload tokens, virus-scan hook stub, expiring links, DLP regex gate, and immutable audit trail."
+  },
+  {
+    "name": "Klyro",
+    "tier": "gpt_wrapper",
+    "roast": "\u2018AI Operators\u2019 for IGA: HR tickets with a ChatGPT accent and a SOC2 sticker.",
+    "confidence": "high",
+    "cursor_prompt": null
+  },
+  {
+    "name": "KnowBe4",
+    "tier": "cooked",
+    "roast": "Phishing sims for people who click \u2018unsubscribe\u2019 on ransomware\u2014cultureware with receipts.",
+    "confidence": "high",
+    "cursor_prompt": "Ship a tiny training portal: randomized phishing templates, click tracking, manager digest emails, CSV export\u2014no \u2018AI\u2019 needed."
+  },
+  {
+    "name": "Knox",
+    "tier": "cooked",
+    "roast": "FedRAMP fast-food: you\u2019re selling paperwork throughput, not a new physics.",
+    "confidence": "high",
+    "cursor_prompt": "Generate a FedRAMP-ish control matrix spreadsheet + evidence folder template + CI check that maps Terraform tags to controls; automate the boring parts."
+  },
+  {
+    "name": "KOBIL",
+    "tier": "cooked",
+    "roast": "SuperApp identity: 100M users still won\u2019t save you from being OAuth\u2019s loudest reseller.",
+    "confidence": "medium",
+    "cursor_prompt": "Build a demo SuperApp shell with OIDC login, device binding, and signed API calls; prove the integration surface, not the slide deck."
+  },
+  {
+    "name": "KOREA INFO CERT AUTH",
+    "tier": "actually_hard",
+    "roast": "Government CA energy: your outage is national news, not a Jira ticket.",
+    "confidence": "high",
+    "cursor_prompt": null
+  },
+  {
+    "name": "Korea Pavilion",
+    "tier": "actually_hard",
+    "roast": "A booth that legislates by association\u2014hard mode for journalists, easy mode for handshakes.",
+    "confidence": "high",
+    "cursor_prompt": null
+  },
+  {
+    "name": "KU Leuven",
+    "tier": "actually_hard",
+    "roast": "They helped bake AES; you\u2019re arguing about prompt injection next to a Nobel hallway.",
+    "confidence": "high",
+    "cursor_prompt": null
+  },
+  {
+    "name": "Kymatio",
+    "tier": "cooked",
+    "roast": "Behavioral GRC: astrology for HR, but GDPR-compliant.",
+    "confidence": "high",
+    "cursor_prompt": "Create a lightweight human-risk scoring prototype from SSO + HR CSV joins with explainable rules; export \u2018why\u2019 strings for auditors."
+  },
+  {
+    "name": "Kyndryl",
+    "tier": "actually_hard",
+    "roast": "Consulting at planet scale\u2014your \u2018product\u2019 is humans in vans with badges.",
+    "confidence": "medium",
+    "cursor_prompt": null
+  },
+  {
+    "name": "Lanner Electronics",
+    "tier": "actually_hard",
+    "roast": "Metal boxes that keep packets honest\u2014software can\u2019t sweat in a rack.",
+    "confidence": "high",
+    "cursor_prompt": null
+  },
+  {
+    "name": "LastPass",
+    "tier": "cooked",
+    "roast": "The password manager that taught enterprises \u2018trust but verify\u2019 by becoming a case study.",
+    "confidence": "high",
+    "cursor_prompt": "Same as Keeper stub: local vault + rotation reminders + breach watch via Have I Been Pwned API with rate limits."
+  },
+  {
+    "name": "Legion Security",
+    "tier": "gpt_wrapper",
+    "roast": "Browser-native AI SOC: Clippy with a clearance and an incident queue.",
+    "confidence": "high",
+    "cursor_prompt": null
+  },
+  {
+    "name": "LevelBlue",
+    "tier": "moat_for_now",
+    "roast": "MSSP bingo: humans on call, AI in the brochure, margin in the retainer.",
+    "confidence": "medium",
+    "cursor_prompt": null
+  },
+  {
+    "name": "LIBRAESVA",
+    "tier": "cooked",
+    "roast": "Email security: SPF\u2019s retirement home with a phishing-themed gift shop.",
+    "confidence": "high",
+    "cursor_prompt": "Stand up inbound mail pipeline with DKIM/DMARC reports parser + quarantine UI + rule-based classification tests."
+  },
+  {
+    "name": "LightBeam",
+    "tier": "cooked",
+    "roast": "Identity-centric DLP: spreadsheets that learned marketing and call themselves \u2018DSPM\u2019.",
+    "confidence": "high",
+    "cursor_prompt": "Index a fake data lake, tag columns by regex/LLM-assisted labels (optional), and emit policy violations to Slack\u2014focus on lineage JSON."
+  },
+  {
+    "name": "LimaCharlie",
+    "tier": "moat_for_now",
+    "roast": "API-first EDR is real craft\u2014still a crowded knife fight once everyone copies your YAML.",
+    "confidence": "medium",
+    "cursor_prompt": null
+  },
+  {
+    "name": "Linx Security",
+    "tier": "cooked",
+    "roast": "Non-human identity governance: service accounts finally get the HR they never wanted.",
+    "confidence": "high",
+    "cursor_prompt": "Model humans + service principals in one graph, compute risky combos (stale keys + broad roles), output prioritized fixes."
+  },
+  {
+    "name": "LIONIC CORP.",
+    "tier": "actually_hard",
+    "roast": "Line-speed DPI: you\u2019re selling silicon conviction, not a dashboard conviction.",
+    "confidence": "medium",
+    "cursor_prompt": null
+  },
+  {
+    "name": "LocateRisk GmbH",
+    "tier": "cooked",
+    "roast": "German EASM: Shodan with paperwork and better umlauts.",
+    "confidence": "high",
+    "cursor_prompt": "Build passive recon pipeline (DNS/subdomains/HTTP fingerprints) storing diffs; add vendor questionnaire PDF export for theater."
+  },
+  {
+    "name": "LogicGate",
+    "tier": "cooked",
+    "roast": "No-code AI GRC: risk registers that generate more risk (mostly licensing).",
+    "confidence": "high",
+    "cursor_prompt": "Ship a tiny GRC app: control library JSON, workflow states, evidence uploads to S3-compatible storage, CSV/JSON exports."
+  },
+  {
+    "name": "Logpresso",
+    "tier": "cooked",
+    "roast": "Sonar-branded SIEM: louder name, same regex hangover.",
+    "confidence": "medium",
+    "cursor_prompt": "Ingest syslog JSON into Clickhouse/OpenSearch, ship 10 detection rules + SOAR webhook playbook stub."
+  },
+  {
+    "name": "Lumu Technologies",
+    "tier": "moat_for_now",
+    "roast": "Network ground truth is spicy\u2014until DNS-over-HTTPS turns your \u2018truth\u2019 into guesswork.",
+    "confidence": "medium",
+    "cursor_prompt": null
+  },
+  {
+    "name": "Lunar/Webz.io",
+    "tier": "moat_for_now",
+    "roast": "Stolen cred intel is a data cartel with a crawler budget\u2014gross, but not trivially cloneable overnight.",
+    "confidence": "medium",
+    "cursor_prompt": null
+  },
+  {
+    "name": "Lydsec Keypasco",
+    "tier": "cooked",
+    "roast": "Passwordless MFA #37: your differentiator is PDF compliance and a prettier login widget.",
+    "confidence": "medium",
+    "cursor_prompt": "Implement WebAuthn demo server + device-bound session cookies + admin revoke flow; document threat model vs phishing."
+  },
+  {
+    "name": "ManageEngine",
+    "tier": "cooked",
+    "roast": "IT management buffet: one login, infinite modules, occasional critical CVE as a loyalty punch.",
+    "confidence": "high",
+    "cursor_prompt": "Build a minimal monitoring stack: agent metrics \u2192 Postgres \u2192 Grafana dashboards + alert rules; keep it boring and auditable."
+  },
+  {
+    "name": "Matters.AI",
+    "tier": "gpt_wrapper",
+    "roast": "An \u2018AI Security Engineer\u2019 that\u2019s basically DLP Mad Libs with SOC2 seasoning.",
+    "confidence": "high",
+    "cursor_prompt": null
+  },
+  {
+    "name": "MazeBolt",
+    "tier": "moat_for_now",
+    "roast": "DDoS simulations: niche enough to hurt, loud enough to sell\u2014still not \u2018AI\u2019 as the hard part.",
+    "confidence": "medium",
+    "cursor_prompt": null
+  },
+  {
+    "name": "Mend.io",
+    "tier": "cooked",
+    "roast": "SCA with \u2018AI native\u2019 branding\u2014congrats, you automated blaming interns faster.",
+    "confidence": "high",
+    "cursor_prompt": "Wire SBOM generation (syft) + OSV API enrichment + PR comment bot in GitHub Actions; skip the ML."
+  },
+  {
+    "name": "Mesh Security",
+    "tier": "cooked",
+    "roast": "Cybersecurity mesh: Zapier for SOC tools, priced like middleware therapy.",
+    "confidence": "medium",
+    "cursor_prompt": "Graph connectors read-only from CMDB + vuln scanner exports, compute blast-radius paths, export Neo4j-ish JSON for leadership slides."
+  },
+  {
+    "name": "Meter",
+    "tier": "actually_hard",
+    "roast": "Fiber in the wall beats YAML in the repo\u2014your outage is a truck roll, not a hotfix.",
+    "confidence": "high",
+    "cursor_prompt": null
+  },
+  {
+    "name": "Microsoft Security",
+    "tier": "actually_hard",
+    "roast": "Agentic marketing on top of planetary telemetry\u2014hate the suite, fear the fiber.",
+    "confidence": "high",
+    "cursor_prompt": null
+  },
+  {
+    "name": "Miggo Security",
+    "tier": "cooked",
+    "roast": "AI-augmented AppSec: WAF alerts with an intern\u2019s confidence score.",
+    "confidence": "medium",
+    "cursor_prompt": "Prototype runtime route anomaly detection (OpenTelemetry traces) + blocklist + Jira ticket templating\u2014rules first, ML later."
+  },
+  {
+    "name": "Mimecast",
+    "tier": "cooked",
+    "roast": "Email risk platform: Microsoft\u2019s spam folder with enterprise pricing and a jazzier acronym.",
+    "confidence": "high",
+    "cursor_prompt": "Build journaling + impersonation detection rules + DMARC alignment reports; integrate Teams webhook for triage."
+  },
+  {
+    "name": "MIND",
+    "tier": "cooked",
+    "roast": "DLP on autopilot: still DLP\u2014now it gaslights you in Slack threads too.",
+    "confidence": "high",
+    "cursor_prompt": "File classifier CLI (entropy + regex + extension) + egress proxy hook that logs decisions with user/edition metadata."
+  },
+  {
+    "name": "Mindflow",
+    "tier": "gpt_wrapper",
+    "roast": "4000 integrations means you\u2019re an automation flea market with agent branding.",
+    "confidence": "high",
+    "cursor_prompt": null
+  },
+  {
+    "name": "MindFort AI",
+    "tier": "gpt_wrapper",
+    "roast": "Continuous AI pentesting: legally distinct from \u2018we ran nmap with charisma\u2019.",
+    "confidence": "high",
+    "cursor_prompt": null
+  },
+  {
+    "name": "Mindgard",
+    "tier": "moat_for_now",
+    "roast": "Uni-spinout AI security: smarter than vibes, smaller than a hyperscaler\u2019s bench.",
+    "confidence": "medium",
+    "cursor_prompt": null
+  },
+  {
+    "name": "Minimus",
+    "tier": "cooked",
+    "roast": "Rebuilt-from-source images: great\u2014still a supply-chain compiler with a marketing department.",
+    "confidence": "medium",
+    "cursor_prompt": "CI job that rebuilds base images from lockfiles, scans with grype, fails on CVSS threshold, publishes attestations (cosign)."
+  },
+  {
+    "name": "miniOrange",
+    "tier": "cooked",
+    "roast": "IAM+PAM+DLP+CASB combo platter: identity buffet until you\u2019re bloated on SAML.",
+    "confidence": "high",
+    "cursor_prompt": "OIDC IdP stub (ory/hydra or zitadel) + RBAC model + sample SaaS SP integration; prove session hardening and MFA step-up."
+  },
+  {
+    "name": "Mirror Security",
+    "tier": "actually_hard",
+    "roast": "FHE inference: slow, painful, and actually math-heavy\u2014rare \u2018crypto bro\u2019 with receipts.",
+    "confidence": "medium",
+    "cursor_prompt": null
+  },
+  {
+    "name": "MokN",
+    "tier": "cooked",
+    "roast": "Phishes back the phishers: clever stunt, still basically credential theater.",
+    "confidence": "medium",
+    "cursor_prompt": "Honeypot login pages + token canary accounts + alert pipeline; measure takedown time vs false positives."
+  },
+  {
+    "name": "Mondoo",
+    "tier": "cooked",
+    "roast": "Agentic vuln remediation: Ansible with an MBA and an \u2018AI-native\u2019 haircut.",
+    "confidence": "medium",
+    "cursor_prompt": "Policy-as-code checks (CIS-ish) across cloud + k8s with auto-ticket + patch playbooks behind human approval gates."
+  },
+  {
+    "name": "Morado",
+    "tier": "cooked",
+    "roast": "Dark web brand intel packaged like OSINT Netflix\u2014episodic, repetitive, binge-priced.",
+    "confidence": "medium",
+    "cursor_prompt": "Cron jobs for typo domains + cert transparency + simple ML-free similarity scoring + alert digest email."
+  },
+  {
+    "name": "MTRIX America",
+    "tier": "cooked",
+    "roast": "MSSP MFA: outsourced login prompts with a service desk accent.",
+    "confidence": "medium",
+    "cursor_prompt": "TOTP enrollment + backup codes + device policy JSON + SIEM export of auth events (ECS schema)."
+  },
+  {
+    "name": "MTRIX GmbH",
+    "tier": "cooked",
+    "roast": "Authentication consultants: SAP of MFA\u2014necessary, unsexy, billable.",
+    "confidence": "medium",
+    "cursor_prompt": "Same MFA MVP as MTRIX America; add German \u2018documentation pack\u2019 PDF generator for extra realism."
+  },
+  {
+    "name": "MyCISO",
+    "tier": "cooked",
+    "roast": "Spreadsheet replacement for compliance: you\u2019re Notion for auditors with worse fonts.",
+    "confidence": "high",
+    "cursor_prompt": "CRUD for risks/vendors/control mappings, versioned evidence files, CSV import/export, simple RACI fields."
+  },
+  {
+    "name": "N-able",
+    "tier": "cooked",
+    "roast": "Unified resilience with AI: RMM with a chatbot that apologizes for patch Tuesday.",
+    "confidence": "high",
+    "cursor_prompt": "Endpoint agent that reports inventory + runs signed scripts + streams logs to a central queue with RBAC multi-tenant schema."
+  },
+  {
+    "name": "Nagomi Security",
+    "tier": "cooked",
+    "roast": "CTEM execution layer: Gartner madlibs with a Jira backlog fetish.",
+    "confidence": "medium",
+    "cursor_prompt": "Join asset inventory + vuln feed + business context table to produce ranked remediation tickets with SLA timers."
+  },
+  {
+    "name": "NAKIVO",
+    "tier": "cooked",
+    "roast": "Backup/DR: ransomware\u2019s favorite speed bump\u2014important, not mysterious.",
+    "confidence": "high",
+    "cursor_prompt": "File-level incremental backup prototype using restic/rclone + immutable bucket + restore drill checklist automation."
+  },
+  {
+    "name": "Napatech",
+    "tier": "actually_hard",
+    "roast": "SmartNICs for security pipelines: when your bottleneck is physics, you\u2019re doing something right.",
+    "confidence": "high",
+    "cursor_prompt": null
+  },
+  {
+    "name": "NASA SEWP",
+    "tier": "actually_hard",
+    "roast": "A procurement lightsaber: not a product, a government-shaped checkout lane.",
+    "confidence": "high",
+    "cursor_prompt": null
+  },
+  {
+    "name": "SAFE",
+    "tier": "cooked",
+    "roast": "Agentic CRQ/TPRM/CTEM is compliance theater with an autocorrect problem\u2014your spreadsheet just learned to nag in bullet points.",
+    "confidence": "high",
+    "cursor_prompt": "Ship a minimal CRQ dashboard: CSV risks, Monte Carlo loss bands, vendor questionnaire stub, PDF export; skip autonomous agents until metrics are honest."
+  },
+  {
+    "name": "SafeLogic",
+    "tier": "moat_for_now",
+    "roast": "FIPS validation is real work; the pitch deck still sounds like every other crypto SDK until you read the certification numbers.",
+    "confidence": "medium",
+    "cursor_prompt": null
+  },
+  {
+    "name": "SAFEPAAS",
+    "tier": "cooked",
+    "roast": "Federated governance is IAM cosplay with extra forms\u2014identity, transactions, data, and your renewal invoice.",
+    "confidence": "high",
+    "cursor_prompt": "Prototype IGA-lite: HR CSV \u2192 group rules, SoD matrix checks, access review queue, audit log; one connector (e.g., Okta SCIM) only."
+  },
+  {
+    "name": "SailPoint",
+    "tier": "cooked",
+    "roast": "Identity-first security for humans and machines\u2014translation: workflows, connectors, and a renewal cycle that outlasts your CISO.",
+    "confidence": "high",
+    "cursor_prompt": "Build read-only identity graph from one IdP + one cloud: users, groups, apps, last-login; export least-privilege suggestions as CSV."
+  },
+  {
+    "name": "SAMI",
+    "tier": "actually_hard",
+    "roast": "PIF-backed pavilion bingo: defense, energy, digital\u2014less a booth, more a sovereign balance sheet with lanyards.",
+    "confidence": "high",
+    "cursor_prompt": null
+  },
+  {
+    "name": "Samsung Electronics",
+    "tier": "actually_hard",
+    "roast": "When your threat model includes fabs, supply chains, and a billion devices, nobody cares if your slide says AI.",
+    "confidence": "high",
+    "cursor_prompt": null
+  },
+  {
+    "name": "SANS Institute",
+    "tier": "moat_for_now",
+    "roast": "Thirty-five years of labs and certs: the moat is sweat equity and hotel conference Wi\u2011Fi trauma, not a feature flag.",
+    "confidence": "medium",
+    "cursor_prompt": null
+  },
+  {
+    "name": "SASE OpsLab",
+    "tier": "cooked",
+    "roast": "A marketplace of prepackaged SASE use cases\u2014TikTok for deployment YAML you will never fully test.",
+    "confidence": "high",
+    "cursor_prompt": "Parse vendor SASE APIs; template 3 policies (split tunnel, ZTNA app, DLP rule); dry-run diff + rollback bundle; no marketplace UI."
+  },
+  {
+    "name": "Saviynt",
+    "tier": "cooked",
+    "roast": "AI-powered identity for Fortune 500s\u2014because governance needed a chatbot to say no slower.",
+    "confidence": "high",
+    "cursor_prompt": "Automate one campaign: orphaned accounts, excessive roles, manager attestations; output tickets to Jira with evidence links only."
+  },
+  {
+    "name": "Scantist AI",
+    "tier": "gpt_wrapper",
+    "roast": "Autonomous pen testing from an NTU spin-off\u2014same story as every red-team bot until it finds your staging creds and invoices you.",
+    "confidence": "high",
+    "cursor_prompt": null
+  },
+  {
+    "name": "Seal Security",
+    "tier": "cooked",
+    "roast": "Backport patches without upgrading\u2014SCA\u2019s dream and your dependency hell\u2019s patron saint.",
+    "confidence": "high",
+    "cursor_prompt": "For one OSS lib, map CVE\u2192minimal patch diff, run unit tests in CI, publish patched fork semver; prove no major bump."
+  },
+  {
+    "name": "Seceon",
+    "tier": "cooked",
+    "roast": "Next-gen SIEM/SOAR/UEBA soup\u2014AI/ML is doing the same correlation your intern would, faster and with more licensing.",
+    "confidence": "high",
+    "cursor_prompt": "Ingest syslog + CloudTrail to SQLite; rules for brute force, impossible travel, IAM admin adds; one SOAR playbook to disable user + open ticket."
+  },
+  {
+    "name": "SECPAAS Taiwan",
+    "tier": "actually_hard",
+    "roast": "A pavilion wiring 100+ vendors\u2014industrial policy as a service, not a product scorecard.",
+    "confidence": "high",
+    "cursor_prompt": null
+  },
+  {
+    "name": "SecPod",
+    "tier": "cooked",
+    "roast": "Proactive cloud attack prevention\u2014CSPM/CIEM Mad Libs with a prettier severity palette.",
+    "confidence": "high",
+    "cursor_prompt": "CSPM MVP: IAM analyzer (public S3, admin policies), CIEM (unused keys, overbroad roles), CSV + Slack summary weekly."
+  },
+  {
+    "name": "Securden",
+    "tier": "cooked",
+    "roast": "Password vault plus PAM\u2014two legacy genres holding hands in the expo hall.",
+    "confidence": "high",
+    "cursor_prompt": "Ship vault CLI: AES-GCM blob, RBAC, session recording hooks for SSH/RDP via bastion; rotate secrets via API."
+  },
+  {
+    "name": "Secure Code Warrior",
+    "tier": "cooked",
+    "roast": "Developer risk management\u2014Duolingo for XSS with enterprise pricing.",
+    "confidence": "high",
+    "cursor_prompt": "Curriculum as code: 10 kata repos with failing tests, hints, OWASP mapping; leaderboard from CI test pass rate."
+  },
+  {
+    "name": "SecureFlag",
+    "tier": "cooked",
+    "roast": "Hands-on training in 45 languages\u2014great for resumes, thin as a moat when Copilot already whispers fixes.",
+    "confidence": "medium",
+    "cursor_prompt": "One Docker lab per vuln class with autograder (HTTP assertions + static checks); export completion JSON for LMS."
+  },
+  {
+    "name": "SecurEnds",
+    "tier": "cooked",
+    "roast": "Modern IGA\u2014user access reviews with fresher fonts and the same quarterly dread.",
+    "confidence": "high",
+    "cursor_prompt": "Build access review job: pull entitlements, diff vs last quarter, manager approve/deny, immutable audit trail export."
+  },
+  {
+    "name": "Security Journey",
+    "tier": "cooked",
+    "roast": "Builds developer judgment\u2014until the sprint points say judgment is out of scope.",
+    "confidence": "high",
+    "cursor_prompt": "Embed micro-lessons in PR checks: secret scan fail links to 2-minute read + quiz gate optional."
+  },
+  {
+    "name": "SecurityScorecard",
+    "tier": "cooked",
+    "roast": "Threat-informed TPRM\u2014letter grades for vendors so procurement can outsource blame.",
+    "confidence": "high",
+    "cursor_prompt": "Scorecard MVP: DNS, TLS, SPF/DMARC, exposed ports, CVE surface from SBOM; store history; PDF for board pack."
+  },
+  {
+    "name": "Securonix",
+    "tier": "cooked",
+    "roast": "Unified SIEM/UEBA/SOAR/TIP\u2014now agentic AI, i.e., alerts with extra confidence intervals.",
+    "confidence": "high",
+    "cursor_prompt": "Normalize logs to OCSF-like schema, 5 detection rules, case object with timeline; webhook to ticketing."
+  },
+  {
+    "name": "Securosys",
+    "tier": "actually_hard",
+    "roast": "Swiss HSMs and PQC readiness\u2014when the pitch includes tamper mesh, you are not vibe-coding.",
+    "confidence": "high",
+    "cursor_prompt": null
+  },
+  {
+    "name": "Seezo",
+    "tier": "gpt_wrapper",
+    "roast": "Automates design reviews per feature\u2014security requirements as LLM fanfiction tied to your Jira trauma.",
+    "confidence": "medium",
+    "cursor_prompt": null
+  },
+  {
+    "name": "Segura (ex-senhasegura)",
+    "tier": "cooked",
+    "roast": "Fast simple PAM with a Gartner badge\u2014still session recording and break-glass with better UX lipstick.",
+    "confidence": "high",
+    "cursor_prompt": "PAM core: vault, checkout sessions, command filtering for Linux, session logs to S3 with searchable metadata."
+  },
+  {
+    "name": "Semgrep",
+    "tier": "cooked",
+    "roast": "Code security for builders\u2014SAST with better OSS vibes and the same false-positive tax.",
+    "confidence": "high",
+    "cursor_prompt": "CI job: semgrep --config auto on PRs, SARIF to GitHub, baseline file to ratchet; tune 10 custom rules for your stack."
+  },
+  {
+    "name": "Semperis",
+    "tier": "moat_for_now",
+    "roast": "AD/Entra/Okta resilience\u2014unsexy until ransomware turns your forest into kindling; then you pay retail.",
+    "confidence": "medium",
+    "cursor_prompt": null
+  },
+  {
+    "name": "SentinelOne",
+    "tier": "moat_for_now",
+    "roast": "Autonomous AI EDR\u2014kernel agents and data lakes still beat a wrapper, even if the keynote says wizard.",
+    "confidence": "medium",
+    "cursor_prompt": null
+  },
+  {
+    "name": "Sentra",
+    "tier": "cooked",
+    "roast": "Cloud-native data security for the AI era\u2014DSPM bingo with extra sensitive-data bingo.",
+    "confidence": "high",
+    "cursor_prompt": "Inventory S3/Buckets: PII classifier sample, public/share links, encryption flags; risk-ranked CSV + owner tags."
+  },
+  {
+    "name": "Seraphic",
+    "tier": "moat_for_now",
+    "roast": "Turn any browser enterprise\u2014real attack surface shift, even if users still install three other browsers anyway.",
+    "confidence": "medium",
+    "cursor_prompt": null
+  },
+  {
+    "name": "SerNet",
+    "tier": "actually_hard",
+    "roast": "Germany pavilion plus open-source GRC\u2014policy theater with a national booth and better sausages nearby.",
+    "confidence": "medium",
+    "cursor_prompt": null
+  },
+  {
+    "name": "ServiceNow",
+    "tier": "moat_for_now",
+    "roast": "AI control tower for the business\u2014your entire company runs on workflows; security is one module in the empire.",
+    "confidence": "medium",
+    "cursor_prompt": null
+  },
+  {
+    "name": "SGS",
+    "tier": "actually_hard",
+    "roast": "Testing, inspection, certification\u2014labs and auditors, not a login page with SOC 2 stickers.",
+    "confidence": "high",
+    "cursor_prompt": null
+  },
+  {
+    "name": "Siber Systems (RoboForm)",
+    "tier": "cooked",
+    "roast": "Enterprise password management\u2014still the genre that loses to SSO, passkeys, and Post-it denial.",
+    "confidence": "high",
+    "cursor_prompt": "Passkey-first employee pilot: WebAuthn enroll, recovery codes, device-bound keys, export audit for helpdesk resets."
+  },
+  {
+    "name": "Silverfort",
+    "tier": "cooked",
+    "roast": "End-to-end identity security\u2014MFA brokering for assets that vendors forgot how to SAML.",
+    "confidence": "high",
+    "cursor_prompt": "MFA broker PoC: RDP/SSH via gateway, step-up auth via IdP OIDC, policy by AD group; log all sessions."
+  },
+  {
+    "name": "Simbian",
+    "tier": "gpt_wrapper",
+    "roast": "Fully autonomous SOC with pentest and hunt agents\u2014if it worked quietly, you would not need the word fully twice.",
+    "confidence": "high",
+    "cursor_prompt": null
+  },
+  {
+    "name": "SIRAR",
+    "tier": "actually_hard",
+    "roast": "Another Saudi pavilion vendor\u2014regional champion or brochure, either way it is not a weekend hackathon.",
+    "confidence": "medium",
+    "cursor_prompt": null
+  },
+  {
+    "name": "SISA",
+    "tier": "moat_for_now",
+    "roast": "Payment security and PCI forensics\u2014niche expertise that survives hype because breaches stay profitable.",
+    "confidence": "medium",
+    "cursor_prompt": null
+  },
+  {
+    "name": "SITE",
+    "tier": "actually_hard",
+    "roast": "PIF-owned integrator\u2014cloud and cyber with a sovereign shareholder and a giant floor map.",
+    "confidence": "medium",
+    "cursor_prompt": null
+  },
+  {
+    "name": "six24 Cyber Labs",
+    "tier": "gpt_wrapper",
+    "roast": "AI-driven adversary emulation\u2014purple team GPT with a platform name that sounds like a workout.",
+    "confidence": "high",
+    "cursor_prompt": null
+  },
+  {
+    "name": "Sky BlackBox",
+    "tier": "cooked",
+    "roast": "470x accuracy vendor risk\u2014TPRM math so spicy it trips fraud filters on the press release.",
+    "confidence": "medium",
+    "cursor_prompt": "Vendor risk MVP: questionnaire JSON schema, evidence uploads, automated checks (domain, TLS, leaks), weighted score, export."
+  },
+  {
+    "name": "Skyhawk Security",
+    "tier": "cooked",
+    "roast": "AI purple team for CSPM\u2014cloud alerts dressed as narrative arcs.",
+    "confidence": "high",
+    "cursor_prompt": "Cloud trail \u2192 attack path graph: admin role changes, public resources, lateral hints; weekly digest email only."
+  },
+  {
+    "name": "Skyrelis",
+    "tier": "gpt_wrapper",
+    "roast": "Runtime policy for agentic AI\u2014guardrails sold as infrastructure while models change weekly.",
+    "confidence": "medium",
+    "cursor_prompt": null
+  },
+  {
+    "name": "Smallstep",
+    "tier": "moat_for_now",
+    "roast": "Device identity without user friction\u2014TLS everywhere is real engineering, not a chat prompt.",
+    "confidence": "medium",
+    "cursor_prompt": null
+  },
+  {
+    "name": "SMARTFENSE",
+    "tier": "cooked",
+    "roast": "Awareness SaaS from Spain\u2014phish sims and compliance box-checking with better paella energy.",
+    "confidence": "high",
+    "cursor_prompt": "Phish sim MVP: landing pages, SES send with throttle, click/open tracking, remedial micro-course on fail."
+  },
+  {
+    "name": "SmartSuite",
+    "tier": "cooked",
+    "roast": "No-code GRC by Archer founders\u2014same controls, fewer code monkeys, same audit fatigue.",
+    "confidence": "high",
+    "cursor_prompt": "GRC skeleton: control library CSV, evidence folders per control, due dates, auditor export zip, no workflow engine v1."
+  },
+  {
+    "name": "SmishAlert",
+    "tier": "cooked",
+    "roast": "Mobile phishing awareness\u2014niche smishing QR drama for teams who already ignore SMS from IT.",
+    "confidence": "high",
+    "cursor_prompt": "Ingest SMS samples, classify with simple rules + optional LLM labeler, dashboard per user, coach tips."
+  },
+  {
+    "name": "Socket",
+    "tier": "cooked",
+    "roast": "SCA that hunts malware in OSS\u2014still supply-chain security, i.e., npm PTSD as a SKU.",
+    "confidence": "high",
+    "cursor_prompt": "Lockfile diff CI: fetch packages, run known-malware hash list + typosquat heuristics, block publish on red."
+  },
+  {
+    "name": "SOCRadar",
+    "tier": "cooked",
+    "roast": "Extended threat intel plus ASM\u2014dark web SEO with a CVE garnish.",
+    "confidence": "high",
+    "cursor_prompt": "ASM MVP: subdomain enum, port scan sample, TLS grade, tech fingerprint, changelog alerts via RSS/email."
+  },
+  {
+    "name": "SOFFID IAM",
+    "tier": "cooked",
+    "roast": "European IAM with Common Criteria flex\u2014still SSO/MFA/PAM with a passport.",
+    "confidence": "high",
+    "cursor_prompt": "OIDC SSO to one app, SCIM provision, MFA TOTP enforced, PAM jump for one Linux fleet; config as Terraform."
+  },
+  {
+    "name": "SOFTwarfare",
+    "tier": "cooked",
+    "roast": "Passwordless MFA and biometrics\u2014great, another vendor for your pocket full of authenticators.",
+    "confidence": "medium",
+    "cursor_prompt": "WebAuthn server: registration/login ceremonies, attestation policy, risk step-up list, admin revoke device API."
+  },
+  {
+    "name": "SolidCore.ai",
+    "tier": "gpt_wrapper",
+    "roast": "Immutable record of every LLM inference\u2014compliance theater meets token-level surveillance.",
+    "confidence": "high",
+    "cursor_prompt": null
+  },
+  {
+    "name": "Sonar",
+    "tier": "cooked",
+    "roast": "Automated code review at scale for AI code\u2014Copilot\u2019s guilt mirror with a dashboard.",
+    "confidence": "high",
+    "cursor_prompt": "PR bot: static rules + optional LLM summary, block on secrets/high issues, SARIF upload, per-repo config."
+  },
+  {
+    "name": "Sonatype",
+    "tier": "cooked",
+    "roast": "AI-driven DevSecOps and Maven Central\u2014SCA is cooked even when you own the repository.",
+    "confidence": "high",
+    "cursor_prompt": "SBOM from builds, policy on licenses/CVEs, fail CI with waivers file in repo, Nexus proxy optional."
+  },
+  {
+    "name": "Sophos",
+    "tier": "moat_for_now",
+    "roast": "Decades of endpoint and IR\u2014legacy vendor strength is distribution and telemetry, not keynote poetry.",
+    "confidence": "medium",
+    "cursor_prompt": null
+  },
+  {
+    "name": "SpecterOps",
+    "tier": "moat_for_now",
+    "roast": "BloodHound tradecraft and identity attack paths\u2014offensive research that outlasts quarterly OKRs.",
+    "confidence": "high",
+    "cursor_prompt": null
+  },
+  {
+    "name": "SPECTRA",
+    "tier": "cooked",
+    "roast": "MSP channel security validation\u2014four tiers of acronym compliance for partners who sell compliance.",
+    "confidence": "high",
+    "cursor_prompt": "MSP checklist app: stack survey, gap scoring per tier, PDF report, CSV export for QBR slides."
+  },
+  {
+    "name": "Spektion",
+    "tier": "cooked",
+    "roast": "Runtime behavior beyond CVEs\u2014ASM with extra verbs and fewer naps.",
+    "confidence": "medium",
+    "cursor_prompt": "Agent collects file/exec/network hashes hourly, diff vs baseline, alert on new binary paths outbound."
+  },
+  {
+    "name": "Splunk Terrace",
+    "tier": "cooked",
+    "roast": "Sponsored lounge to recharge\u2014your SIEM still cannot, but your legs can.",
+    "confidence": "high",
+    "cursor_prompt": "Event app: session bookmark, meetup RSVP, sponsor map PDF\u2014honestly just use the official schedule API if exposed."
+  },
+  {
+    "name": "Splunk/Cisco",
+    "tier": "moat_for_now",
+    "roast": "Platinum observability soup\u2014telemetry gravity well that survives hype because switching costs are geological.",
+    "confidence": "medium",
+    "cursor_prompt": null
+  },
+  {
+    "name": "Sprinto",
+    "tier": "cooked",
+    "roast": "AI-native GRC with 3000 customers\u2014automation for audits, not a moat against auditors.",
+    "confidence": "high",
+    "cursor_prompt": "Control-to-evidence mapper: pull Git/Jira/Okta logs, map to SOC2 controls, gap list CSV, reviewer sign-off trail."
+  },
+  {
+    "name": "Guardare",
+    "tier": "cooked",
+    "roast": "Another 'AI-driven' single pane that is SIEM karaoke with extra adjectives\u2014visibility without differentiated detection is a Grafana theme pack.",
+    "confidence": "high",
+    "cursor_prompt": "Ship a week-one MVP: syslog + OCSF-ish schema, basic UEBA (thresholds + peer grouping), one SOAR playbook (isolate host), and a PDF that says 'AI' without shipping a model."
+  },
+  {
+    "name": "Gurucul",
+    "tier": "cooked",
+    "roast": "Unified SIEM/UEBA/analytics is three tabs and one Elasticsearch bill pretending to be a category.",
+    "confidence": "high",
+    "cursor_prompt": "Stand up OpenSearch + Sigma rules + anomaly job on failed logons; wrap with a React dashboard and call it 'open, cloud-ready' until investors ask for margins."
+  },
+  {
+    "name": "Hack The Box",
+    "tier": "moat_for_now",
+    "roast": "Upskilling empire with labs people actually finish\u2014hard to clone the content library, easy to clone the business model.",
+    "confidence": "medium",
+    "cursor_prompt": null
+  },
+  {
+    "name": "HackerOne",
+    "tier": "moat_for_now",
+    "roast": "Bug bounties are a two-sided market with receipts; you're paying for researcher liquidity, not a novel scanner.",
+    "confidence": "high",
+    "cursor_prompt": null
+  },
+  {
+    "name": "HackNotice",
+    "tier": "cooked",
+    "roast": "Third-party breach ticker tape: useful, but it's OSINT cosplay if your edge is 'we read the news faster.'",
+    "confidence": "medium",
+    "cursor_prompt": "Aggregate public breach feeds + vendor domains into a risk score; sell CSV exports to GRC teams who panic quarterly."
+  },
+  {
+    "name": "Halcyon",
+    "tier": "cooked",
+    "roast": "Ransomware EDR is a crowded knife fight; 'defeats ransomware' is marketing until you publish independent recovery stats.",
+    "confidence": "medium",
+    "cursor_prompt": "Prototype tamper-resistant backups + canary files + process-tree kill on mass encryption patterns; document one real rollback story."
+  },
+  {
+    "name": "Harness",
+    "tier": "cooked",
+    "roast": "Pipeline-native AppSec on an 'AI DevSecOps platform' is SAST/DAST/SCA with a runway haircut\u2014still the same scanners in a nicer YAML.",
+    "confidence": "high",
+    "cursor_prompt": "Wire GitHub Actions to Semgrep + Trivy + ZAP baseline; gate merges and ship a 'security pipeline' UI in a weekend."
+  },
+  {
+    "name": "HashiCorp/IBM",
+    "tier": "moat_for_now",
+    "roast": "Terraform state and Vault adoption are enterprise barnacles\u2014IBM didn't buy vibes, it bought migration friction.",
+    "confidence": "high",
+    "cursor_prompt": null
+  },
+  {
+    "name": "Heimdall Data",
+    "tier": "cooked",
+    "roast": "Database PAM is still PAM: proxy creds, rotate secrets, log everything\u2014enterprise catnip, weekend project skeleton.",
+    "confidence": "high",
+    "cursor_prompt": "Deploy pgbouncer + Vault dynamic creds + session recording; slap 'governance' on the audit PDF."
+  },
+  {
+    "name": "HeroDevs",
+    "tier": "moat_for_now",
+    "roast": "EOL support for abandoned OSS is a paperwork moat\u2014lawyers and LTS patches beat vibe-coded replacements.",
+    "confidence": "medium",
+    "cursor_prompt": null
+  },
+  {
+    "name": "HEROIC.com",
+    "tier": "gpt_wrapper",
+    "roast": "'AI-powered proactive threat intelligence' for families sounds like ChatGPT wearing a SOC hoodie and a subscription.",
+    "confidence": "medium",
+    "cursor_prompt": null
+  },
+  {
+    "name": "Hewlett Packard Enterprise",
+    "tier": "actually_hard",
+    "roast": "Hardware-scale networking and resilience\u2014this is boxes, optics, and field engineers, not a prompt.",
+    "confidence": "high",
+    "cursor_prompt": null
+  },
+  {
+    "name": "Hexnode",
+    "tier": "cooked",
+    "roast": "AI-powered UEM is MDM with marketing tremors; Apple and Microsoft APIs are the real product.",
+    "confidence": "high",
+    "cursor_prompt": "Use MDM APIs (or osquery fleet) + compliance checks + scripted remediations; AI slide optional."
+  },
+  {
+    "name": "HiddenLayer",
+    "tier": "moat_for_now",
+    "roast": "AISec for agentic AI is real if the models and hooks are yours\u2014still a land grab before the hyperscalers bundle it.",
+    "confidence": "medium",
+    "cursor_prompt": null
+  },
+  {
+    "name": "Horizon3.ai",
+    "tier": "moat_for_now",
+    "roast": "Autonomous pentesting that chains exploits beats checkbox ASM; moat is exploit reliability, not a prettier spider.",
+    "confidence": "medium",
+    "cursor_prompt": null
+  },
+  {
+    "name": "Hoxhunt",
+    "tier": "cooked",
+    "roast": "AI-personalized phishing drills are still Gmail filters for feelings\u2014human risk theater with nicer cartoons.",
+    "confidence": "high",
+    "cursor_prompt": "Send simulated phishes from rotating domains, track clickers, enroll slackers in 10-minute modules\u2014no 'AI' required."
+  },
+  {
+    "name": "Huntress",
+    "tier": "cooked",
+    "roast": "Human-led, AI-assisted MDR for SMBs is a staffed SOC with margins\u2014great service, not a defensible algorithm.",
+    "confidence": "medium",
+    "cursor_prompt": "Stack Wazuh + Velociraptor + ticketing; hire two analysts in a cheap timezone and undercut on price."
+  },
+  {
+    "name": "Hush Security",
+    "tier": "moat_for_now",
+    "roast": "JIT machine access for agentic AI is the rare case where IAM isn't just Okta cosplay\u2014policy + agents could stick.",
+    "confidence": "low",
+    "cursor_prompt": null
+  },
+  {
+    "name": "Hyperproof",
+    "tier": "cooked",
+    "roast": "Modern AI GRC is controls spreadsheets with Copilot and anxiety\u2014SOC 2 automation is a feature, not a fortress.",
+    "confidence": "high",
+    "cursor_prompt": "Map controls to evidence folders + automated evidence collection from cloud APIs; sell auditors a clean export."
+  },
+  {
+    "name": "IBASE Technology",
+    "tier": "actually_hard",
+    "roast": "Appliance OEM life: metal, thermals, supply chain\u2014your moat ships on a pallet.",
+    "confidence": "high",
+    "cursor_prompt": null
+  },
+  {
+    "name": "IBM",
+    "tier": "actually_hard",
+    "roast": "Hybrid cloud and mainframe gravity at nation-state scale\u2014this is contracts, silicon partnerships, and lawyers in orbit.",
+    "confidence": "high",
+    "cursor_prompt": null
+  },
+  {
+    "name": "iboss",
+    "tier": "cooked",
+    "roast": "Zero-trust SASE that replaces the whole stack is still SWG + CASB + ZTNA in a trench coat.",
+    "confidence": "high",
+    "cursor_prompt": "Stand up Cloudflare/Zscaler-class policies for egress + identity-aware proxy; prove parity on three apps and migrate one pilot."
+  },
+  {
+    "name": "ID Quantique (IonQ)",
+    "tier": "actually_hard",
+    "roast": "Quantum-safe crypto is physics R&D with patents\u2014your threat model includes photons, not npm.",
+    "confidence": "high",
+    "cursor_prompt": null
+  },
+  {
+    "name": "IDEMIA Public Security",
+    "tier": "actually_hard",
+    "roast": "Government-grade biometrics is procurement, liveness labs, and civil liberties theater\u2014harder than a login page.",
+    "confidence": "high",
+    "cursor_prompt": null
+  },
+  {
+    "name": "Identity Rules",
+    "tier": "cooked",
+    "roast": "AI-powered IAM fast-tracks you to 'policy as vibes'\u2014still connectors, RBAC, and audit logs underneath.",
+    "confidence": "high",
+    "cursor_prompt": "Ship SCIM + Okta sync + rule engine for group membership; call it AI after you add anomaly scoring on admin actions."
+  },
+  {
+    "name": "iDox.ai",
+    "tier": "gpt_wrapper",
+    "roast": "LLM redaction for privacy is the product eating the problem it created\u2014convenient synergy.",
+    "confidence": "medium",
+    "cursor_prompt": null
+  },
+  {
+    "name": "IEI Technology",
+    "tier": "actually_hard",
+    "roast": "Industrial hardware with Intel/AMD/Marvell inside\u2014your roadmap includes fabs and lead times.",
+    "confidence": "high",
+    "cursor_prompt": null
+  },
+  {
+    "name": "Illumio",
+    "tier": "moat_for_now",
+    "roast": "Microsegmentation that actually enforces east-west policy is a shrinking moat as clouds get smarter\u2014still real engineering.",
+    "confidence": "high",
+    "cursor_prompt": null
+  },
+  {
+    "name": "Immersive",
+    "tier": "cooked",
+    "roast": "Cyber resilience exercises are Tabletop RPGs for auditors\u2014valuable, not a patent wall.",
+    "confidence": "medium",
+    "cursor_prompt": "Build scenario packs + scoring rubric + Slack bot for injects; sell to CISOs who need budget cover."
+  },
+  {
+    "name": "Impart Security",
+    "tier": "cooked",
+    "roast": "Unified runtime protection for AI/API/web is WAF plus rate limits with a taller landing page.",
+    "confidence": "high",
+    "cursor_prompt": "Deploy Envoy + OPA + schema validation for APIs; add ModSec/WAF ruleset and anomaly thresholds on token burn."
+  },
+  {
+    "name": "imper.ai",
+    "tier": "moat_for_now",
+    "roast": "Deepfake/vishing detection is one of the few places 'AI' isn't a red flag\u2014adversaries move faster than compliance PDFs.",
+    "confidence": "medium",
+    "cursor_prompt": null
+  },
+  {
+    "name": "Incode Technologies",
+    "tier": "moat_for_now",
+    "roast": "Biometric onboarding at scale is fraud data + liveness models + regulatory scar tissue\u2014not a weekend wrapper.",
+    "confidence": "medium",
+    "cursor_prompt": null
+  },
+  {
+    "name": "Indurex",
+    "tier": "actually_hard",
+    "roast": "OT for critical infrastructure under a national pavilion\u2014engineering on plants that can hurt people, not SaaS sizzle.",
+    "confidence": "medium",
+    "cursor_prompt": null
+  },
+  {
+    "name": "Infinidat",
+    "tier": "moat_for_now",
+    "roast": "Enterprise storage arrays with five-nines marketing\u2014hardware reliability and support contracts beat vibe-coded buckets.",
+    "confidence": "medium",
+    "cursor_prompt": null
+  },
+  {
+    "name": "Infisical",
+    "tier": "cooked",
+    "roast": "Secrets + certs + PAM in one repo-friendly box: useful, and exactly the category the rules call cooked.",
+    "confidence": "high",
+    "cursor_prompt": "Use Vault or SOPS + cert-manager + short-lived tokens; wrap with Git-backed workflows teams will actually adopt."
+  },
+  {
+    "name": "Infoblox",
+    "tier": "moat_for_now",
+    "roast": "DDI is boring until DNS is your blast radius\u2014sticky networking plumbing beats another ASM startup.",
+    "confidence": "high",
+    "cursor_prompt": null
+  },
+  {
+    "name": "Infosec Institute",
+    "tier": "cooked",
+    "roast": "Certs and awareness content are LMS with scarier thumbnails\u2014great business, zero technical moat.",
+    "confidence": "high",
+    "cursor_prompt": "Curate free OWASP/SANS modules + phishing sims; sell custom branding to enterprises allergic to creativity."
+  },
+  {
+    "name": "InnerActiv",
+    "tier": "cooked",
+    "roast": "Insider risk with 'real-time behavioral analysis' is DLP with HR anxiety and more dashboards.",
+    "confidence": "high",
+    "cursor_prompt": "Instrument endpoint file exfil patterns + O365 DLP alerts + UEBA-lite on after-hours bulk downloads."
+  },
+  {
+    "name": "InprOTech",
+    "tier": "actually_hard",
+    "roast": "24/7 OT defense for industrial networks is protocol archaeology\u2014Modbus scars, not markdown.",
+    "confidence": "medium",
+    "cursor_prompt": null
+  },
+  {
+    "name": "INSSIDE",
+    "tier": "cooked",
+    "roast": "360\u00b0 Red/Blue/GRC/Dev is a consultancy with a booth\u2014great slides, no shrink-wrapped IP.",
+    "confidence": "medium",
+    "cursor_prompt": "Productize one vertical assessment (e.g., Active Directory) into a fixed-price report generator + checklist portal."
+  },
+  {
+    "name": "Intezer",
+    "tier": "cooked",
+    "roast": "'AI SOC' and ForensicAI is triage automation on someone else's telemetry\u2014still SIEM/SOAR with a smarter macro.",
+    "confidence": "medium",
+    "cursor_prompt": "Pipeline alerts into LLM summarization + dedupe + suggested playbooks; measure analyst time saved, not model size."
+  },
+  {
+    "name": "Intigriti",
+    "tier": "moat_for_now",
+    "roast": "125k hackers on a platform is liquidity HackerOne also has\u2014moat is EU relationships and program ops, not magic tech.",
+    "confidence": "medium",
+    "cursor_prompt": null
+  },
+  {
+    "name": "Introw",
+    "tier": "cooked",
+    "roast": "Partner portals on HubSpot/Salesforce with a security architecture tag\u2014this booth wandered in from a martech expo.",
+    "confidence": "high",
+    "cursor_prompt": "If you insist: embed SSO + audit logs + file watermarking on partner uploads; admit you're PRM, not CNAPP."
+  },
+  {
+    "name": "IONIX",
+    "tier": "cooked",
+    "roast": "External ASM is Shodan bookmarks plus prioritization\u2014attack path stories sell better than the crawler.",
+    "confidence": "high",
+    "cursor_prompt": "Run amass/subfinder + nuclei on schedules; score by CVE recency and exposed admin panels; PDF executive summary."
+  },
+  {
+    "name": "IPinfo",
+    "tier": "moat_for_now",
+    "roast": "IP intelligence is a clean API on a dirty dataset\u2014moat is data freshness and billing, not algorithms.",
+    "confidence": "high",
+    "cursor_prompt": null
+  },
+  {
+    "name": "IronCircle",
+    "tier": "cooked",
+    "roast": "AI cybersecurity training is gamified LinkedIn Learning with scarier stock art\u2014content moat optional, hype mandatory.",
+    "confidence": "high",
+    "cursor_prompt": "Fork OWASP juice shop + add storyline levels + leaderboard; swap 'AI' for spaced repetition and measurable skill lifts."
+  },
+  {
+    "name": "IRONSCALES",
+    "tier": "cooked",
+    "roast": "Email security with AI is the rule: phishing filters plus BEC heuristics\u201417k customers, still cooked.",
+    "confidence": "high",
+    "cursor_prompt": "Deploy DMARC/DKIM enforcement + graph API anomaly on inbox rules + link sandboxing; brag about false positive rate."
+  },
+  {
+    "name": "Iru, Inc.",
+    "tier": "cooked",
+    "roast": "AI endpoint platform unifying identity and compliance is three acquired features in a trench coat.",
+    "confidence": "medium",
+    "cursor_prompt": "Standardize on one EDR agent + Intune/Jamf for posture + CIS benchmarks automated; unify alerts in one queue."
+  },
+  {
+    "name": "ISACA",
+    "tier": "actually_hard",
+    "roast": "Credentials and standards bodies print risk frameworks while vendors sell tools\u2014uncancellable institutional gravity.",
+    "confidence": "high",
+    "cursor_prompt": null
+  },
+  {
+    "name": "ISC2",
+    "tier": "actually_hard",
+    "roast": "265k members and certs that gate hiring\u2014professional guild, not a product SKU.",
+    "confidence": "high",
+    "cursor_prompt": null
+  },
+  {
+    "name": "Island",
+    "tier": "moat_for_now",
+    "roast": "Enterprise browser is a real wedge\u2014policy in the render path beats yet another agent on the endpoint.",
+    "confidence": "high",
+    "cursor_prompt": null
+  },
+  {
+    "name": "ISSA International",
+    "tier": "actually_hard",
+    "roast": "Another membership jacket for security adults\u2014network effects without software.",
+    "confidence": "high",
+    "cursor_prompt": null
+  },
+  {
+    "name": "iT.eam",
+    "tier": "cooked",
+    "roast": "Personalized cybersecurity from a pavilion booth is managed SIEM with a passport\u2014fine services, zero IP moat.",
+    "confidence": "medium",
+    "cursor_prompt": "Productize one vertical (e.g., M365 logging) into fixed monitoring tiers with canned runbooks."
+  },
+  {
+    "name": "Italian Trade Agency",
+    "tier": "actually_hard",
+    "roast": "Government trade promotion\u2014your threat model is diplomatic receptions, not CVEs.",
+    "confidence": "high",
+    "cursor_prompt": null
+  },
+  {
+    "name": "Ivanti",
+    "tier": "cooked",
+    "roast": "AI-powered endpoint management for 34k customers is legacy ITSM with a chatbot sticker\u2014still patch theater.",
+    "confidence": "high",
+    "cursor_prompt": "Automate patch baselines + rollback snapshots + compliance reporting; prove mean-time-to-patch, not 'AI'."
+  },
+  {
+    "name": "iZOOlogic",
+    "tier": "cooked",
+    "roast": "AI-driven threat intel and ASM for regulators is the same external scans with a stiffer PDF footer.",
+    "confidence": "medium",
+    "cursor_prompt": "External asset inventory + leaked cred monitoring + regulator-friendly monthly brief template."
+  },
+  {
+    "name": "Jamf",
+    "tier": "moat_for_now",
+    "roast": "Apple fleet management is ecosystem handcuffs\u2014users love Macs, IT pays the tax.",
+    "confidence": "high",
+    "cursor_prompt": null
+  },
+  {
+    "name": "Janus Cyber",
+    "tier": "moat_for_now",
+    "roast": "Auto segmentation for critical infrastructure is OT networking with real physics\u2014harder than cloud policy JSON.",
+    "confidence": "medium",
+    "cursor_prompt": null
+  },
+  {
+    "name": "Jazz",
+    "tier": "cooked",
+    "roast": "AI investigator for DLP is rules plus embeddings pretending to understand 'business context'\u2014still DLP.",
+    "confidence": "medium",
+    "cursor_prompt": "Classify sensitive docs with embeddings + map to departments + route approvals; keep humans in the loop legally."
+  },
+  {
+    "name": "JFrog",
+    "tier": "moat_for_now",
+    "roast": "Artifacts and supply-chain pipelines devs actually use\u2014moat is repo gravity, not novelty.",
+    "confidence": "high",
+    "cursor_prompt": null
+  },
+  {
+    "name": "National Cybersecurity Authority Saudi Arabia",
+    "tier": "actually_hard",
+    "roast": "Royal decree beats your Series A deck\u2014try pitching 'sovereign incident response' to a VC.",
+    "confidence": "high",
+    "cursor_prompt": null
+  },
+  {
+    "name": "Native",
+    "tier": "cooked",
+    "roast": "Another 'control plane' sticker on the same three CSP APIs your intern could script over a weekend.",
+    "confidence": "high",
+    "cursor_prompt": "Ship one read-only integration (e.g., AWS Security Hub findings) plus a single remediation playbook; charge only after a customer runs it 100 times."
+  },
+  {
+    "name": "NCP engineering",
+    "tier": "cooked",
+    "roast": "VPN with a SASE costume\u2014your packets still trust a vendor more than your own PKI hygiene.",
+    "confidence": "high",
+    "cursor_prompt": "Replace slide-ware with a reproducible perf benchmark vs WireGuard on identical hardware; publish p95 latency and reconnect times."
+  },
+  {
+    "name": "NEOX Networks",
+    "tier": "moat_for_now",
+    "roast": "Network visibility that finally admits IT and OT share a cable\u2014and a single terrified NOC engineer.",
+    "confidence": "medium",
+    "cursor_prompt": null
+  },
+  {
+    "name": "NetApp",
+    "tier": "moat_for_now",
+    "roast": "They sell disks that pretend to be policy engines\u2014encryption at rest is not a personality.",
+    "confidence": "medium",
+    "cursor_prompt": null
+  },
+  {
+    "name": "NetBrain",
+    "tier": "cooked",
+    "roast": "Auto-validates configs the way spellcheck validates novels\u2014fine for typos, useless for plot holes.",
+    "confidence": "high",
+    "cursor_prompt": "Pick one vendor (Cisco or Palo) and ship a diff view: intended policy vs running config, with one-click export to a ticket."
+  },
+  {
+    "name": "Netcraft",
+    "tier": "moat_for_now",
+    "roast": "Phishing takedowns powered by a proxy army\u2014dark arts, but still arts, not a slide template.",
+    "confidence": "medium",
+    "cursor_prompt": null
+  },
+  {
+    "name": "Netenrich",
+    "tier": "cooked",
+    "roast": "Another 'Resolution Intelligence Cloud'\u2014SOC cosplay with a bigger Elasticsearch bill.",
+    "confidence": "high",
+    "cursor_prompt": "Publish a 30-day pilot SLA: mean time to true-positive alert, not 'tickets closed'."
+  },
+  {
+    "name": "Netherlands Pavilion",
+    "tier": "actually_hard",
+    "roast": "Nine vendors in clogs\u2014diplomatic immunity from your 'single pane of glass' pitch.",
+    "confidence": "high",
+    "cursor_prompt": null
+  },
+  {
+    "name": "NetRise",
+    "tier": "cooked",
+    "roast": "SCA with a compiler fetish\u2014still dependency theater with a fancier microscope.",
+    "confidence": "high",
+    "cursor_prompt": "Open-source one parser for a single ecosystem (e.g., Go modules) and prove fewer false positives than OSV on 10 public repos."
+  },
+  {
+    "name": "NETSCOUT",
+    "tier": "moat_for_now",
+    "roast": "Packet gremlins at telco scale\u2014your app team's 'observability' is their punchline.",
+    "confidence": "medium",
+    "cursor_prompt": null
+  },
+  {
+    "name": "Netskope",
+    "tier": "moat_for_now",
+    "roast": "SSE incumbency is real until browsers ship 'enterprise shame' as a feature.",
+    "confidence": "medium",
+    "cursor_prompt": null
+  },
+  {
+    "name": "NetWitness",
+    "tier": "cooked",
+    "roast": "Threat feeds and UEBA\u2014SIEM Mad Libs for auditors who miss Splunk's pricing trauma.",
+    "confidence": "high",
+    "cursor_prompt": "Ship a single 'noise budget' dashboard: top 5 rules generating >80% of alerts, with suggested tuning diffs."
+  },
+  {
+    "name": "Netwrix",
+    "tier": "cooked",
+    "roast": "Data + identity 'unification'\u2014two mediocre UIs in a trench coat named 1Secure.",
+    "confidence": "high",
+    "cursor_prompt": "Pick one killer report (e.g., excessive SharePoint permissions) and make it one-click remediate via Graph API."
+  },
+  {
+    "name": "NeuralTrust",
+    "tier": "gpt_wrapper",
+    "roast": "Neural in the name, linear regression in the pricing\u2014LLM security with training wheels invoice.",
+    "confidence": "high",
+    "cursor_prompt": null
+  },
+  {
+    "name": "Nextron Systems",
+    "tier": "moat_for_now",
+    "roast": "Forensic scanner that finds hackers like metal detectors find keys\u2014loud, specific, occasionally useful.",
+    "confidence": "medium",
+    "cursor_prompt": null
+  },
+  {
+    "name": "Nile",
+    "tier": "cooked",
+    "roast": "AI-driven Wi\u2011Fi\u2014because your VLANs needed astrology and a Series B.",
+    "confidence": "high",
+    "cursor_prompt": "Publish RF baseline vs Aruba/Meraki on identical floor plans; hide nothing on handoff failures."
+  },
+  {
+    "name": "NinjaOne",
+    "tier": "cooked",
+    "roast": "35,000 customers of patch theater\u2014RMM with a backup plan and a backup pun.",
+    "confidence": "high",
+    "cursor_prompt": "Ship a 'patch debt' score: CVE age \u00d7 reach, auto-ticket to owners, prove ROI in one pilot org."
+  },
+  {
+    "name": "NINJIO",
+    "tier": "cooked",
+    "roast": "Human risk as Netflix for phishing\u2014employees still click, but now with better thumbnails.",
+    "confidence": "high",
+    "cursor_prompt": "A/B one 3-minute module tied to a real near-miss phish; measure click rate on the next live test, not completion certificates."
+  },
+  {
+    "name": "Nokia",
+    "tier": "actually_hard",
+    "roast": "Your startup's 'zero trust' runs on their copper and spite\u2014physics beats PowerPoint.",
+    "confidence": "high",
+    "cursor_prompt": null
+  },
+  {
+    "name": "Noma Security",
+    "tier": "gpt_wrapper",
+    "roast": "Enterprise AI security\u2014discovery slides, runtime dreams, budget reality.",
+    "confidence": "medium",
+    "cursor_prompt": null
+  },
+  {
+    "name": "Nord Security",
+    "tier": "cooked",
+    "roast": "VPN empire plus password manager\u2014consumer cosplay sold as 'threat exposure' to enterprises.",
+    "confidence": "high",
+    "cursor_prompt": "Stop bundling; publish a third-party pen test of the consumer stack you white-label to IT."
+  },
+  {
+    "name": "NOSCOPE",
+    "tier": "gpt_wrapper",
+    "roast": "AI pentest named like a FPS cheat\u2014360 no-scope on your scope doc.",
+    "confidence": "high",
+    "cursor_prompt": null
+  },
+  {
+    "name": "Novee Security",
+    "tier": "gpt_wrapper",
+    "roast": "Elite operators 'distilled into AI'\u2014so, interns with better marketing and worse liability.",
+    "confidence": "high",
+    "cursor_prompt": null
+  },
+  {
+    "name": "Nozomi Networks",
+    "tier": "moat_for_now",
+    "roast": "OT visibility vendors are the plant electricians of InfoSec\u2014unsexy until the line stops.",
+    "confidence": "medium",
+    "cursor_prompt": null
+  },
+  {
+    "name": "NRI Secure",
+    "tier": "cooked",
+    "roast": "MSSP bingo: 24/7, 25 years, and a PDF that could've been an email.",
+    "confidence": "high",
+    "cursor_prompt": "Productize one detect-to-contain runbook with measured MTTR; sell outcomes not 'global leader'."
+  },
+  {
+    "name": "NSFOCUS",
+    "tier": "moat_for_now",
+    "roast": "WAAP and DDoS with telco scars\u2014less 'platform', more battle-tested plumbing.",
+    "confidence": "medium",
+    "cursor_prompt": null
+  },
+  {
+    "name": "Nucleus Security",
+    "tier": "cooked",
+    "roast": "Unified exposure management\u2014Jira for vulnerabilities with a prettier risk score.",
+    "confidence": "high",
+    "cursor_prompt": "Integrate with one ITSM and auto-close tickets when scanners agree the fix landed\u2014prove fewer zombie findings."
+  },
+  {
+    "name": "NUNSYS USA",
+    "tier": "cooked",
+    "roast": "OT visibility plus automated GRC dashboards\u2014two buzzwords walk into a bar; compliance walks out drunk.",
+    "confidence": "high",
+    "cursor_prompt": "Drop 'AI dashboards' for one OT asset inventory export that matches a physical walk-down\u2014prove ground truth."
+  },
+  {
+    "name": "OASIS Open",
+    "tier": "actually_hard",
+    "roast": "They ship standards; you ship sprints\u2014guess which one outlasts your runway.",
+    "confidence": "high",
+    "cursor_prompt": null
+  },
+  {
+    "name": "Oasis Security",
+    "tier": "cooked",
+    "roast": "Identity control plane for bots\u2014PAM cosplay for service accounts with LinkedIn anxiety.",
+    "confidence": "high",
+    "cursor_prompt": "Ship JIT creds for three CI systems only; measure secret sprawl reduction in a 2-week PoC."
+  },
+  {
+    "name": "Object First",
+    "tier": "moat_for_now",
+    "roast": "Immutable backup box\u2014ransomware's least favorite doorstop, Veeam's favorite upsell.",
+    "confidence": "medium",
+    "cursor_prompt": null
+  },
+  {
+    "name": "Okta",
+    "tier": "moat_for_now",
+    "roast": "World's Identity Company\u2122 until your browser ships passkeys and CFOs ship blame.",
+    "confidence": "medium",
+    "cursor_prompt": null
+  },
+  {
+    "name": "Oleria",
+    "tier": "cooked",
+    "roast": "Autonomous identity security\u2014if by autonomous you mean 'another IGA workflow engine'.",
+    "confidence": "high",
+    "cursor_prompt": "Pick one regulated workflow (user access review) and cut time-to-certify by 50% in one customer or refund."
+  },
+  {
+    "name": "OmniTrust",
+    "tier": "moat_for_now",
+    "roast": "Two billion devices updated\u2014supply-chain scale beats your 'secure SDLC' sticker.",
+    "confidence": "medium",
+    "cursor_prompt": null
+  },
+  {
+    "name": "ON2IT",
+    "tier": "cooked",
+    "roast": "AUXO + Zero Trust\u2014SIEM/SOAR Mad Libs with Dutch design sensibility and the same alert fatigue.",
+    "confidence": "high",
+    "cursor_prompt": "Offer a fixed-fee 'alert tuning month' with before/after false positive rate in writing."
+  },
+  {
+    "name": "ONEKEY",
+    "tier": "moat_for_now",
+    "roast": "Product cybersecurity with PwC perfume\u2014hardware supply chains don't vibe-code themselves.",
+    "confidence": "medium",
+    "cursor_prompt": null
+  },
+  {
+    "name": "One Identity",
+    "tier": "cooked",
+    "roast": "Unifies IGA, PAM, AM\u2014three acronyms, one renewal negotiation hostage situation.",
+    "confidence": "high",
+    "cursor_prompt": "Ship a migration toolkit from one legacy IGA with a tested cutover checklist\u2014sell reduced professional services, not slides."
+  },
+  {
+    "name": "OneSpan",
+    "tier": "moat_for_now",
+    "roast": "Still selling hardware-adjacent trust in a passkey world\u2014dinosaurs with FIDO teeth.",
+    "confidence": "medium",
+    "cursor_prompt": null
+  },
+  {
+    "name": "OneTrust",
+    "tier": "cooked",
+    "roast": "Half the Fortune 500's GRC tax\u2014AI-ready means 'more buttons for the same audits'.",
+    "confidence": "high",
+    "cursor_prompt": "Expose one API that maps a control to evidence objects automatically; demo on a single SOC2 criterion."
+  },
+  {
+    "name": "Onyx Security",
+    "tier": "gpt_wrapper",
+    "roast": "Secure AI control plane\u2014traffic cop for models that ignore stop signs anyway.",
+    "confidence": "medium",
+    "cursor_prompt": null
+  },
+  {
+    "name": "Openlayer",
+    "tier": "gpt_wrapper",
+    "roast": "AI governance with guardrails\u2014seatbelts for hallucinations, invoices for optimism.",
+    "confidence": "high",
+    "cursor_prompt": null
+  },
+  {
+    "name": "OpenSSL Corporation",
+    "tier": "actually_hard",
+    "roast": "Everyone's crypto ex\u2014messy history, unavoidable future, actual math.",
+    "confidence": "high",
+    "cursor_prompt": null
+  },
+  {
+    "name": "OpenText Cybersecurity",
+    "tier": "moat_for_now",
+    "roast": "Portfolio soup that still clears enterprise procurement\u2014legacy is a moat until the check clears.",
+    "confidence": "low",
+    "cursor_prompt": null
+  },
+  {
+    "name": "Operant Networks",
+    "tier": "gpt_wrapper",
+    "roast": "Trust foundations for AI\u2014two nouns away from a16z mad libs.",
+    "confidence": "medium",
+    "cursor_prompt": null
+  },
+  {
+    "name": "Opsin",
+    "tier": "gpt_wrapper",
+    "roast": "Stops Copilot oversharing\u2014Slack DLP with a ChatGPT skin and better shame.",
+    "confidence": "medium",
+    "cursor_prompt": null
+  },
+  {
+    "name": "OPSWAT",
+    "tier": "moat_for_now",
+    "roast": "File detonation for OT\u2014because USB drives are humanity's true zero-day.",
+    "confidence": "medium",
+    "cursor_prompt": null
+  },
+  {
+    "name": "Optery",
+    "tier": "moat_for_now",
+    "roast": "Removes your CEO from data brokers\u2014OSINT for defense, not LinkedIn stalking (mostly).",
+    "confidence": "medium",
+    "cursor_prompt": null
+  },
+  {
+    "name": "Optimal IdM",
+    "tier": "cooked",
+    "roast": "Affordable IAM\u2014translation: fewer features, same SAML pain, smaller invoice.",
+    "confidence": "high",
+    "cursor_prompt": "Publish a price-per-MAU calculator vs Okta for <5k users with migration steps\u2014win on CFO math."
+  },
+  {
+    "name": "Optiv",
+    "tier": "cooked",
+    "roast": "Reseller with PowerPoint PhDs\u2014your 'strategy' is someone else's SKU mix.",
+    "confidence": "high",
+    "cursor_prompt": "Productize one fixed-scope assessment with a deliverable template customers can reuse\u2014sell clarity, not hours."
+  },
+  {
+    "name": "Optro",
+    "tier": "cooked",
+    "roast": "Agentic GRC\u2014compliance chatbot that schedules meetings about meetings about risk.",
+    "confidence": "high",
+    "cursor_prompt": "Map one regulation to three automated evidence collectors; show time saved on a single audit cycle."
+  },
+  {
+    "name": "Orca Cloud Caf\u00e9",
+    "tier": "cooked",
+    "roast": "Coffee, donuts, and the bitter taste of CSPM TCO\u2014marketing ops in a pastry trench.",
+    "confidence": "high",
+    "cursor_prompt": "Put the roast on a napkin QR linking to a 1-page 'CNAPP vs agent sprawl' teardown\u2014lead gen with caffeine."
+  },
+  {
+    "name": "Orca Security",
+    "tier": "cooked",
+    "roast": "Side-scanning CSPM\u2014clever hook, same cloud misconfig whack-a-mole as everyone else.",
+    "confidence": "high",
+    "cursor_prompt": "Ship a single 'blast radius' view: one IAM path from internet to crown-jewel bucket; prove value in one account."
+  },
+  {
+    "name": "Osto Cybersecurity",
+    "tier": "cooked",
+    "roast": "AI-powered SMB security in minutes\u2014translation: Terraform defaults and a support@ that forwards to Gmail.",
+    "confidence": "high",
+    "cursor_prompt": "Offer a 10-control CIS benchmark with pass/fail only\u2014no AI, no upsell until green."
+  },
+  {
+    "name": "OX Security",
+    "tier": "cooked",
+    "roast": "VibeSec for vibe coding\u2014DAST with influencer copy and the same SQLi demos since 2009.",
+    "confidence": "high",
+    "cursor_prompt": "Integrate with GitHub Actions only; fail builds on one high-severity finding with zero config YAML."
+  },
+  {
+    "name": "P0 Security",
+    "tier": "cooked",
+    "roast": "JIT creds in 60 seconds\u2014PAM speedrun for people who forgot why long-lived keys exist.",
+    "confidence": "high",
+    "cursor_prompt": "Prove session recording + automatic revocation on job end for three clouds\u2014sell 'break-glass' as default, not slide."
+  },
+  {
+    "name": "Palosade",
+    "tier": "gpt_wrapper",
+    "roast": "Agents for threat modeling\u2014rubber duck with an API key and an SOC2 checklist.",
+    "confidence": "high",
+    "cursor_prompt": null
+  },
+  {
+    "name": "Patch My PC",
+    "tier": "cooked",
+    "roast": "Third-party patching for ConfigMgr\u2014useful plumbing, zero glamour, correct ratio.",
+    "confidence": "high",
+    "cursor_prompt": "Ship a report: top 10 vulnerable third-party apps in the org with one-click deploy packages\u2014optimize for IT hours saved."
+  },
+  {
+    "name": "Pathlock",
+    "tier": "cooked",
+    "roast": "SoD-aware certifications\u2014SAP cosplay for auditors who love spreadsheets more than users.",
+    "confidence": "high",
+    "cursor_prompt": "Automate one toxic combination test with pre-built SAP rules; show pass/fail before the quarterly review."
+  },
+  {
+    "name": "Penlink",
+    "tier": "moat_for_now",
+    "roast": "OSINT for investigators\u2014lawful creepy is still a moat if warrants are your customer.",
+    "confidence": "medium",
+    "cursor_prompt": null
+  },
+  {
+    "name": "Edgewatch",
+    "tier": "cooked",
+    "roast": "Another 'we scan the whole internet' threat-intel booth\u2014impressive slide math, same exportable JSON as everyone else.",
+    "confidence": "high",
+    "cursor_prompt": "Scaffold a Python service that ingests passive DNS/certificate transparency feeds, dedupes domains, scores 'newly seen' vs baseline, and exposes a /alerts JSON API with basic auth\u2014ship a demo in a weekend."
+  },
+  {
+    "name": "Elastic",
+    "tier": "cooked",
+    "roast": "They rebranded the ELK garage into an 'open agentic SOC'\u2014still mostly logs, dashboards, and hope you bought enough storage.",
+    "confidence": "high",
+    "cursor_prompt": "Build a minimal SIEM: ingest syslog/JSON to OpenSearch, add detection rules as YAML, a Kibana-style dashboard, and one 'agent' that runs canned playbooks via webhooks."
+  },
+  {
+    "name": "Embed Security",
+    "tier": "gpt_wrapper",
+    "roast": "'Security noise cancellation' is what you call an LLM summarizing alerts until the pager still wakes you at 3 a.m.",
+    "confidence": "high",
+    "cursor_prompt": null
+  },
+  {
+    "name": "Endace",
+    "tier": "actually_hard",
+    "roast": "Packet capture at wire speed is one of the few problems that still smells like metal, heat, and regret\u2014not a prompt.",
+    "confidence": "high",
+    "cursor_prompt": null
+  },
+  {
+    "name": "Endor Labs",
+    "tier": "cooked",
+    "roast": "SCA with an 'AI era' sticker: dependency graphs plus vibes, same as every other SBOM slide since 2022.",
+    "confidence": "high",
+    "cursor_prompt": "Parse package manifests (npm/pip/go.mod), call OSV/GitHub Advisory API, build a reachability-ish graph with static imports, output prioritized CVE list and a PR comment bot stub."
+  },
+  {
+    "name": "Enea",
+    "tier": "actually_hard",
+    "roast": "Embedded DPI isn't a feature flag\u2014it's telco guts, parsers, and performance engineering that doesn't ship on npm.",
+    "confidence": "medium",
+    "cursor_prompt": null
+  },
+  {
+    "name": "enQase",
+    "tier": "actually_hard",
+    "roast": "Quantum-safe plus 'hardware grounded in physics' is the rare booth where the demo might need a lab coat, not a README.",
+    "confidence": "medium",
+    "cursor_prompt": null
+  },
+  {
+    "name": "Enthec Solutions",
+    "tier": "cooked",
+    "roast": "AI + leaked-data monitoring is Shodan with a spreadsheet and a LinkedIn headline.",
+    "confidence": "high",
+    "cursor_prompt": "Create a pipeline: query public breach dumps + Have IBeenPwned-style APIs (where legal), correlate emails/domains, generate a weekly exposure report PDF from a SQLite DB."
+  },
+  {
+    "name": "Entro Security",
+    "tier": "cooked",
+    "roast": "NHI governance sounds novel until you realize it's IAM with extra service accounts and a Gartner sticker.",
+    "confidence": "medium",
+    "cursor_prompt": "Implement an inventory job that lists cloud service principals, PATs, and K8s service accounts; map owners from tags; flag stale creds; output CSV + Slack summary."
+  },
+  {
+    "name": "Entrust Corporation",
+    "tier": "moat_for_now",
+    "roast": "Fraud + identity at global scale is still mostly certificates, contracts, and decades of enterprise lock-in\u2014annoying, not magical.",
+    "confidence": "medium",
+    "cursor_prompt": null
+  },
+  {
+    "name": "Ermes Cyber Security",
+    "tier": "cooked",
+    "roast": "AI-driven browser DLP is an extension, a policy engine, and a VC deck calling it 'real-time session control.'",
+    "confidence": "high",
+    "cursor_prompt": "Prototype a Chrome MV3 extension that blocks paste/download on classified domains, logs events to a small backend, and applies regex+DLP rules client-side."
+  },
+  {
+    "name": "eSentire",
+    "tier": "cooked",
+    "roast": "MDR with 'prevention-first' is still humans in a SOC plus playbooks your intern could script.",
+    "confidence": "high",
+    "cursor_prompt": "Stand up a toy SOC: ingest alerts via webhook, dedupe, enrich with GeoIP/VT, route to on-call rotation in PagerDuty/Opsgenie API, weekly metrics in Grafana."
+  },
+  {
+    "name": "ESET",
+    "tier": "moat_for_now",
+    "roast": "An AV lineage and EU branding still buy you endpoint distribution\u2014shrinking, but not imaginary.",
+    "confidence": "medium",
+    "cursor_prompt": null
+  },
+  {
+    "name": "Eve Security",
+    "tier": "gpt_wrapper",
+    "roast": "If your product is 'secure AI agents,' your threat model is mostly OpenAI's terms of service and your procurement team.",
+    "confidence": "high",
+    "cursor_prompt": null
+  },
+  {
+    "name": "Everpure",
+    "tier": "cooked",
+    "roast": "AI to archive is 'we run compression and lifecycle policies' with a keynote adjective.",
+    "confidence": "medium",
+    "cursor_prompt": "Build a file archival microservice: S3-compatible storage, lifecycle tiers, checksum verification, and a simple web UI for restore requests with audit log."
+  },
+  {
+    "name": "Exabeam",
+    "tier": "cooked",
+    "roast": "Another SIEM that discovered UEBA, timelines, and the word 'AI'\u2014the security equivalent of a treadmill with a new paint job.",
+    "confidence": "high",
+    "cursor_prompt": "Implement user session stitching from Windows+Okta logs, baseline simple metrics (failed logins, odd hours), and alert on z-score thresholds in Python."
+  },
+  {
+    "name": "Executive Women's Forum",
+    "tier": "actually_hard",
+    "roast": "Not a vendor\u2014it's networking, mentorship, and the only booth where the ROI isn't measured in ARR.",
+    "confidence": "high",
+    "cursor_prompt": null
+  },
+  {
+    "name": "Exein",
+    "tier": "actually_hard",
+    "roast": "Billions of embedded devices is firmware pain, OTA drama, and BSPs\u2014exactly what vibe-coding won't touch.",
+    "confidence": "high",
+    "cursor_prompt": null
+  },
+  {
+    "name": "Expel",
+    "tier": "cooked",
+    "roast": "Workbench + AI is ticketing with autocomplete and a branded analyst smile\u2014still outsourced SOC hours.",
+    "confidence": "high",
+    "cursor_prompt": "Create a customer-facing alert console: pull sample alerts from a queue, show MITRE mapping, one-click 'contain host' stub action, export investigation notes to PDF."
+  },
+  {
+    "name": "ExtraHop",
+    "tier": "moat_for_now",
+    "roast": "NDR still buys you proprietary parsing and appliance history\u2014until every cloud vendor ships 'network insights' for free-ish.",
+    "confidence": "medium",
+    "cursor_prompt": null
+  },
+  {
+    "name": "F5, Inc.",
+    "tier": "moat_for_now",
+    "roast": "Thirty years of proxies and WAF rules: boring, expensive, and weirdly hard to rip out\u2014SaaS this is not.",
+    "confidence": "medium",
+    "cursor_prompt": null
+  },
+  {
+    "name": "Fable Security",
+    "tier": "cooked",
+    "roast": "Human risk is phishing sims, nudges, and HR theater with a slick dashboard\u2014LMS energy in a hoodie.",
+    "confidence": "high",
+    "cursor_prompt": "Ship a phishing simulation tool: email templates, track clicks/opens, assign micro-training modules, manager rollup report from Postgres."
+  },
+  {
+    "name": "FAIR Institute",
+    "tier": "actually_hard",
+    "roast": "A nonprofit standards body: influence without SKUs\u2014terrifying to vendors, useless to your sprint board.",
+    "confidence": "high",
+    "cursor_prompt": null
+  },
+  {
+    "name": "Falcon Grand Prix",
+    "tier": "cooked",
+    "roast": "It's a branded go-kart flex\u2014peak cybersecurity is literally a traffic cone and a leaderboard.",
+    "confidence": "high",
+    "cursor_prompt": "Build a static landing page with a leaderboard JSON, fake lap times, and a 'book a demo' form that posts to Slack\u2014same engagement, zero tire smoke."
+  },
+  {
+    "name": "Fasoo",
+    "tier": "cooked",
+    "roast": "Enterprise AI + DLP is policy labels and watermarking with 'LLM governance' printed on the binder.",
+    "confidence": "high",
+    "cursor_prompt": "Prototype document classification: extract text, regex+ML-lite classifier, apply AES file encryption, log access events to an audit table."
+  },
+  {
+    "name": "Fastly",
+    "tier": "moat_for_now",
+    "roast": "A global edge network is real capex moat\u2014until the hyperscalers route your traffic through their own CDNs anyway.",
+    "confidence": "medium",
+    "cursor_prompt": null
+  },
+  {
+    "name": "FEITIAN",
+    "tier": "actually_hard",
+    "roast": "They actually manufacture the little plastic pain in your USB port\u2014software can't 3D-print tamper resistance.",
+    "confidence": "high",
+    "cursor_prompt": null
+  },
+  {
+    "name": "Filigran",
+    "tier": "cooked",
+    "roast": "Open-source CTI tooling: great community, zero monopoly\u2014perfect for a story about commoditization wearing a beret.",
+    "confidence": "high",
+    "cursor_prompt": "Deploy OpenCTI via docker-compose, load STIX bundles from a public feed, build a minimal React viewer for indicators and relationships."
+  },
+  {
+    "name": "FireMon",
+    "tier": "cooked",
+    "roast": "Firewall policy automation is Excel macros for people who own Palo ports\u2014compliance plumbing forever.",
+    "confidence": "high",
+    "cursor_prompt": "Write importers for checkpoint/ASA-style rules to a normalized schema, diff revisions in git, and generate ' risky any-any' reports."
+  },
+  {
+    "name": "FireTail",
+    "tier": "gpt_wrapper",
+    "roast": "End-to-end AI security usually means wrapping prompts, logging tokens, and praying your customers read the PDF.",
+    "confidence": "high",
+    "cursor_prompt": null
+  },
+  {
+    "name": "Flanders Investment & Trade",
+    "tier": "actually_hard",
+    "roast": "Regional economic development: the booth is basically a laminated map and a handshake budget\u2014not a product roadmap.",
+    "confidence": "high",
+    "cursor_prompt": null
+  },
+  {
+    "name": "Flashpoint",
+    "tier": "moat_for_now",
+    "roast": "Humans reading criminal forums still beats most models\u2014gross, manual, and temporarily defensible.",
+    "confidence": "medium",
+    "cursor_prompt": null
+  },
+  {
+    "name": "Fleak",
+    "tier": "gpt_wrapper",
+    "roast": "AI that turns any format into any schema is an ETL startup cosplaying security next to the coffee station.",
+    "confidence": "high",
+    "cursor_prompt": null
+  },
+  {
+    "name": "Fluid Attacks",
+    "tier": "cooked",
+    "roast": "AI-native scanner + humans is still SAST/SCA with extra syllables\u2014rules say this dies first.",
+    "confidence": "high",
+    "cursor_prompt": "Glue Semgrep + OSV scanner in CI, aggregate findings to SARIF, dedupe by rule+file, post summary comment on GitHub PRs via Actions."
+  },
+  {
+    "name": "Forescout",
+    "tier": "moat_for_now",
+    "roast": "NAC + OT visibility survives because networks are messy hardware soup, not because the UI is pretty.",
+    "confidence": "medium",
+    "cursor_prompt": null
+  },
+  {
+    "name": "Formal",
+    "tier": "cooked",
+    "roast": "Next-gen PAM is still break-glass, session recording, and pretending SSH is a personality.",
+    "confidence": "high",
+    "cursor_prompt": "Build a bastion host prototype: SSO gate, session recording to S3-compatible storage, command allowlist, and JIT role elevation with expiring tokens."
+  },
+  {
+    "name": "Fortinet",
+    "tier": "moat_for_now",
+    "roast": "ASICs, appliances, and a product catalog longer than a CVS receipt\u2014shrinking moat, real silicon scars.",
+    "confidence": "medium",
+    "cursor_prompt": null
+  },
+  {
+    "name": "Fortra",
+    "tier": "cooked",
+    "roast": "AI cybersecurity replacing sprawl is usually sprawl plus a new invoice line called 'AI.'",
+    "confidence": "high",
+    "cursor_prompt": "Unify DLP-style alerts from email + endpoint into one SQLite incident queue with a single triage UI and export to CSV for 'executive review.'"
+  },
+  {
+    "name": "Forward Networks",
+    "tier": "moat_for_now",
+    "roast": "A network digital twin with mathematical proofs is nerd moat\u2014until the cloud abstracts your entire underlay into someone else's problem.",
+    "confidence": "medium",
+    "cursor_prompt": null
+  },
+  {
+    "name": "Fudo Security",
+    "tier": "cooked",
+    "roast": "AI-powered behavioral PAM is 'we logged keystroke timing' with a machine-learning font.",
+    "confidence": "high",
+    "cursor_prompt": "Implement basic UEBA on privileged sessions: baseline login times/IPs, alert on impossible travel, store features in TimescaleDB."
+  },
+  {
+    "name": "Futurex",
+    "tier": "actually_hard",
+    "roast": "HSMs are basically 'no, you cannot npm install my private key' in a metal box\u2014actually hard by definition.",
+    "confidence": "high",
+    "cursor_prompt": null
+  },
+  {
+    "name": "Gambit Security",
+    "tier": "cooked",
+    "roast": "Agentless 'ground truth' scans are config drift bingo\u2014useful, but it's scripts plus a nice heatmap.",
+    "confidence": "medium",
+    "cursor_prompt": "Write agentless checks over cloud APIs/K8s: list backups, verify immutability flags, snapshot IAM risky bindings, output pass/fail report."
+  },
+  {
+    "name": "GC CyberSecurity",
+    "tier": "cooked",
+    "roast": "An 'Information Security Enforcer' sounds like a DLP agent that yells at you in German compliance.",
+    "confidence": "medium",
+    "cursor_prompt": "Build a file scanner worker: walk SMB/S3 paths, regex for PII, tag files with sensitivity labels in a DB, weekly email digest."
+  },
+  {
+    "name": "Gecko Security",
+    "tier": "cooked",
+    "roast": "AI SAST for business logic is still static analysis\u2014rules literally call this cooked, and your LLM agrees in fine print.",
+    "confidence": "high",
+    "cursor_prompt": "Prototype business-logic checks: parse API routes from OpenAPI, flag missing authz checks by pattern, output GitHub-annotated report."
+  },
+  {
+    "name": "Gen0Sec",
+    "tier": "actually_hard",
+    "roast": "Kernel-to-disk Linux security with BPF is eBPF enjoyers doing violence to syscalls\u2014actually hard, actually cursed.",
+    "confidence": "high",
+    "cursor_prompt": null
+  },
+  {
+    "name": "Genians",
+    "tier": "cooked",
+    "roast": "NAC + EDR + ZTNA is three acronyms stapled together to sound like a platform\u2014mostly agents and VLAN drama.",
+    "confidence": "high",
+    "cursor_prompt": "Simulate NAC: 802.1x RADIUS stub, device posture checks (patch level, AV present) via lightweight agent script, quarantine VLAN toggle."
+  },
+  {
+    "name": "German Ministry for Economic Affairs",
+    "tier": "actually_hard",
+    "roast": "A government pavilion: procurement gravity, not a GitHub repo\u2014try vibe-coding your way into NATO paperwork.",
+    "confidence": "high",
+    "cursor_prompt": null
+  },
+  {
+    "name": "GhostEye",
+    "tier": "gpt_wrapper",
+    "roast": "AI vishing and deepfakes for red team is literally LLM theater with caller ID\u2014fun, evil, and mostly model APIs.",
+    "confidence": "high",
+    "cursor_prompt": null
+  },
+  {
+    "name": "GitGuardian",
+    "tier": "cooked",
+    "roast": "Secrets scanning is grep with guilt, enterprise pricing, and a great blog\u2014still commodity at the core.",
+    "confidence": "high",
+    "cursor_prompt": "Implement git history secret scan: trufflehog-like regex+entropy, pre-commit hook, GitHub Action that fails on high-confidence matches."
+  },
+  {
+    "name": "GitHub",
+    "tier": "moat_for_now",
+    "roast": "Where software is built is also where Microsoft puts a gravity well\u2014social graph + Actions + Copilot isn't 'just SaaS.'",
+    "confidence": "high",
+    "cursor_prompt": null
+  },
+  {
+    "name": "GitLab",
+    "tier": "moat_for_now",
+    "roast": "A full DevSecOps suite with runners and politics\u2014shrinking differentiation, still painful to migrate off.",
+    "confidence": "medium",
+    "cursor_prompt": null
+  },
+  {
+    "name": "GlobalSign",
+    "tier": "moat_for_now",
+    "roast": "PKI moat is roots, audits, and browser trust stores\u2014boring until you try to become a CA from your laptop.",
+    "confidence": "medium",
+    "cursor_prompt": null
+  },
+  {
+    "name": "Gold Security (GoldKey)",
+    "tier": "moat_for_now",
+    "roast": "Federal-y hardware auth has compliance tailwinds and physical SKUs\u2014until passkeys eat the lunchroom.",
+    "confidence": "medium",
+    "cursor_prompt": null
+  },
+  {
+    "name": "Golf.dev",
+    "tier": "gpt_wrapper",
+    "roast": "Enterprise MCP control plane is policy-as-YAML for the LLM plumbing layer\u2014wrapper with a YC hoodie.",
+    "confidence": "high",
+    "cursor_prompt": null
+  },
+  {
+    "name": "Google Security",
+    "tier": "moat_for_now",
+    "roast": "Hyperscaler + Mandiant is moat by capex, lawyers, and submarine cables\u2014AI slide is just the cherry on the pile.",
+    "confidence": "high",
+    "cursor_prompt": null
+  },
+  {
+    "name": "Gradiant",
+    "tier": "moat_for_now",
+    "roast": "Payment HSM integration and AI content detection is half metal contracts, half model zoo\u2014split verdict, still not a weekend SaaS.",
+    "confidence": "low",
+    "cursor_prompt": null
+  },
+  {
+    "name": "Gravwell",
+    "tier": "cooked",
+    "roast": "Piped query language for security data is Splunk for people who like parentheses and pain\u2014still log plumbing.",
+    "confidence": "high",
+    "cursor_prompt": "Build a tiny log pipeline: ingest JSON logs to ClickHouse, implement a minimal query DSL parser, chart top src IPs in a web UI."
+  },
+  {
+    "name": "Gray Swan",
+    "tier": "gpt_wrapper",
+    "roast": "CMU AI safety founders selling enterprise AI security is academic prestige wrapped around model eval checklists.",
+    "confidence": "medium",
+    "cursor_prompt": null
+  },
+  {
+    "name": "Graylog",
+    "tier": "cooked",
+    "roast": "AI-powered SIEM is log management that learned the word 'copilot'\u2014parser city, population: your bill.",
+    "confidence": "high",
+    "cursor_prompt": "Stand up Graylog OSS in Docker, write two pipelines (firewall+Okta), build a dashboard with failed-login spike alert via email webhook."
+  },
+  {
+    "name": "GTB Technologies",
+    "tier": "cooked",
+    "roast": "DLP + DSPM unification is the same regex circus with cloud file APIs and a fancier acronym.",
+    "confidence": "high",
+    "cursor_prompt": "Prototype DSPM: crawl SaaS file shares via APIs, classify by keywords/entropy, map oversharing (public links), export risk CSV."
+  },
+  {
+    "name": "ColorTokens",
+    "tier": "moat_for_now",
+    "roast": "Microsegmentation with a Forrester sticker\u2014still VLAN cosplay with a bigger PowerPoint.",
+    "confidence": "medium",
+    "cursor_prompt": null
+  },
+  {
+    "name": "Command the Corner (Veeam)",
+    "tier": "cooked",
+    "roast": "Booth budget as product: robots and astronaut ice cream while backups stay a cron job someone disabled in 2019.",
+    "confidence": "high",
+    "cursor_prompt": "Build a static microsite with Veeam PDFs, a lead form, and a gimmick timer; skip the animatronics."
+  },
+  {
+    "name": "Commvault",
+    "tier": "cooked",
+    "roast": "Resilience theater: you are renting peace of mind for the day finance deletes prod by accident\u2014again.",
+    "confidence": "high",
+    "cursor_prompt": "Glue rclone/restic schedules, S3 immutability, restore drills, and one dashboard of last successful backup."
+  },
+  {
+    "name": "Conceal",
+    "tier": "cooked",
+    "roast": "Browser ZTNA: the industry\u2019s favorite way to ship another Chromium fork and call it a perimeter.",
+    "confidence": "high",
+    "cursor_prompt": "Wire Cloudflare Access or Tailscale + split DNS; put sensitive apps behind OIDC and kill the fat client."
+  },
+  {
+    "name": "Concentric AI",
+    "tier": "cooked",
+    "roast": "DLP with adjectives: discover \u2018sensitive\u2019 data you already knew lived in Slack exports and HR PDFs.",
+    "confidence": "high",
+    "cursor_prompt": "Index drives with regex+ML labels, alert on mass egress, automate quarantine\u2014ship a thin policy UI."
+  },
+  {
+    "name": "Confidencial",
+    "tier": "cooked",
+    "roast": "Patented selective encryption is a fancy way to say \u2018field-level crypto\u2019 with extra sales cycles.",
+    "confidence": "medium",
+    "cursor_prompt": "Use envelope encryption (KMS), encrypt columns at app layer, log decrypt events\u2014skip the magic patent pitch."
+  },
+  {
+    "name": "Corelight",
+    "tier": "moat_for_now",
+    "roast": "Zeek in a tuxedo: great evidence, still fighting Splunk bills next door.",
+    "confidence": "medium",
+    "cursor_prompt": null
+  },
+  {
+    "name": "Cotool",
+    "tier": "gpt_wrapper",
+    "roast": "\u2018Scales SOC beyond headcount\u2019\u2014translation: another Copilot that confidently closes tickets wrong.",
+    "confidence": "high",
+    "cursor_prompt": null
+  },
+  {
+    "name": "Cracken",
+    "tier": "gpt_wrapper",
+    "roast": "\u2018Uncensored Vibe Hacking\u2019 is what happens when marketing discovers jailbreak prompts and liability waivers.",
+    "confidence": "high",
+    "cursor_prompt": null
+  },
+  {
+    "name": "Cribl",
+    "tier": "moat_for_now",
+    "roast": "You are paying to not drown in JSON logs; respectfully, that is a moat made of plumbing.",
+    "confidence": "medium",
+    "cursor_prompt": null
+  },
+  {
+    "name": "Criminal IP",
+    "tier": "cooked",
+    "roast": "Threat feeds with \u2018AI\u2019\u2014a blocklist that updates fast enough to miss your actual incident.",
+    "confidence": "high",
+    "cursor_prompt": "Aggregate free feeds (Feodo, URLhaus), score IOC age, push to firewall\u2014ship a cron + UI."
+  },
+  {
+    "name": "Crogl",
+    "tier": "gpt_wrapper",
+    "roast": "Search security data \u2018without normalization\u2019\u2014enjoy ten schemas arguing in your vector DB.",
+    "confidence": "medium",
+    "cursor_prompt": null
+  },
+  {
+    "name": "Crosshub",
+    "tier": "cooked",
+    "roast": "CES-winner identity startup: the trophy is real; the differentiation is a landing page.",
+    "confidence": "medium",
+    "cursor_prompt": "Ship device trust signals + risk score API behind a simple admin console; integrate with your IdP webhooks."
+  },
+  {
+    "name": "cside",
+    "tier": "cooked",
+    "roast": "Client-side script drama: you are selling panic over third-party tags nobody will remove anyway.",
+    "confidence": "medium",
+    "cursor_prompt": "CSP report-only mode, SRI on critical scripts, nightly DOM diffs\u2014call it \u2018monitoring\u2019 and move on."
+  },
+  {
+    "name": "Cy4Data Labs",
+    "tier": "cooked",
+    "roast": "\u2018Atomic-level encryption\u2019\u2014marketing split the atom; engineering split the key management budget.",
+    "confidence": "medium",
+    "cursor_prompt": "Use transparent DB encryption + app-layer tokenization for crown jewels; avoid bespoke crypto nouns."
+  },
+  {
+    "name": "Cyata",
+    "tier": "gpt_wrapper",
+    "roast": "Agentic identity control plane: MFA for bots that will ignore policy the moment a PM ships a shortcut.",
+    "confidence": "medium",
+    "cursor_prompt": null
+  },
+  {
+    "name": "Cyber Sierra",
+    "tier": "cooked",
+    "roast": "GRC with \u2018AI analysts\u2019\u2014your auditor still wants screenshots, not vibes.",
+    "confidence": "high",
+    "cursor_prompt": "Map controls to evidence folders, automate evidence collection via API exports, generate gap tracker CSV."
+  },
+  {
+    "name": "CYBERANI",
+    "tier": "cooked",
+    "roast": "National-brand MSSP cosplay: impressive flag, still tickets and playbooks underneath.",
+    "confidence": "medium",
+    "cursor_prompt": "Productize SLAs, ticketing, runbooks, and monthly PDFs\u2014honest services beat fake platforms."
+  },
+  {
+    "name": "CyberArk",
+    "tier": "cooked",
+    "roast": "PAM empire: you bought vaults to stop interns from sudoing production; the interns now use tokens from Slack.",
+    "confidence": "high",
+    "cursor_prompt": "HashiCorp Vault + JIT access workflows + session recording for break-glass\u2014enough for many orgs."
+  },
+  {
+    "name": "Cyberhaven",
+    "tier": "cooked",
+    "roast": "DLP plus lineage: expensive way to learn that finance emailed a spreadsheet to themselves.",
+    "confidence": "medium",
+    "cursor_prompt": "DLP rules on egress + EDR file telemetry + simple lineage graph from email/DLP logs."
+  },
+  {
+    "name": "CyberSG TIG Centre + SGTech",
+    "tier": "actually_hard",
+    "roast": "Government pavilion: the booth is sovereign; your startup is a rental agreement.",
+    "confidence": "high",
+    "cursor_prompt": null
+  },
+  {
+    "name": "Cycode",
+    "tier": "cooked",
+    "roast": "ASPM/SCA/SAST bingo\u2014congrats, you automated Jira spam.",
+    "confidence": "high",
+    "cursor_prompt": "Wire GitHub Advanced Security or Semgrep + Dependabot + SBOM export in CI; one prioritized backlog view."
+  },
+  {
+    "name": "CyCraft Technology",
+    "tier": "cooked",
+    "roast": "\u2018AI automates cybersecurity\u2019\u2014translation: EDR alerts with extra Mandarin marketing.",
+    "confidence": "medium",
+    "cursor_prompt": "Deploy Defender/CrowdStrike + Sigma rules + SOAR playbooks; focus on containment not buzzwords."
+  },
+  {
+    "name": "Cyderes",
+    "tier": "cooked",
+    "roast": "IAM+MDR bundle: MSP cosplay for enterprises that fear hiring two vendors.",
+    "confidence": "medium",
+    "cursor_prompt": "Standardize IdP + SSO + lifecycle + PAM; outsource tier-1 to an honest MSSP contract."
+  },
+  {
+    "name": "CYE",
+    "tier": "cooked",
+    "roast": "AI exposure management: ASM with ROI slides\u2014still just shodan.io with a spreadsheet.",
+    "confidence": "high",
+    "cursor_prompt": "Run weekly external scans, asset inventory from cloud APIs, patch SLA dashboard\u2014skip the \u2018AI-native\u2019 label."
+  },
+  {
+    "name": "Cyemptive",
+    "tier": "cooked",
+    "roast": "Zero-day in seconds: if true, you\u2019d be classified; if marketing, you\u2019re selling hope in a hoodie.",
+    "confidence": "medium",
+    "cursor_prompt": "EDR + WAF + kernel hardening baselines; measure MTTD on canaries instead of miracle claims."
+  },
+  {
+    "name": "Cyera",
+    "tier": "cooked",
+    "roast": "DSPM pioneer means \u2018we invented a acronym for data sprawl guilt.\u2019",
+    "confidence": "high",
+    "cursor_prompt": "Classify stores via cloud APIs, tag sensitivity, enforce IAM least privilege\u2014ship a data map CSV."
+  },
+  {
+    "name": "CYJAX",
+    "tier": "cooked",
+    "roast": "Threat intel that turns \u2018complex data\u2019 into PDFs your SOC never reads.",
+    "confidence": "high",
+    "cursor_prompt": "STIX/TAXII ingest + dedupe + severity scoring into your SIEM\u2014minimal UI, maximum usefulness."
+  },
+  {
+    "name": "Cyware",
+    "tier": "cooked",
+    "roast": "SOAR for intel sharing: workflows for teams that still email IOCs like it\u2019s 2012.",
+    "confidence": "medium",
+    "cursor_prompt": "Use TheHive/Cortex or simple n8n flows + shared TIP board; integrate email ingestion with parsing."
+  },
+  {
+    "name": "d-Matrix",
+    "tier": "actually_hard",
+    "roast": "Memory-centric AI silicon: real watts, real fabs\u2019 moods, not a prompt.",
+    "confidence": "medium",
+    "cursor_prompt": null
+  },
+  {
+    "name": "D3 Security",
+    "tier": "cooked",
+    "roast": "Autonomous SOC that triages 95% fast\u2014great, the 5% is where you get fired.",
+    "confidence": "medium",
+    "cursor_prompt": "Webhook alerts into LLM summarizer + runbook links + human approval gate\u2014cheap triage without fantasy autonomy."
+  },
+  {
+    "name": "Darktrace",
+    "tier": "gpt_wrapper",
+    "roast": "The original \u2018AI learns your business\u2019\u2014also learns your VPN blips and calls it APT.",
+    "confidence": "high",
+    "cursor_prompt": null
+  },
+  {
+    "name": "Databahn",
+    "tier": "cooked",
+    "roast": "SIEM cost liposuction: you\u2019re still paying storage; you just hid it in another pipeline.",
+    "confidence": "medium",
+    "cursor_prompt": "Route logs through Vector/Fluent Bit, filter noise, tier hot/warm storage; cap indexed volume."
+  },
+  {
+    "name": "Databricks",
+    "tier": "moat_for_now",
+    "roast": "Security SKU on a lakehouse: powerful, still mostly \u2018please buy compute\u2019 with compliance stickers.",
+    "confidence": "medium",
+    "cursor_prompt": null
+  },
+  {
+    "name": "Datadog",
+    "tier": "cooked",
+    "roast": "Observability plus CSPM: convenient one throat to choke while the bill chokes you.",
+    "confidence": "high",
+    "cursor_prompt": "Cloud-native posture checks via APIs + centralized alerts; avoid duplicating native cloud tools unnecessarily."
+  },
+  {
+    "name": "DataKrypto",
+    "tier": "actually_hard",
+    "roast": "FHE for models: academically sexy, practically \u2018compute slower than governance meetings.\u2019",
+    "confidence": "medium",
+    "cursor_prompt": null
+  },
+  {
+    "name": "DATAPATROL",
+    "tier": "cooked",
+    "roast": "Watermark the screen to stop leaks\u2014great against screenshots, useless against phones and eyeballs.",
+    "confidence": "high",
+    "cursor_prompt": "DLP on egress + USB controls + insider training; accept that cameras exist."
+  },
+  {
+    "name": "DataStealth",
+    "tier": "cooked",
+    "roast": "Agentless tokenization at the network: cool magic trick until latency argues back.",
+    "confidence": "medium",
+    "cursor_prompt": "DB proxy tokenization or app-layer vault tokens; measure perf before network sorcery."
+  },
+  {
+    "name": "DataSunrise",
+    "tier": "cooked",
+    "roast": "DAM+DLP+LLM security bundle: every acronym, one renewal invoice.",
+    "confidence": "medium",
+    "cursor_prompt": "Pick one layer (DB activity monitoring OR masking), implement well, expand later."
+  },
+  {
+    "name": "Dawnguard",
+    "tier": "cooked",
+    "roast": "Day zero to 10,000 security: a timeline chart for a product that ships \u2018roadmap.\u2019",
+    "confidence": "medium",
+    "cursor_prompt": "Terraform guardrails + policy-as-code + weekly drift scans\u2014boring cloud baseline beats manifestos."
+  },
+  {
+    "name": "DeepKeep",
+    "tier": "gpt_wrapper",
+    "roast": "AI firewall and model scanning: security theater with tensors.",
+    "confidence": "high",
+    "cursor_prompt": null
+  },
+  {
+    "name": "DeleteMe",
+    "tier": "moat_for_now",
+    "roast": "Data-broker whack-a-mole: unsexy, labor-intensive, weirdly defensible until brokers multiply again.",
+    "confidence": "medium",
+    "cursor_prompt": null
+  },
+  {
+    "name": "Delinea",
+    "tier": "cooked",
+    "roast": "Centralized authorization for humans and machines\u2014Kubernetes still laughs at your PDF policy.",
+    "confidence": "medium",
+    "cursor_prompt": "OIDC everywhere, short-lived tokens, RBAC in Git; use vault secrets rotation patterns."
+  },
+  {
+    "name": "Descope",
+    "tier": "cooked",
+    "roast": "No-code auth for AI agents: perfect for when your MCP server needs MFA and your intern needs sleep.",
+    "confidence": "medium",
+    "cursor_prompt": "Auth0/Cognito + device flow + service accounts; ship one login page and standard SDKs."
+  },
+  {
+    "name": "Detectify",
+    "tier": "cooked",
+    "roast": "DAST with hackers on tap\u2014still DAST; your API will fail creatively without them too.",
+    "confidence": "high",
+    "cursor_prompt": "OWASP ZAP in CI for staging, Nuclei for known vulns, fix P1s before buying crowdsourced drama."
+  },
+  {
+    "name": "Deutsche Telekom",
+    "tier": "actually_hard",
+    "roast": "Nation-scale fiber and lawyers: not a feature flag, a civilization.",
+    "confidence": "high",
+    "cursor_prompt": null
+  },
+  {
+    "name": "Devel Group",
+    "tier": "cooked",
+    "roast": "Biometric fraud prevention: vendors sell certainty; attackers sell silicone thumbs.",
+    "confidence": "medium",
+    "cursor_prompt": "Layer risk scoring + step-up auth + device signals; never trust a selfie alone."
+  },
+  {
+    "name": "digiDations",
+    "tier": "cooked",
+    "roast": "AI adversarial exposure validation: BAS with a Singapore accent.",
+    "confidence": "medium",
+    "cursor_prompt": "Run Atomic Red Team safely in lab, map to MITRE, track delta month-over-month."
+  },
+  {
+    "name": "DNSFilter",
+    "tier": "cooked",
+    "roast": "DNS filtering with \u2018AI\u2019\u2014your users still click ads that aren\u2019t even malicious, just stupid.",
+    "confidence": "high",
+    "cursor_prompt": "Resolver policy + blocklists + logging; integrate with IdP for roaming users."
+  },
+  {
+    "name": "Doppel",
+    "tier": "gpt_wrapper",
+    "roast": "AI-native anti-social-engineering: finally, a model trained on LinkedIn cringe.",
+    "confidence": "medium",
+    "cursor_prompt": null
+  },
+  {
+    "name": "DoveRunner",
+    "tier": "moat_for_now",
+    "roast": "Mobile app shielding: annoying enough for attackers that banks still pay for the pain tax.",
+    "confidence": "medium",
+    "cursor_prompt": null
+  },
+  {
+    "name": "Dragos",
+    "tier": "actually_hard",
+    "roast": "OT security where downtime can melt metal\u2014slightly harder than melting a VC deck.",
+    "confidence": "high",
+    "cursor_prompt": null
+  },
+  {
+    "name": "Drata",
+    "tier": "cooked",
+    "roast": "GRC autopilot: it automates evidence until your auditor asks a human question and the bot bluescreens.",
+    "confidence": "high",
+    "cursor_prompt": "GitHub org rules + Okta logs + MDM compliance exports into a folder structure mapped to SOC2 controls."
+  },
+  {
+    "name": "Dropzone AI",
+    "tier": "gpt_wrapper",
+    "roast": "First autonomous SOC analyst number 9000: investigates everything, understands nothing on the weird ones.",
+    "confidence": "high",
+    "cursor_prompt": null
+  },
+  {
+    "name": "DuploCloud",
+    "tier": "cooked",
+    "roast": "AI DevOps engineer: Terraform with a chat bubble and a compliance checkbox fetish.",
+    "confidence": "medium",
+    "cursor_prompt": "Use Control Tower/Landing Zone patterns + policy-as-code; automate evidence from cloud APIs."
+  },
+  {
+    "name": "Dynamo Ai",
+    "tier": "gpt_wrapper",
+    "roast": "Guardrails for GenAI: selling seatbelts for a car your CEO already crashed in prod.",
+    "confidence": "high",
+    "cursor_prompt": null
+  },
+  {
+    "name": "DYNANIC",
+    "tier": "actually_hard",
+    "roast": "FPGA SmartNICs at 400Gbps: if you can spell PCIe without crying, you\u2019re not the target buyer.",
+    "confidence": "medium",
+    "cursor_prompt": null
+  },
+  {
+    "name": "EasyDMARC",
+    "tier": "cooked",
+    "roast": "Email security starter pack: DMARC reports you\u2019ll skim once then ignore forever.",
+    "confidence": "high",
+    "cursor_prompt": "Publish SPF/DKIM/DMARC, set p=quarantine gradually, monitor RUA XML in a free dashboard."
+  },
+  {
+    "name": "Echo",
+    "tier": "cooked",
+    "roast": "Vulnerability-free containers: adorable claim until someone patches glibc on Tuesday.",
+    "confidence": "medium",
+    "cursor_prompt": "Pin base images, nightly rebuilds, grype/trivy gates in CI, minimal distroless runtime."
+  },
+  {
+    "name": "Eclypsium",
+    "tier": "actually_hard",
+    "roast": "Firmware supply chain: where updates brick laptops and careers with equal probability.",
+    "confidence": "medium",
+    "cursor_prompt": null
+  },
+  {
+    "name": "Sprocket Security",
+    "tier": "cooked",
+    "roast": "ASM plus 'hybrid human pentesting' is two buzzwords stapled to a calendar invite and a CSV export.",
+    "confidence": "high",
+    "cursor_prompt": "Scaffold a minimal ASM: subdomain enum, port scan, screenshot diff, weekly Slack digest; skip a sales deck."
+  },
+  {
+    "name": "SpyCloud",
+    "tier": "moat_for_now",
+    "roast": "Your moat is stolen passwords in bulk\u2014valuable, ethically queasy, and one breach away from a regulator slideshow.",
+    "confidence": "medium",
+    "cursor_prompt": null
+  },
+  {
+    "name": "SSNC",
+    "tier": "cooked",
+    "roast": "Another 'AI in cyber security' booth where the AI is mostly PowerPoint and the security is mostly rebranded ITSM.",
+    "confidence": "medium",
+    "cursor_prompt": "Build a demo that shows one concrete ML output (risk score with features) and its false-positive rate on a public log slice."
+  },
+  {
+    "name": "Steg.AI",
+    "tier": "moat_for_now",
+    "roast": "Watermarking survives until someone crops, re-encodes, or points a phone at a screen\u2014then your 'forensics' becomes vibes.",
+    "confidence": "medium",
+    "cursor_prompt": null
+  },
+  {
+    "name": "Stellar Cyber",
+    "tier": "cooked",
+    "roast": "Claims 90% fewer false positives the way energy drinks claim wings: loudly, without a control group.",
+    "confidence": "high",
+    "cursor_prompt": "Ship a SIEM-lite: ingest JSON logs, rule engine, one saved search, one alert channel\u2014prove latency and cost vs. your quote."
+  },
+  {
+    "name": "Storagean",
+    "tier": "actually_hard",
+    "roast": "Air-gap cosplay with a power cord: hardware separation is real, maintenance is a lifestyle.",
+    "confidence": "high",
+    "cursor_prompt": null
+  },
+  {
+    "name": "Straiker",
+    "tier": "gpt_wrapper",
+    "roast": "'Proprietary models' protecting agents is a matryoshka doll of models watching models argue about policy.",
+    "confidence": "high",
+    "cursor_prompt": null
+  },
+  {
+    "name": "Stream.Security",
+    "tier": "cooked",
+    "roast": "CloudTwin sounds like a Sims expansion pack for your misconfigured S3 bucket.",
+    "confidence": "high",
+    "cursor_prompt": "Prototype a read-only cloud asset inventory (IAM, buckets, SG rules) with drift alerts; call it a 'twin' only if it replays events."
+  },
+  {
+    "name": "Strike",
+    "tier": "cooked",
+    "roast": "CTEM is BAS with a LinkedIn rebrand; DAST in the name means you brought a scanner to a policy fight.",
+    "confidence": "high",
+    "cursor_prompt": "Wrap OWASP ZAP or Nuclei in CI with SARIF + ticket creation; skip the acronym soup pricing page."
+  },
+  {
+    "name": "StrongestLayer",
+    "tier": "gpt_wrapper",
+    "roast": "LLM-native email security is spam filters cosplaying as philosophy majors.",
+    "confidence": "high",
+    "cursor_prompt": null
+  },
+  {
+    "name": "StrongKeep",
+    "tier": "cooked",
+    "roast": "All-in-one SMB security is antivirus, a PDF checklist, and a calendar reminder labeled 'compliance'.",
+    "confidence": "high",
+    "cursor_prompt": "Ship a single-tenant SMB bundle: EDR agent stub, phishing sim CSV import, policy doc generator from a YAML template."
+  },
+  {
+    "name": "Sublime Security",
+    "tier": "cooked",
+    "roast": "Agentic email defense is rules plus retries with an intern's confidence interval.",
+    "confidence": "high",
+    "cursor_prompt": "Parse inbound mail via API, run YARA-like rules + SPF/DKIM/DMARC checks, post to Slack; measure precision on a labeled set."
+  },
+  {
+    "name": "Sumo Logic",
+    "tier": "cooked",
+    "roast": "Another log haystack with a pricing model designed to fund your CFO's therapy.",
+    "confidence": "high",
+    "cursor_prompt": "Stand up OpenSearch + vector-free alerting on JSON logs; prove ingest $/GB vs. your renewal."
+  },
+  {
+    "name": "SurePath AI",
+    "tier": "cooked",
+    "roast": "GenAI governance is HR for robots: lots of forms, little enforcement.",
+    "confidence": "high",
+    "cursor_prompt": "Build a proxy that logs prompts/responses, blocks PII via regex+NER, and exports an audit CSV\u2014ship before 'policy engine' fantasies."
+  },
+  {
+    "name": "Swimlane",
+    "tier": "cooked",
+    "roast": "Agentic SOAR is playbooks with extra syllables and the same brittle API keys.",
+    "confidence": "high",
+    "cursor_prompt": "Use n8n or Temporal to chain three SOAR actions with retries/idempotency; compare runbook time to vendor demo."
+  },
+  {
+    "name": "Sygnia",
+    "tier": "moat_for_now",
+    "roast": "Elite IR is a moat of sleep deprivation and NDAs, not a scalable SaaS margin.",
+    "confidence": "medium",
+    "cursor_prompt": null
+  },
+  {
+    "name": "Symphion",
+    "tier": "moat_for_now",
+    "roast": "Printer security is real and deeply unsexy\u2014like dental work for VLANs.",
+    "confidence": "medium",
+    "cursor_prompt": null
+  },
+  {
+    "name": "Synqly",
+    "tier": "cooked",
+    "roast": "Normalization middleware: the industry's favorite way to delay fixing the actual schema.",
+    "confidence": "high",
+    "cursor_prompt": "Write adapters that map three vendor alert JSONs to OCSF-ish records; open-source the transforms, sell support if you must."
+  },
+  {
+    "name": "Syteca",
+    "tier": "cooked",
+    "roast": "Unified PAM is SSH with a receipt printer and a billing department.",
+    "confidence": "high",
+    "cursor_prompt": "Prototype session recording for SSH/RDP with command allowlists and break-glass workflow in a week."
+  },
+  {
+    "name": "Tailscale",
+    "tier": "moat_for_now",
+    "roast": "WireGuard in a nice coat with SSO\u2014hard to displace because networks are sticky, not because the idea is novel.",
+    "confidence": "high",
+    "cursor_prompt": null
+  },
+  {
+    "name": "TeamT5",
+    "tier": "moat_for_now",
+    "roast": "Regional intel is a moat until your feed overlaps everyone else's blog a week later.",
+    "confidence": "medium",
+    "cursor_prompt": null
+  },
+  {
+    "name": "Tego AI",
+    "tier": "gpt_wrapper",
+    "roast": "Intent for agents is vibes lint for chatbots\u2014useful theater until the tool calls anyway.",
+    "confidence": "medium",
+    "cursor_prompt": null
+  },
+  {
+    "name": "Teleport",
+    "tier": "moat_for_now",
+    "roast": "Infra identity is unsexy plumbing that breaks catastrophically when done wrong\u2014so incumbency matters.",
+    "confidence": "high",
+    "cursor_prompt": null
+  },
+  {
+    "name": "Tenable",
+    "tier": "cooked",
+    "roast": "Exposure management is vuln scanning with a LinkedIn glow-up and a renewal calendar.",
+    "confidence": "high",
+    "cursor_prompt": "Run Trivy/Grype in CI + OSQuery for inventory; export to CSV; compare coverage to your Nessus bill."
+  },
+  {
+    "name": "Teramind",
+    "tier": "cooked",
+    "roast": "Insider risk analytics: keylogging's MBA cousin with a 'predictive edge' sticker.",
+    "confidence": "high",
+    "cursor_prompt": "If you need DLP-lite, start with endpoint file exfil rules + USB policy via MDM; measure HR complaints before full UBA."
+  },
+  {
+    "name": "TestifySec",
+    "tier": "cooked",
+    "roast": "AI compliance automation is checklists that learned to autocomplete.",
+    "confidence": "high",
+    "cursor_prompt": "Map controls to evidence folders with git commits as proof; generate auditor packet ZIP from markdown\u2014skip the agent swarm."
+  },
+  {
+    "name": "Thales",
+    "tier": "actually_hard",
+    "roast": "When your product needs a truck and a tamper mesh, you're not in 'SaaS,' you're in physics.",
+    "confidence": "high",
+    "cursor_prompt": null
+  },
+  {
+    "name": "The Optro Launchpad",
+    "tier": "cooked",
+    "roast": "A flight kit for a conference hall: marketing calories, zero CVEs.",
+    "confidence": "high",
+    "cursor_prompt": "Not applicable\u2014promo booth; spend the time on sleep, not code."
+  },
+  {
+    "name": "Thinkst Canary",
+    "tier": "moat_for_now",
+    "roast": "Deception so simple it hurts competitors who sell 'AI-driven honeypots' for 40x the price.",
+    "confidence": "high",
+    "cursor_prompt": null
+  },
+  {
+    "name": "Thoropass",
+    "tier": "cooked",
+    "roast": "Audit prep SaaS is anxiety-as-a-service with SOC 2 seasoning.",
+    "confidence": "high",
+    "cursor_prompt": "Automate evidence collection: pull SSO logs, ticket closures, access reviews into dated folders; diff month-over-month."
+  },
+  {
+    "name": "ThreatBreaker",
+    "tier": "cooked",
+    "roast": "AI-native EDR for SMBs is 'we slapped GPT on Sysmon and called it tier-1 replacement'.",
+    "confidence": "high",
+    "cursor_prompt": "Ship Sigma rules + Velociraptor queries for ten TTPs; measure MTTR on a lab domain before ML."
+  },
+  {
+    "name": "ThreatConnect",
+    "tier": "moat_for_now",
+    "roast": "Threat intel platforms age like sushi: fine at purchase, questionable by afternoon keynote.",
+    "confidence": "medium",
+    "cursor_prompt": null
+  },
+  {
+    "name": "Threatcop",
+    "tier": "cooked",
+    "roast": "AAPE sounds like a framework for selling phishing sims to people who already failed the quiz.",
+    "confidence": "medium",
+    "cursor_prompt": "Run monthly phishing tests with one landing page and track repeat clickers; publish a leaderboard nobody wants."
+  },
+  {
+    "name": "ThreatLocker",
+    "tier": "cooked",
+    "roast": "Zero trust endpoint allowlisting is powerful and also why your helpdesk now hates you.",
+    "confidence": "high",
+    "cursor_prompt": "Prototype AppLocker/WDAC policies + ring rollout; log denials to SIEM before buying another 'zero trust' panel."
+  },
+  {
+    "name": "ThreatModeler",
+    "tier": "cooked",
+    "roast": "Automated threat modeling is STRIDE with autocomplete and a Jira integration nobody asked for.",
+    "confidence": "high",
+    "cursor_prompt": "Use OWASP Threat Dragon on three services; export diagrams; automate only the boring duplicate edges."
+  },
+  {
+    "name": "Tidal Cyber",
+    "tier": "moat_for_now",
+    "roast": "Mapping tools to TTPs is useful until your map is just MITRE fanfiction with a subscription.",
+    "confidence": "medium",
+    "cursor_prompt": null
+  },
+  {
+    "name": "Tines",
+    "tier": "cooked",
+    "roast": "AI-powered workflows are if-this-then-that for people who wear fleece vests.",
+    "confidence": "high",
+    "cursor_prompt": "Replace one Tines playbook with a typed Python worker + queue; compare failure modes and monthly cost."
+  },
+  {
+    "name": "Token Security",
+    "tier": "gpt_wrapper",
+    "roast": "Identity-first AI agent security is OAuth cosplay for chatbots that shouldn't have keys.",
+    "confidence": "medium",
+    "cursor_prompt": null
+  },
+  {
+    "name": "Tonic Security",
+    "tier": "cooked",
+    "roast": "Agentic unified exposure management is ASM with a thesaurus and a Series A slide.",
+    "confidence": "high",
+    "cursor_prompt": "Run amass/subfinder + nuclei weekly, store diffs in SQLite, email delta; ship before Kubernetes operators."
+  },
+  {
+    "name": "Torq",
+    "tier": "cooked",
+    "roast": "Agentic SOC is tier-1 macros pretending to be staff augmentation.",
+    "confidence": "high",
+    "cursor_prompt": "Build three deterministic runbooks (isolate host, reset password, revoke token) with human approval gates."
+  },
+  {
+    "name": "Tracebit",
+    "tier": "moat_for_now",
+    "roast": "Canaries across clouds: great until your bill is the real tripwire.",
+    "confidence": "medium",
+    "cursor_prompt": null
+  },
+  {
+    "name": "Trade Commission Spain ICEX",
+    "tier": "actually_hard",
+    "roast": "A government booth: immune to disruption because disruption isn't in the procurement spreadsheet.",
+    "confidence": "high",
+    "cursor_prompt": null
+  },
+  {
+    "name": "Transcend Information",
+    "tier": "actually_hard",
+    "roast": "Storage vendor at RSA: you're here because bits have mass and margins.",
+    "confidence": "high",
+    "cursor_prompt": null
+  },
+  {
+    "name": "Tranxfer",
+    "tier": "cooked",
+    "roast": "Secure file exchange is SFTP with compliance fonts and a watermark fetish.",
+    "confidence": "high",
+    "cursor_prompt": "Use presigned S3 URLs + virus scan Lambda + audit log table; ship MVP before 'modular suite' dreams."
+  },
+  {
+    "name": "Trustero",
+    "tier": "cooked",
+    "roast": "Multi-agent GRC is interns in a trench coat, but automated.",
+    "confidence": "high",
+    "cursor_prompt": "Generate control tests from YAML, run API checks weekly, store pass/fail artifacts\u2014one agent max."
+  },
+  {
+    "name": "Trustmi",
+    "tier": "cooked",
+    "roast": "Behavioral AI for finance fraud is rules that went to therapy and started journaling.",
+    "confidence": "high",
+    "cursor_prompt": "Start with DMARC strict + BEC keyword rules + dual approval on wires; measure $ blocked before ML."
+  },
+  {
+    "name": "Tufin",
+    "tier": "moat_for_now",
+    "roast": "Network policy management is sticky because firewalls are organizational scar tissue.",
+    "confidence": "medium",
+    "cursor_prompt": null
+  },
+  {
+    "name": "Turbot",
+    "tier": "cooked",
+    "roast": "Guardrails for cloud misconfigs: Policy-as-Code for people who still misconfigure Policy-as-Code.",
+    "confidence": "high",
+    "cursor_prompt": "Adopt Open Policy Agent for three high-risk resources (S3 public, SG 0.0.0.0/0, IAM *:*); CI-eval on Terraform plans."
+  },
+  {
+    "name": "Tuskira",
+    "tier": "cooked",
+    "roast": "Attack simulation for defense validation is purple teaming with a cron job and a PDF trophy.",
+    "confidence": "high",
+    "cursor_prompt": "Schedule Atomic Red Team in a lab VPC, capture detections, score coverage\u2014skip cinematic 'AI-driven' trailers."
+  },
+  {
+    "name": "TuxCare",
+    "tier": "moat_for_now",
+    "roast": "Kernel live patching is unglamorous surgery on a running patient\u2014technically gnarly, politically worse.",
+    "confidence": "medium",
+    "cursor_prompt": null
+  },
+  {
+    "name": "T\u00dcV Informationstechnik",
+    "tier": "actually_hard",
+    "roast": "Common Criteria lab: paperwork so rigorous it counts as a side-channel attack on your calendar.",
+    "confidence": "high",
+    "cursor_prompt": null
+  },
+  {
+    "name": "T\u00dcV S\u00dcD",
+    "tier": "actually_hard",
+    "roast": "Certification bodies print trust the old-fashioned way: stamps and liability umbrellas.",
+    "confidence": "high",
+    "cursor_prompt": null
+  },
+  {
+    "name": "Ubiquiti",
+    "tier": "actually_hard",
+    "roast": "Networking hardware in a cloud security hall: you brought silicon to a YAML fight.",
+    "confidence": "high",
+    "cursor_prompt": null
+  },
+  {
+    "name": "Unbound",
+    "tier": "gpt_wrapper",
+    "roast": "Detecting MCP servers is peak 2026: security for the IDE accessories aisle.",
+    "confidence": "high",
+    "cursor_prompt": null
+  },
+  {
+    "name": "Unosecur GmbH",
+    "tier": "cooked",
+    "roast": "Unified identity fabric is CIEM with a knitting metaphor and the same API sprawl.",
+    "confidence": "high",
+    "cursor_prompt": "Inventory cloud identities via provider APIs, flag unused keys >90d, export CSV for audits\u2014ship before 'fabric' poetry."
+  },
+  {
+    "name": "UPAS Corporation",
+    "tier": "moat_for_now",
+    "roast": "Three decades of NAC: vendor lock-in measured in cable drops and VLAN tears.",
+    "confidence": "medium",
+    "cursor_prompt": null
+  },
+  {
+    "name": "UpGuard",
+    "tier": "cooked",
+    "roast": "CRPM with agentic AI is port scans plus a press release about graphs.",
+    "confidence": "high",
+    "cursor_prompt": "Use Shodan/Censys + vendor questionnaires in Airtable; automate score only where data is objective."
+  },
+  {
+    "name": "Utimaco",
+    "tier": "actually_hard",
+    "roast": "HSMs and PQC: when your threat model includes physics, you're not 'moving fast and breaking things'.",
+    "confidence": "high",
+    "cursor_prompt": null
+  },
+  {
+    "name": "Valence Security",
+    "tier": "cooked",
+    "roast": "SSPM plus AI sprawl discovery is OAuth inventory with anxiety pricing.",
+    "confidence": "high",
+    "cursor_prompt": "Use SaaS OAuth audit logs + Google Workspace admin reports; build a revoked-token drill before another dashboard."
+  },
+  {
+    "name": "Vanta",
+    "tier": "cooked",
+    "roast": "Agentic trust platform is SOC 2 automation with a chatbot that files tickets to your soul.",
+    "confidence": "high",
+    "cursor_prompt": "Automate evidence pulls from GitHub/Google/Okta; version-control policies; only then add LLM summaries for auditors."
+  },
+  {
+    "name": "AlgoSec",
+    "tier": "moat_for_now",
+    "roast": "Firewall policy Tetris for enterprises\u2014useful, but 'AI-driven' is doing a lot of brochure lifting while the core is still rules, paths, and change windows.",
+    "confidence": "medium",
+    "cursor_prompt": null
+  },
+  {
+    "name": "Alice",
+    "tier": "gpt_wrapper",
+    "roast": "If your threat model is 'the model,' you are the model\u2019s accessory brand\u2014red team the frosting, harden the vibes, invoice the labs.",
+    "confidence": "high",
+    "cursor_prompt": null
+  },
+  {
+    "name": "AlixPartners",
+    "tier": "actually_hard",
+    "roast": "Not a product\u2014it's billable adults in blazers shipping PowerPoint and subpoena energy. Your 'moat' is partners\u2019 last names, not semver.",
+    "confidence": "high",
+    "cursor_prompt": null
+  },
+  {
+    "name": "alphaMountain.ai",
+    "tier": "moat_for_now",
+    "roast": "Domain/IP reputation with 'proprietary ML' is a race to stale lists, API rate limits, and who can market 'real-time' the loudest.",
+    "confidence": "medium",
+    "cursor_prompt": null
+  },
+  {
+    "name": "Amazon Web Services",
+    "tier": "actually_hard",
+    "roast": "Atoms, electrons, regions, and an entire economy hooked on IAM footguns\u2014destroying SaaS from the inside by selling the shovels.",
+    "confidence": "high",
+    "cursor_prompt": null
+  },
+  {
+    "name": "American Portwell Technology",
+    "tier": "actually_hard",
+    "roast": "Embedded boards and custom boxes\u2014when the attack surface is a PCB, your CI/CD is a soldering iron and a purchase order.",
+    "confidence": "high",
+    "cursor_prompt": null
+  },
+  {
+    "name": "Anomali",
+    "tier": "cooked",
+    "roast": "Another 'unified lake' wearing a fedora: threat intel plus analytics plus 'agentic' is three tabs of Grafana and a Copilot macro.",
+    "confidence": "high",
+    "cursor_prompt": "In a monorepo, add a small Python service with FastAPI that ingests STIX/TAXII or CSV IOCs into SQLite/Postgres, dedupes by (type,value,source), exposes /search and /export, and a daily job that scores freshness\u2014ship a docker-compose and README with sample queries."
+  },
+  {
+    "name": "Anvilogic",
+    "tier": "cooked",
+    "roast": "AI-powered triage across SIEMs is a fancy wrapper for 'parse alerts, cluster, draft note'\u2014the vendors underneath still own you.",
+    "confidence": "high",
+    "cursor_prompt": "Write a Python worker that pulls alerts from a SIEM export (JSON lines), clusters by normalized fields + Jaccard on titles, assigns a severity score with rules + optional LLM summary behind a feature flag, writes tickets via REST, and stores outcomes for precision/recall."
+  },
+  {
+    "name": "AnyInsight.ai",
+    "tier": "gpt_wrapper",
+    "roast": "Zero-trust GenAI with 'built-in agents' is three words away from 'we fine-tuned procurement.'",
+    "confidence": "high",
+    "cursor_prompt": null
+  },
+  {
+    "name": "Apiiro",
+    "tier": "cooked",
+    "roast": "ASPM with an AutoFix agent is SCA cosplay with merge-request theater\u2014still mostly dependency whack-a-mole.",
+    "confidence": "high",
+    "cursor_prompt": "Add GitHub Action: run OSV-Scanner + Semgrep on PRs, open a single summary comment with prioritized fixes, and a script that opens patch PRs bumping safe semver ranges using npm/pip tooling\u2014fail the check only on critical reachable vulns."
+  },
+  {
+    "name": "Apono",
+    "tier": "cooked",
+    "roast": "Dynamic least-privilege for clouds is IAM policy Sudoku\u2014important, but it's policy JSON with a nicer haircut.",
+    "confidence": "high",
+    "cursor_prompt": "Prototype a tiny policy engine: ingest cloud IAM JSON + resource graph from Terraform state, compute effective permissions for a role, and emit a 'standing privilege' report + suggested scoped policies with TTL fields."
+  },
+  {
+    "name": "Appdome",
+    "tier": "moat_for_now",
+    "roast": "Mobile app shielding without SDK claims is either bytecode sleight-of-hand or lawyers\u2014either way, not a weekend vibe-code.",
+    "confidence": "medium",
+    "cursor_prompt": null
+  },
+  {
+    "name": "AppGate",
+    "tier": "cooked",
+    "roast": "ZTNA is SSH with marketing: split tunnels, identity, and a pricing page that scales with headcount.",
+    "confidence": "high",
+    "cursor_prompt": "Stand up a minimal ZTNA demo: WireGuard or Tailscale ACLs + OIDC login + per-app DNS routes; document enrollment and revoke flows in one markdown runbook."
+  },
+  {
+    "name": "Applivery",
+    "tier": "cooked",
+    "roast": "UEM is MDM with international pavilion paella\u2014policies, payloads, and praying Apple doesn\u2019t change a plist.",
+    "confidence": "high",
+    "cursor_prompt": "Build a barebones MDM-ish control plane: enroll devices via enrollment profile URL, push a plist/mobileconfig for Wi-Fi/VPN, and a webhook receiver for inventory events\u2014use sqlite for state and a single admin UI."
+  },
+  {
+    "name": "AppOmni",
+    "tier": "cooked",
+    "roast": "SaaS posture is OAuth scopes and public links with anxiety\u2014'AI activity visibility' is the new activity log export.",
+    "confidence": "high",
+    "cursor_prompt": "Create a SaaS posture scanner MVP: OAuth app inventory via IdP APIs + Slack/Google/Microsoft read-only scopes, flag risky scopes, external sharing, and inactive OAuth grants; output CSV + prioritized fixes."
+  },
+  {
+    "name": "AppSentinels",
+    "tier": "cooked",
+    "roast": "API workflow graphs are pretty until someone ships a new route\u2014then you're graphing yesterday's OpenAPI.",
+    "confidence": "high",
+    "cursor_prompt": "Generate OpenAPI from traffic (mitmproxy/har), diff routes between versions in CI, and run a small ruleset for authz gaps (missing auth on mutations, mass assignment patterns) with JSON SARIF output."
+  },
+  {
+    "name": "AppViewX",
+    "tier": "moat_for_now",
+    "roast": "PKI/CLM still breaks because enterprises love 10-year roots and hate DNS\u2014your moat is outage trauma, not AI.",
+    "confidence": "medium",
+    "cursor_prompt": null
+  },
+  {
+    "name": "Apricorn",
+    "tier": "actually_hard",
+    "roast": "FIPS hardware in a USB stick\u2014when the key is literal silicon, ChatGPT can't fork your supply chain.",
+    "confidence": "high",
+    "cursor_prompt": null
+  },
+  {
+    "name": "AQtive Guard by SandboxAQ",
+    "tier": "cooked",
+    "roast": "Crypto-risk dashboards for agents is GRC with quantum seasoning\u2014still mostly inventory, policy text, and red/yellow tiles.",
+    "confidence": "medium",
+    "cursor_prompt": "Make a repo inventory tool: scan for deprecated crypto (TLS versions, weak curves, MD5/SHA1), parse package manifests for known weak deps, emit a risk report grouped by team owner from CODEOWNERS."
+  },
+  {
+    "name": "Aqua Security",
+    "tier": "moat_for_now",
+    "roast": "Containers were the moat; now everyone has scanners and the real fight is noisy CVE prioritization and Kubernetes drama.",
+    "confidence": "medium",
+    "cursor_prompt": null
+  },
+  {
+    "name": "Arcanna AI",
+    "tier": "cooked",
+    "roast": "Human expertise plus AI in SOAR is 'analyst plus autocomplete'\u2014the playbooks were YAML before they were trendy.",
+    "confidence": "high",
+    "cursor_prompt": "Implement a minimal SOAR: webhook ingests alert JSON, maps to a playbook YAML (if crowdstrike then slack+ticket), executes steps with retries/idempotency keys, stores run history in Postgres."
+  },
+  {
+    "name": "Arch0",
+    "tier": "gpt_wrapper",
+    "roast": "Living knowledge graph plus specialized agents is startup speak for 'we glued Postgres, vectors, and optimism.'",
+    "confidence": "medium",
+    "cursor_prompt": null
+  },
+  {
+    "name": "Archer",
+    "tier": "cooked",
+    "roast": "Integrated risk management is spreadsheets with audit trail and a login page\u2014AI risk quantification is still Monte Carlo with a logo.",
+    "confidence": "high",
+    "cursor_prompt": "Build a lightweight risk register: CSV import, control mapping to frameworks (NIST/ISO) as tags, simple Monte Carlo on impact/frequency columns, export board slide markdown."
+  },
+  {
+    "name": "ARCON TechSolutions",
+    "tier": "cooked",
+    "roast": "PAM is vaults, sessions, and break-glass theater\u2014critical, but it's the same rotating password with better UX.",
+    "confidence": "high",
+    "cursor_prompt": "Prototype a PAM-lite: vault storing secrets in KMS-wrapped blobs, short-lived cred issuance API, session recording metadata (who/when/what host), and periodic access review export."
+  },
+  {
+    "name": "Arctic Wolf Den",
+    "tier": "moat_for_now",
+    "roast": "Sponsored experience with 'AI-driven ops' is a lounge that smells like espresso and recurring revenue.",
+    "confidence": "medium",
+    "cursor_prompt": null
+  },
+  {
+    "name": "Arctic Wolf Networks",
+    "tier": "moat_for_now",
+    "roast": "24x7 SOC-as-a-service scales with humans in shifts\u2014software helps, payroll is the product.",
+    "confidence": "high",
+    "cursor_prompt": null
+  },
+  {
+    "name": "AREXDATA",
+    "tier": "cooked",
+    "roast": "DSPM is regex, metadata, and DLP policies pretending to be strategy\u2014classification is forever a moving target.",
+    "confidence": "high",
+    "cursor_prompt": "Ship a file classifier MVP: walk object storage, sample MIME/extension, run PII regex detectors + entropy checks, write results to a table with false-positive review flags and a simple quarantine tagger job."
+  },
+  {
+    "name": "Armis",
+    "tier": "moat_for_now",
+    "roast": "Asset inventory across IT/OT/IoT is genuinely ugly telemetry\u2014your moat is parsers, not prompts.",
+    "confidence": "medium",
+    "cursor_prompt": null
+  },
+  {
+    "name": "Astrix Security",
+    "tier": "cooked",
+    "roast": "Non-human identity for AI agents is IAM with extra nouns\u2014still OAuth, roles, and panic about tokens.",
+    "confidence": "high",
+    "cursor_prompt": "Build an NHI inventory: list service accounts + OAuth apps from cloud IdP, map to owners, detect unused keys/credentials older than 90 days, output remediation tickets with suggested rotation steps."
+  },
+  {
+    "name": "AT&T Business",
+    "tier": "actually_hard",
+    "roast": "Fiber and 5G are trenches, permits, and spectrum\u2014your outage is a backhoe, not a prompt injection.",
+    "confidence": "high",
+    "cursor_prompt": null
+  },
+  {
+    "name": "12Port Inc",
+    "tier": "cooked",
+    "roast": "Agentless PAM is enterprise theater: a vault, a broker, and a spreadsheet of who touched prod\u2014stuff Terraform and a weekend OAuth proxy can approximate until procurement notices.",
+    "confidence": "medium",
+    "cursor_prompt": "Build a minimal PAM demo: HashiCorp Vault or OpenBao for secrets, short-lived creds via your cloud IAM, and SSH/RDP session recording with audit logs; add a simple policy UI that maps roles to targets."
+  },
+  {
+    "name": "1Password",
+    "tier": "cooked",
+    "roast": "A very nice password manager with a marketing team that discovered the word 'AI-powered'\u2014still fundamentally a vault, autofill, and team sharing you could ship with Bitwarden and a designer.",
+    "confidence": "high",
+    "cursor_prompt": "Prototype a team password vault: Bitwarden-compatible server or Vaultwarden, SSO via OIDC, shared collections, and an audit export CSV for SOC 2 evidence\u2014no AI required."
+  },
+  {
+    "name": "A-LIGN",
+    "tier": "cooked",
+    "roast": "You are not buying security; you are buying PDFs with letterhead. Auditors are the original compliance-as-a-service\u2014and the product is mostly calendars and stubbornness.",
+    "confidence": "high",
+    "cursor_prompt": "Spin up an internal SOC 2 control matrix in a spreadsheet or Notion: map controls to evidence (tickets, logs, screenshots), assign owners, and automate reminders\u2014mock what GRC tools charge six figures to host."
+  },
+  {
+    "name": "A2SECURE I RISKBLADE",
+    "tier": "cooked",
+    "roast": "MSSP plus a TPRM module is 'we email your vendors a Google Form and call it supply chain resilience'\u2014Riskblade is questionnaire cosplay with a Madrid accent.",
+    "confidence": "medium",
+    "cursor_prompt": "Build a vendor-risk tracker: vendor list, questionnaire templates, document upload, scoring rubric, and renewal dates\u2014export to CSV for the board slide that says 'digital supply chain'."
+  },
+  {
+    "name": "AAEON",
+    "tier": "actually_hard",
+    "roast": "They ship boards, boxes, and custom silicon dreams\u2014your weekend vibe-code can't fab a PCB or pass EMI.",
+    "confidence": "high",
+    "cursor_prompt": null
+  },
+  {
+    "name": "Absolute Security",
+    "tier": "moat_for_now",
+    "roast": "Annoyingly persistent: firmware-resident agents that survive wipe-and-reimage are the opposite of a CRUD app\u2014still, the clock ticks as OS vendors tighten attestation.",
+    "confidence": "medium",
+    "cursor_prompt": null
+  },
+  {
+    "name": "AbuseIPDB",
+    "tier": "cooked",
+    "roast": "IP reputation as a service is 'we Redis a list of naughty subnets and charge for the API key'\u2014valuable plumbing, not a castle.",
+    "confidence": "high",
+    "cursor_prompt": "Create a minimal threat-rep feed: ingest public blocklists, score IPs by recency/volume, expose REST + bulk download, and wire a fail2ban or WAF rule sync script."
+  },
+  {
+    "name": "Acalvio Technologies",
+    "tier": "moat_for_now",
+    "roast": "Deception at scale\u2014decoys, breadcrumbs, and lateral-movement theater\u2014actually hurts to build well; the 'AI-powered' sticker is just expo seasoning.",
+    "confidence": "medium",
+    "cursor_prompt": null
+  },
+  {
+    "name": "Accedere",
+    "tier": "gpt_wrapper",
+    "roast": "Controllo.ai is compliance Mad Libs: paste your policies, get an AI paragraph that says you're ISO-shaped until the auditor asks for receipts.",
+    "confidence": "high",
+    "cursor_prompt": null
+  },
+  {
+    "name": "AccuKnox",
+    "tier": "cooked",
+    "roast": "CSPM+CIEM+CASB+SBOM in one acronym burrito\u2014under the hood it's API calls, JSON policies, and dashboards you could glue from open scanners and shame.",
+    "confidence": "medium",
+    "cursor_prompt": "Glue a 'cloud posture' demo: CSPM-style checks with Prower/Steampipe or cloud APIs, IAM excess finder from IAM reports, and an SBOM from Syft in CI\u2014one UI listing findings by service."
+  },
+  {
+    "name": "Act Security",
+    "tier": "cooked",
+    "roast": "Least-privilege spaghetti untangler sounds heroic until you realize it's 'use the cloud provider's actual groups and stop giving everyone Owner'.",
+    "confidence": "low",
+    "cursor_prompt": "Script least-privilege baselines: export IAM bindings, flag overly broad roles, generate suggested bindings per app tier, and output Terraform or ClickOps steps to apply."
+  },
+  {
+    "name": "Action1",
+    "tier": "cooked",
+    "roast": "Cloud patch theater with a free tier hook\u2014endpoint management is real work, but the moat is scripts and scale, not magic.",
+    "confidence": "medium",
+    "cursor_prompt": "Prototype patch orchestration: agent that runs OS update commands on a schedule, reports version inventory to a small API, and gates prod with maintenance windows\u2014start with one OS."
+  },
+  {
+    "name": "ActiveState",
+    "tier": "cooked",
+    "roast": "Curated OSS builds and supply-chain peace of mind\u2014worthy, but still SCA/dependency cosplay with a compiler and a support contract.",
+    "confidence": "medium",
+    "cursor_prompt": "Set up a private PyPI/npm mirror with vulnerability scanning on upload (e.g. OSV-Scanner in CI) and lockfile-only installs\u2014mimic 'trusted OSS' without the retainer."
+  },
+  {
+    "name": "AD Consulting SPA",
+    "tier": "cooked",
+    "roast": "Another integrator selling 'Defenix' visibility\u2014usually Grafana, a few agents, and PowerPoint with the word OT in bold.",
+    "confidence": "low",
+    "cursor_prompt": "Stand up OT-ish visibility cheap: syslog + Zeek or Suricata on a span port, ship to OpenSearch, build three dashboards (auth failures, lateral SMB, PLC chatter if present)."
+  },
+  {
+    "name": "Adaptiva",
+    "tier": "cooked",
+    "roast": "Fast patching at scale is ops engineering, not wizardry\u2014P2P delivery is neat, not a national secret.",
+    "confidence": "medium",
+    "cursor_prompt": "Use your config management (Ansible, Intune, or Munki) to push patches with staged rollout and health checks\u2014add a simple web UI for rollout status."
+  },
+  {
+    "name": "Adaptive Security",
+    "tier": "cooked",
+    "roast": "Phishing sims and deepfake panic videos\u2014security awareness with extra fear; the tech is email templates and a video host, not a fortress.",
+    "confidence": "high",
+    "cursor_prompt": "Ship a phishing drill: landing pages, randomized send times, click tracking, and a leaderboard\u2014use open phishing frameworks or a minimal Flask app with SMTP relay."
+  },
+  {
+    "name": "Aembit",
+    "tier": "cooked",
+    "roast": "Workload IAM for the AI era is OAuth for robots with a pricing page\u2014important, but fundamentally policy + tokens + mTLS you can wire with SPIFFE-ish patterns.",
+    "confidence": "medium",
+    "cursor_prompt": "Demo workload-to-workload auth: issue JWTs or mTLS certs via SPIRE or Step CA, enforce audience/scope in Envoy or API gateway, and log decisions to stdout for audit."
+  },
+  {
+    "name": "AEWIN TECH INC.",
+    "tier": "actually_hard",
+    "roast": "They bend metal and PCIe lanes so your firewall vendor can slap a logo on a 1U toaster\u2014atoms, not prompts.",
+    "confidence": "high",
+    "cursor_prompt": null
+  },
+  {
+    "name": "Agile Momentum",
+    "tier": "cooked",
+    "roast": "DLP that watches people photograph monitors is 'HR analytics with a camera policy'\u2014creepy, niche, and rebuildable with MDM and shame.",
+    "confidence": "medium",
+    "cursor_prompt": "Pilot insider-risk signals without spyware: watermark sensitive docs, enable screen capture policies on managed devices, and correlate file exfil to DLP events in a single timeline."
+  },
+  {
+    "name": "AhnLab",
+    "tier": "moat_for_now",
+    "roast": "Old-guard APAC EDR with real kernel baggage and enterprise entrenchment\u2014still, it's signatures and response playbooks racing against Microsoft Defender's budget.",
+    "confidence": "medium",
+    "cursor_prompt": null
+  },
+  {
+    "name": "AIBound",
+    "tier": "gpt_wrapper",
+    "roast": "Unified AI security for models and agents is turtles all the way down\u2014LLM guards guarding LLMs until someone ships grep for embeddings.",
+    "confidence": "medium",
+    "cursor_prompt": null
+  },
+  {
+    "name": "AIC",
+    "tier": "actually_hard",
+    "roast": "Racks, trays, and thermal nightmares\u2014when your product weighs 40kg, Cursor stops being the threat model.",
+    "confidence": "high",
+    "cursor_prompt": null
+  },
+  {
+    "name": "Aikido Security",
+    "tier": "cooked",
+    "roast": "AppSec in a trench coat: SAST/SCA/DAST bingo\u2014per your rules, always weekend-fair; the second booth is just double the d\u00e9j\u00e0 vu.",
+    "confidence": "high",
+    "cursor_prompt": "Wire a CI security gate: Semgrep + OSV-Scanner + ZAP baseline against staging, post results to PR comments, block on critical\u2014one docker-compose for local dev."
+  },
+  {
+    "name": "Aikido Security",
+    "tier": "cooked",
+    "roast": "Same SAST buffet, different carpet\u2014two booths won't make CVE scanning less commoditized.",
+    "confidence": "high",
+    "cursor_prompt": "Consolidate findings: normalize SARIF from multiple scanners into one SQLite DB and a single dashboard with dedupe by file+rule\u2014prove 'platform' is a join query."
+  },
+  {
+    "name": "AIONCLOUD",
+    "tier": "moat_for_now",
+    "roast": "WAAP/SWG/CASB at the edge is real plumbing\u2014still a crowded lane next to Cloudflare and Zscaler, but not a vibe-coded CRUD.",
+    "confidence": "medium",
+    "cursor_prompt": null
+  },
+  {
+    "name": "AirMDR",
+    "tier": "gpt_wrapper",
+    "roast": "AI SOC that still bills like humans\u2014strip the agentic sparkle and you're buying ticket hygiene with a chatbot forensics intern.",
+    "confidence": "medium",
+    "cursor_prompt": null
+  },
+  {
+    "name": "AiStrike",
+    "tier": "gpt_wrapper",
+    "roast": "Agentic SIEM is 'what if Splunk had delusions of autonomy'\u2014orchestration glue with an LLM press release.",
+    "confidence": "medium",
+    "cursor_prompt": null
+  },
+  {
+    "name": "AIVESP",
+    "tier": "cooked",
+    "roast": "AI-driven consulting to optimize industrial processes\u2014PowerPoint with a torch and 'forecasting' in the subtitle.",
+    "confidence": "low",
+    "cursor_prompt": "Replace slideware with a Jupyter notebook: pull plant telemetry CSVs, forecast with Prophet or ARIMA, and export one executive chart\u2014same story, fraction of the day rate."
+  },
+  {
+    "name": "Akamai",
+    "tier": "actually_hard",
+    "roast": "You don't compete with their edge; you route through it\u2014global anycast and peering drama is the definition of infra moat.",
+    "confidence": "high",
+    "cursor_prompt": null
+  },
+  {
+    "name": "Akto",
+    "tier": "gpt_wrapper",
+    "roast": "Agentic AI security for MCP and LLMs\u2014if the pitch needs three acronyms and 'guardrails,' the product is mostly policy YAML and a model API.",
+    "confidence": "medium",
+    "cursor_prompt": null
+  },
+  {
+    "name": "Veeam Software",
+    "tier": "moat_for_now",
+    "roast": "Backup with a spreadsheet of logos: 550k customers still wake up to the same immutable restore demos.",
+    "confidence": "medium",
+    "cursor_prompt": null
+  },
+  {
+    "name": "Vega Security",
+    "tier": "moat_for_now",
+    "roast": "Another 'SIEM without the baggage' pitch that still ends with you paying for storage and a team to tune it.",
+    "confidence": "medium",
+    "cursor_prompt": null
+  },
+  {
+    "name": "Vehere Technologies",
+    "tier": "actually_hard",
+    "roast": "COMINT/SIGINT cosplay for the trade floor\u2014this is one of the few booths where 'we read the wire' isn't a metaphor.",
+    "confidence": "high",
+    "cursor_prompt": null
+  },
+  {
+    "name": "Venice Security",
+    "tier": "cooked",
+    "roast": "Adaptive PAM with a mythological name: your standing privilege problem becomes a standing licensing problem.",
+    "confidence": "high",
+    "cursor_prompt": "Build a minimal PAM mock: JIT elevation via SSO groups, session recording to S3, break-glass workflow with Slack approval and 4-eyes, audit export JSON; ship a CLI + tiny web UI in a week."
+  },
+  {
+    "name": "Veracode",
+    "tier": "cooked",
+    "roast": "Trillions of scans, infinite findings, and the same Jira tickets from 2014.",
+    "confidence": "high",
+    "cursor_prompt": "Wire Semgrep + OSV-Scanner + Trivy into GitHub PR comments; dedupe by rule+file; one 'fix recipe' link per finding; no enterprise portal."
+  },
+  {
+    "name": "Verax",
+    "tier": "gpt_wrapper",
+    "roast": "Shadow AI panic as a SKU: finally, software that tells you people pasted secrets into ChatGPT\u2014news at eleven.",
+    "confidence": "high",
+    "cursor_prompt": null
+  },
+  {
+    "name": "Versa Networks",
+    "tier": "moat_for_now",
+    "roast": "SASE bingo with real routers attached: you are buying plumbing, not vibes\u2014still, the deck is 80% 'single pane'.",
+    "confidence": "medium",
+    "cursor_prompt": null
+  },
+  {
+    "name": "Veza from ServiceNow",
+    "tier": "cooked",
+    "roast": "325 integrations to prove what IT already knows: everyone is admin somewhere.",
+    "confidence": "high",
+    "cursor_prompt": "Build an access graph MVP: nightly IAM+SaaS API pulls into SQLite/Neo4j; query 'who can reach this bucket'; export CSV for auditors."
+  },
+  {
+    "name": "VIAVI Solutions",
+    "tier": "actually_hard",
+    "roast": "Packet forensics at booth speed: the rare vendor whose demo can actually survive a skeptical wireshark nerd.",
+    "confidence": "medium",
+    "cursor_prompt": null
+  },
+  {
+    "name": "Vijil",
+    "tier": "gpt_wrapper",
+    "roast": "Enterprise AI trust modular enough to invoice quarterly.",
+    "confidence": "medium",
+    "cursor_prompt": null
+  },
+  {
+    "name": "VirtualMetric BV",
+    "tier": "cooked",
+    "roast": "90% SIEM cost reduction is code for 'we move logs to cheaper buckets and hope nobody asks about detection'.",
+    "confidence": "medium",
+    "cursor_prompt": "Ship a log pipeline: Fluent Bit \u2192 Kafka/Redpanda \u2192 Iceberg/Parquet + DuckDB queries; basic alerts via scheduled SQL; bill as 'SIEM tax relief'."
+  },
+  {
+    "name": "Virtue Security",
+    "tier": "cooked",
+    "roast": "Boutique pentest: the moat is hourly rates and a PDF with a cool font.",
+    "confidence": "high",
+    "cursor_prompt": "Productize a scoped assessment: Terraform lab, OWASP ASVS checklist runner, 10-page auto-report from JSON findings + executive summary template."
+  },
+  {
+    "name": "Vorlon",
+    "tier": "gpt_wrapper",
+    "roast": "Agentic ecosystem security sounds like ChatGPT wrote the category after three espressos.",
+    "confidence": "medium",
+    "cursor_prompt": null
+  },
+  {
+    "name": "Wallarm",
+    "tier": "cooked",
+    "roast": "Fastest, easiest API security until the next fastest, easiest API security with a new logo.",
+    "confidence": "high",
+    "cursor_prompt": "Stand up an API gateway (Envoy/NGINX) + WAF rules + OpenAPI diff in CI; block obvious authz bugs with contract tests; ship a dashboard of blocked paths."
+  },
+  {
+    "name": "Wasabi Technologies",
+    "tier": "moat_for_now",
+    "roast": "Immutability theater with a hard drive bill: cheap storage cosplaying as ransomware insurance.",
+    "confidence": "medium",
+    "cursor_prompt": null
+  },
+  {
+    "name": "WEEDSAND",
+    "tier": "cooked",
+    "roast": "Korea's #1 insider risk story is still 'we watched USB and called it AI in 2010'.",
+    "confidence": "low",
+    "cursor_prompt": "Build insider-risk-lite: DLP on endpoints via OS logs, exfil patterns to Slack alerts, HR offboarding checklist automation; skip the national pride slide."
+  },
+  {
+    "name": "Whistic",
+    "tier": "cooked",
+    "roast": "Agentic vendor risk: questionnaires that now autofill wrong faster.",
+    "confidence": "high",
+    "cursor_prompt": "Automate vendor review: questionnaire YAML schema, evidence uploads to S3, scoring rubric in code, SOC2 mapping CSV export."
+  },
+  {
+    "name": "WideField Security",
+    "tier": "moat_for_now",
+    "roast": "Patented visibility for NHIs and AI agents\u2014translation: expensive correlation with a ribbon on it.",
+    "confidence": "low",
+    "cursor_prompt": null
+  },
+  {
+    "name": "WiSECURE",
+    "tier": "actually_hard",
+    "roast": "Actual keys in actual metal: refreshingly not a dashboard with a gradient.",
+    "confidence": "high",
+    "cursor_prompt": null
+  },
+  {
+    "name": "WitnessAI",
+    "tier": "gpt_wrapper",
+    "roast": "Runtime AI security is the new CASB: broad claims, narrow packets.",
+    "confidence": "medium",
+    "cursor_prompt": null
+  },
+  {
+    "name": "Wiz",
+    "tier": "moat_for_now",
+    "roast": "Code-to-cloud-to-runtime until your CFO asks why you also bought three other CNAPPs\u2014then it's graph magic.",
+    "confidence": "medium",
+    "cursor_prompt": null
+  },
+  {
+    "name": "Wiz No AI Zone",
+    "tier": "cooked",
+    "roast": "Gold sponsor builds a 'no AI' room\u2014peak 2026: even the coping strategy is branded.",
+    "confidence": "high",
+    "cursor_prompt": "Replace the activation with a local-only coffee cart and a laminated 'airplane mode' sign; same serenity, zero vendor swag budget."
+  },
+  {
+    "name": "wolfSSL",
+    "tier": "actually_hard",
+    "roast": "Five billion connections of tiny terror: TLS in places your linter fears.",
+    "confidence": "high",
+    "cursor_prompt": null
+  },
+  {
+    "name": "Wolters Kluwer TeamMate",
+    "tier": "cooked",
+    "roast": "Unified GRC single source of truth\u2014enterprise speak for 'one spreadsheet to rule them all'.",
+    "confidence": "high",
+    "cursor_prompt": "Ship a minimal GRC tracker: risks/controls/issues in Postgres, approvals via email webhooks, PDF audit pack export."
+  },
+  {
+    "name": "X-PHY Inc",
+    "tier": "actually_hard",
+    "roast": "AI SSD with deepfake detection: firmware cosplaying as a SOC analyst\u2014still, it's silicon, not slides.",
+    "confidence": "medium",
+    "cursor_prompt": null
+  },
+  {
+    "name": "XBOW",
+    "tier": "gpt_wrapper",
+    "roast": "Autonomous offense at machine speed\u2014great for demos, terrifying for your change-management board.",
+    "confidence": "high",
+    "cursor_prompt": null
+  },
+  {
+    "name": "Xeris AI",
+    "tier": "gpt_wrapper",
+    "roast": "Super agents hunting shadow AI: recursive buzzword nesting detected.",
+    "confidence": "high",
+    "cursor_prompt": null
+  },
+  {
+    "name": "Xint by Theori",
+    "tier": "cooked",
+    "roast": "AI-driven offensive security still ends with a human writing 'valid finding' in the report.",
+    "confidence": "high",
+    "cursor_prompt": "Glue ZAP/Burp scan output to a templated markdown report + retest checklist; sell speed, not 'autonomous reasoning'."
+  },
+  {
+    "name": "XM Cyber",
+    "tier": "moat_for_now",
+    "roast": "Attack path analysis for hybrid cloud: useful graph, shrinking differentiation as every CSPM adds a line chart.",
+    "confidence": "medium",
+    "cursor_prompt": null
+  },
+  {
+    "name": "Yottasecure",
+    "tier": "cooked",
+    "roast": "Contextual CVE intelligence\u2014CVE triage as a service, starring your backlog.",
+    "confidence": "high",
+    "cursor_prompt": "Build an SCA triage bot: EPSS+reachability+deploy flag; PR comment with 'ship/snip' recommendation; ignore everything else."
+  },
+  {
+    "name": "Zafran Security",
+    "tier": "moat_for_now",
+    "roast": "AI-native threat exposure management: finally, TEM with vibes and fewer spreadsheets\u2014still TEM.",
+    "confidence": "low",
+    "cursor_prompt": null
+  },
+  {
+    "name": "Zenity",
+    "tier": "gpt_wrapper",
+    "roast": "First unified governance for AI agents\u2014until next week's also-first unified governance.",
+    "confidence": "medium",
+    "cursor_prompt": null
+  },
+  {
+    "name": "Zentera Systems",
+    "tier": "moat_for_now",
+    "roast": "Microsegmentation in hours is a sales claim; OT reality is still 'we'll schedule maintenance in Q4'.",
+    "confidence": "medium",
+    "cursor_prompt": null
+  },
+  {
+    "name": "Zerac",
+    "tier": "moat_for_now",
+    "roast": "E2EE SDN zero trust: networking cosplay with a cryptography hoodie.",
+    "confidence": "low",
+    "cursor_prompt": null
+  },
+  {
+    "name": "zerothird",
+    "tier": "actually_hard",
+    "roast": "QKD for governments: the booth where the threat model includes fiber and physics nerds.",
+    "confidence": "high",
+    "cursor_prompt": null
+  },
+  {
+    "name": "Ziggiz",
+    "tier": "moat_for_now",
+    "roast": "DARPA-funded PB-scale lake on Databricks: impressive engineering, still a fancy SIEM warehouse with a grant header.",
+    "confidence": "low",
+    "cursor_prompt": null
+  },
+  {
+    "name": "Zimperium",
+    "tier": "moat_for_now",
+    "roast": "AI-empowered mobile security: finally, ML to tell you users sideload sketchy APKs\u2014groundbreaking.",
+    "confidence": "medium",
+    "cursor_prompt": null
+  },
+  {
+    "name": "Zscaler",
+    "tier": "actually_hard",
+    "roast": "Global cloud proxy at scale: the moat is miles of fiber and peering, not your slide deck.",
+    "confidence": "high",
+    "cursor_prompt": null
+  },
+  {
+    "name": "Zynap",
+    "tier": "gpt_wrapper",
+    "roast": "AI agent workflow for pre-emptive defense\u2014SOAR with a ChatGPT internship.",
+    "confidence": "medium",
+    "cursor_prompt": null
+  },
+  {
+    "name": "CrowdStrike",
+    "tier": "moat_for_now",
+    "roast": "The Falcon agent living in your kernel is genuinely hard engineering. The $50/endpoint/month pricing for what increasingly looks like a fancy log forwarder to an AI summarizer? That part's on borrowed time. Hope you enjoyed that worldwide BSOD dress rehearsal.",
+    "confidence": "high",
+    "cursor_prompt": null
+  },
+  {
+    "name": "Yubico",
+    "tier": "actually_hard",
+    "roast": "Congratulations on being one of the few companies at RSA whose moat requires a semiconductor fab to cross. No amount of vibe coding is going to 3D-print a secure element. You're safe -- until someone figures out how to ship a YubiKey as a VS Code extension.",
+    "confidence": "high",
+    "cursor_prompt": null
+  },
+  {
+    "name": "PowerDMARC",
+    "tier": "cooked",
+    "roast": "Your entire product is calling DNS TXT records and parsing them against RFCs that haven't changed since 2014. The 'Early Stage Expo' booth is appropriate -- this business should have stayed at the early stage and pivoted.",
+    "confidence": "high",
+    "cursor_prompt": "Build a full-stack DMARC/SPF/DKIM monitoring platform. Use Next.js 14 + Tailwind for the dashboard UI, Postgres for storing domain configs and report history. Core engine: 1) DNS TXT record fetcher using `dns.resolveTxt()` to pull SPF/DKIM/DMARC records, 2) DMARC aggregate report (RUA) parser -- these are just XML files sent to a mailbox, parse with `fast-xml-parser`, 3) SPF record validator (recursive include/redirect resolution, mechanism evaluation per RFC 7208), 4) DKIM selector enumeration and public key verification, 5) MTA-STS policy fetcher (it's a .well-known text file), 6) TLS-RPT JSON report parser. Add a cron job that re-checks domains every 24h and diffs results. Dashboard shows pass/fail per domain, aggregate DMARC report visualization (source IPs, pass rates), and alerts on misconfigurations. The entire protocol suite is public RFCs with zero ambiguity. Ship it in a weekend."
+  },
+  {
+    "name": "Snyk",
+    "tier": "cooked",
+    "roast": "You raised $1B+ to grep node_modules for CVEs. Your SAST is pattern-matching ASTs, your SCA is a lookup table against public vulnerability databases, and now you slapped 'AI Trust Platform' on the homepage because the VCs need an exit story. Claude already understands code semantics better than your rules engine ever will.",
+    "confidence": "high",
+    "cursor_prompt": "Build a developer security scanning platform. Tech stack: TypeScript CLI + Next.js dashboard + Postgres. For SCA: parse lockfiles (package-lock.json, yarn.lock, requirements.txt, go.sum, Cargo.lock) to build a dependency tree, then query the free OSV.dev API for each package/version to get known vulns. For SAST: use tree-sitter to parse source code into ASTs for JS/TS/Python/Go/Java, then write detection rules for OWASP Top 10 patterns. For container scanning: parse Dockerfiles, extract base image, run SCA on OS packages inside image layers. For IaC: parse Terraform/CloudFormation as HCL/JSON/YAML, check against CIS benchmark rules. Wire into a GitHub App that comments on PRs with findings. Use OpenAI API for human-readable fix suggestions. Store results in Postgres, dashboard shows trends over time per repo."
+  },
+  {
+    "name": "Cyble",
+    "tier": "gpt_wrapper",
+    "roast": "Your homepage says 'AI-Native' twice above the fold. Your 'cutting-edge cyber intelligence' is an LLM summarizing dark web paste dumps that anyone with a Tor browser and a ChatGPT subscription could replicate during a lunch break. The 'real-time risk insights' are vibes.",
+    "confidence": "high",
+    "cursor_prompt": null
+  },
+  {
+    "name": "BotCity",
+    "tier": "cooked",
+    "roast": "You invented the term 'Shadow Python' so you could sell a solution to a problem nobody was Googling. Your product is `pip list` with a compliance dashboard. The RSA booth fee probably cost more than it would take to rebuild this as a pre-commit hook.",
+    "confidence": "high",
+    "cursor_prompt": "Build a Python runtime governance tool. CLI agent that scans environments for Python installations and virtual environments, runs `pip list --format=json` to build inventory, compares against an allowlist policy (YAML config). Ship a Next.js dashboard showing inventory per host, flags policy violations, tracks drift over time. Add a GitHub Action blocking PRs adding unapproved dependencies."
+  },
+  {
+    "name": "Airia",
+    "tier": "gpt_wrapper",
+    "roast": "You 'eliminate AI anxiety' by selling an AI governance platform -- which is itself AI. It's AI all the way down. Your product is a permission layer and audit log over LLM API calls, which is approximately what an API gateway with a logging middleware already does. Peak 2025 energy at a 2026 conference.",
+    "confidence": "high",
+    "cursor_prompt": null
+  },
+  {
+    "name": "Swissbit",
+    "tier": "actually_hard",
+    "roast": "You make actual silicon in actual factories in actual Switzerland. Your biggest risk isn't an AI startup -- it's a tariff negotiation. The only thing a vibe coder can do to compete with you is order your chips on Mouser and put them in a worse enclosure.",
+    "confidence": "high",
+    "cursor_prompt": null
+  },
+  {
+    "name": "Insane Cyber",
+    "tier": "actually_hard",
+    "roast": "You ship a literal pelican case full of hardware into oil rigs and power plants. Your moat is that your customers don't have Wi-Fi, let alone a GitHub Copilot subscription. The 'Cygnet Flyaway Kit' sounds like a DnD item but it's unkillable by software alone. Respect.",
+    "confidence": "high",
+    "cursor_prompt": null
+  },
+  {
+    "name": "Varonis",
+    "tier": "moat_for_now",
+    "roast": "Your core product -- 'who has access to what file and should they' -- is a graph traversal query that gets harder at enterprise scale. The data classification engine is basically regex + ML that an LLM now does better out of the box. You're surviving on the sheer pain of crawling petabytes of unstructured SharePoint hellscapes that nobody else wants to touch. That's a moat, but it's a moat made of suffering.",
+    "confidence": "medium",
+    "cursor_prompt": null
+  }
+]
