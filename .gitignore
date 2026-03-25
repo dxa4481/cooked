@@ -1,0 +1,10 @@
+.venv/
+__pycache__/
+*.pyc
+exhibitors_raw.json
+widget_config.json
+*.db
+batches/
+classifications/
+*.py
+.cursor/
