@@ -5,14 +5,15 @@
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
 <title>RSA 2026: The Great Cooking</title>
 <link rel="preconnect" href="https://fonts.googleapis.com">
-<link href="https://fonts.googleapis.com/css2?family=IBM+Plex+Mono:wght@400;600;700&family=Inter:wght@400;500;600;700&display=swap" rel="stylesheet">
+<link href="https://fonts.googleapis.com/css2?family=Libre+Baskerville:ital,wght@0,400;0,700;1,400&family=Source+Sans+3:wght@400;600;700&family=IBM+Plex+Mono:wght@400;500&display=swap" rel="stylesheet">
 <link rel="stylesheet" href="style.css">
 </head>
 <body>
 
 <header id="hero">
   <div class="container">
-    <h1 class="hero-title">RSA 2026:<br><span class="accent">The Great Cooking</span></h1>
+    <p class="hero-kicker">An investigation into 649 exhibitors</p>
+    <h1 class="hero-title">RSA 2026:<br>The Great Cooking</h1>
     <p class="hero-sub" id="hero-sub"></p>
     <p class="hero-cta">For your convenience, we've included Cursor prompts to vibe-code all the cooked companies.</p>
     <div class="hero-stats" id="hero-stats"></div>
@@ -30,7 +31,7 @@
 </nav>
 
 <section id="verdict" class="section">
-  <div class="container">
+  <div class="container narrow">
     <h2 class="section-title">The Verdict</h2>
     <p class="section-intro">How many RSA exhibitors could be replaced by a weekend of vibe-coding?</p>
     <div class="chart-row">
@@ -94,14 +95,29 @@
 
 <footer>
   <div class="container">
-    <p>Data scraped from RSA Conference 2026 exhibitor listings. Classifications are opinionated satire.</p>
+    <div class="footer-rule"></div>
+    <p>Data scraped from RSA Conference 2026 exhibitor listings. Classifications are opinionated satire, not investment advice.</p>
     <p>Built with <a href="https://d3js.org" target="_blank">D3.js</a> and an unhealthy amount of spite.</p>
-    <p class="footer-institute">A <strong>bblxddyhvwiv Institute</strong> production. This website belongs to bblxddyhvwiv Institute.</p>
+    <p class="footer-institute">A <strong>bblxddyhvwiv Institute</strong> production. &copy; 2026 bblxddyhvwiv Institute. All rights reserved.</p>
   </div>
 </footer>
 
 <div id="tooltip" class="tooltip"></div>
-<div id="toast" class="toast">Copied to clipboard!</div>
+<div id="toast" class="toast">Copied to clipboard</div>
+
+<div id="prompt-modal" class="modal-overlay">
+  <div class="modal">
+    <div class="modal-header">
+      <h3 class="modal-title" id="modal-title"></h3>
+      <button class="modal-close" id="modal-close">&times;</button>
+    </div>
+    <p class="modal-sub">Paste this into Cursor to build a replacement.</p>
+    <pre class="modal-prompt" id="modal-prompt"></pre>
+    <div class="modal-actions">
+      <button class="modal-copy" id="modal-copy">Copy to clipboard</button>
+    </div>
+  </div>
+</div>
 
 <script src="https://d3js.org/d3.v7.min.js"></script>
 <script src="app.js"></script>
