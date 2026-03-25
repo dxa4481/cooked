@@ -156,88 +156,173 @@ function renderFloorMap() {
 
   function parseBooths(boothStr) {
     if (!boothStr) return [];
-    return boothStr.split(",").map((b) => {
-      b = b.trim();
-      const m = b.match(/^([A-Z]+)-(\d+)/i);
-      if (m) return { hall: m[1].toUpperCase(), num: parseInt(m[2]), raw: b };
-      return null;
-    }).filter(Boolean);
+    return boothStr
+      .split(",")
+      .map((b) => {
+        b = b.trim();
+        const m = b.match(/^([A-Z]+)-(\d+)/i);
+        if (m) return { hall: m[1].toUpperCase(), num: parseInt(m[2]), raw: b };
+        return null;
+      })
+      .filter(Boolean);
   }
 
   const allBooths = [];
   exhibitors.forEach((ex) => {
-    const booths = parseBooths(ex.booth);
-    booths.forEach((b) => {
+    parseBooths(ex.booth).forEach((b) => {
       allBooths.push({ ...b, ex });
     });
   });
 
-  const hallOrder = { S: 0, N: 1, MRS: 2, MRN: 3, MRE: 4, ESE: 5, NXT: 6 };
-  const mainHalls = ["S", "N", "ESE", "NXT"];
+  function boothToGrid(booth) {
+    const h = booth.hall;
+    const n = booth.num;
+    if (h === "S" || h === "N" || h === "MRS" || h === "MRN") {
+      return { col: Math.floor(n / 100), row: n % 100 };
+    }
+    return { col: 0, row: n };
+  }
 
   function renderHall(filter) {
     container.innerHTML = "";
-    let filtered =
-      filter === "all"
-        ? allBooths.filter((b) => mainHalls.includes(b.hall))
-        : allBooths.filter((b) => b.hall === filter);
+    const halls =
+      filter === "all" ? ["S", "N", "ESE", "NXT"] : [filter];
+    const tooltip = document.getElementById("tooltip");
 
-    if (filtered.length === 0) return;
+    const hallConfigs = {
+      S: { label: "Moscone South Expo", color: "#1a1a2e" },
+      N: { label: "Moscone North Expo", color: "#1a2e1a" },
+      MRS: { label: "Moscone South (Meeting Rooms)", color: "#2e1a2e" },
+      MRN: { label: "Moscone North (Meeting Rooms)", color: "#2e2e1a" },
+      ESE: { label: "Early Stage Expo", color: "#1a2e2e" },
+      NXT: { label: "Next Stage", color: "#2e1a1a" },
+    };
 
-    filtered.sort(
-      (a, b) => hallOrder[a.hall] - hallOrder[b.hall] || a.num - b.num,
-    );
+    const cellW = 18,
+      cellH = 14,
+      pad = 40;
 
-    const cols = Math.ceil(Math.sqrt(filtered.length * 1.5));
-    const cellW = 22,
-      cellH = 22,
-      gap = 3;
-    const rows = Math.ceil(filtered.length / cols);
-    const svgW = cols * (cellW + gap) + 40;
-    const svgH = rows * (cellH + gap) + 40;
+    const hallSections = [];
+    let totalWidth = 0;
+
+    halls.forEach((hallKey) => {
+      const booths = allBooths.filter((b) => b.hall === hallKey);
+      if (booths.length === 0) return;
+
+      const grids = booths.map((b) => ({ ...boothToGrid(b), booth: b }));
+
+      const uniqueCols = [...new Set(grids.map((g) => g.col))].sort(
+        (a, b) => a - b,
+      );
+      const uniqueRows = [...new Set(grids.map((g) => g.row))].sort(
+        (a, b) => a - b,
+      );
+
+      const colIdx = {};
+      uniqueCols.forEach((c, i) => (colIdx[c] = i));
+      const rowIdx = {};
+      uniqueRows.forEach((r, i) => (rowIdx[r] = i));
+
+      const numCols = uniqueCols.length;
+      const numRows = uniqueRows.length;
+      const sectionW = numCols * (cellW + 2) + pad * 2;
+      const sectionH = numRows * (cellH + 2) + pad * 2 + 30;
+
+      hallSections.push({
+        key: hallKey,
+        label: hallConfigs[hallKey]?.label || hallKey,
+        bg: hallConfigs[hallKey]?.color || "#1a1a1a",
+        grids,
+        colIdx,
+        rowIdx,
+        uniqueCols,
+        uniqueRows,
+        w: sectionW,
+        h: sectionH,
+      });
+      totalWidth += sectionW + 20;
+    });
+
+    if (hallSections.length === 0) return;
+
+    const maxH = Math.max(...hallSections.map((s) => s.h));
+    const svgW = totalWidth + 20;
+    const svgH = maxH + 20;
 
     const svg = d3
       .select(container)
       .append("svg")
       .attr("viewBox", `0 0 ${svgW} ${svgH}`)
       .attr("width", "100%")
-      .attr("preserveAspectRatio", "xMidYMid meet")
-      .style("max-height", "500px");
+      .attr("preserveAspectRatio", "xMidYMid meet");
 
-    const tooltip = document.getElementById("tooltip");
+    let xOff = 10;
+    hallSections.forEach((section) => {
+      const g = svg.append("g").attr("transform", `translate(${xOff}, 10)`);
 
-    svg
-      .selectAll("rect")
-      .data(filtered)
-      .enter()
-      .append("rect")
-      .attr("x", (d, i) => (i % cols) * (cellW + gap) + 20)
-      .attr("y", (d, i) => Math.floor(i / cols) * (cellH + gap) + 20)
-      .attr("width", cellW)
-      .attr("height", cellH)
-      .attr("rx", 3)
-      .attr("fill", (d) => TIER_COLORS[d.ex.tier] || "#333")
-      .attr("opacity", 0.85)
-      .style("cursor", "pointer")
-      .on("mouseenter", function (event, d) {
-        d3.select(this).attr("opacity", 1).attr("stroke", "#fff").attr("stroke-width", 1.5);
-        tooltip.innerHTML = `
-          <div class="tt-name" style="color:${TIER_COLORS[d.ex.tier]}">${d.ex.name}</div>
-          <div style="font-size:0.75rem;color:#666;margin-bottom:6px">${d.raw} · ${TIER_LABELS[d.ex.tier]}</div>
-          <div class="tt-roast">${d.ex.roast || ""}</div>`;
-        tooltip.classList.add("visible");
-      })
-      .on("mousemove", function (event) {
-        const tt = document.getElementById("tooltip");
-        const x = Math.min(event.clientX + 12, window.innerWidth - 370);
-        const y = Math.min(event.clientY + 12, window.innerHeight - 200);
-        tt.style.left = x + "px";
-        tt.style.top = y + "px";
-      })
-      .on("mouseleave", function () {
-        d3.select(this).attr("opacity", 0.85).attr("stroke", "none");
-        tooltip.classList.remove("visible");
+      g.append("rect")
+        .attr("width", section.w)
+        .attr("height", section.h)
+        .attr("rx", 8)
+        .attr("fill", section.bg)
+        .attr("stroke", "#333")
+        .attr("stroke-width", 1);
+
+      g.append("text")
+        .attr("x", section.w / 2)
+        .attr("y", 20)
+        .attr("text-anchor", "middle")
+        .attr("fill", "#666")
+        .attr("font-size", "11px")
+        .attr("font-family", "IBM Plex Mono")
+        .attr("font-weight", "600")
+        .text(section.label);
+
+      section.grids.forEach((grid) => {
+        const cx = section.colIdx[grid.col] * (cellW + 2) + pad;
+        const cy = section.rowIdx[grid.row] * (cellH + 2) + pad + 20;
+        const b = grid.booth;
+
+        g.append("rect")
+          .attr("x", cx)
+          .attr("y", cy)
+          .attr("width", cellW)
+          .attr("height", cellH)
+          .attr("rx", 2)
+          .attr("fill", TIER_COLORS[b.ex.tier] || "#333")
+          .attr("opacity", 0.85)
+          .style("cursor", "pointer")
+          .on("mouseenter", function (event) {
+            d3.select(this)
+              .attr("opacity", 1)
+              .attr("stroke", "#fff")
+              .attr("stroke-width", 1.5);
+            tooltip.innerHTML = `
+              <div class="tt-name" style="color:${TIER_COLORS[b.ex.tier]}">${b.ex.name}</div>
+              <div style="font-size:0.75rem;color:#666;margin-bottom:6px">${b.raw} · ${TIER_LABELS[b.ex.tier]}</div>
+              <div class="tt-roast">${b.ex.roast || ""}</div>`;
+            tooltip.classList.add("visible");
+          })
+          .on("mousemove", function (event) {
+            const x = Math.min(
+              event.clientX + 12,
+              window.innerWidth - 370,
+            );
+            const y = Math.min(
+              event.clientY + 12,
+              window.innerHeight - 200,
+            );
+            tooltip.style.left = x + "px";
+            tooltip.style.top = y + "px";
+          })
+          .on("mouseleave", function () {
+            d3.select(this).attr("opacity", 0.85).attr("stroke", "none");
+            tooltip.classList.remove("visible");
+          });
       });
+
+      xOff += section.w + 20;
+    });
   }
 
   renderHall("all");
@@ -607,15 +692,4 @@ function setupListeners() {
     });
   });
 
-  const observer = new IntersectionObserver(
-    (entries) => {
-      entries.forEach((entry) => {
-        if (entry.isIntersecting) {
-          entry.target.classList.add("visible");
-        }
-      });
-    },
-    { threshold: 0.1 },
-  );
-  document.querySelectorAll(".section").forEach((s) => observer.observe(s));
 }
